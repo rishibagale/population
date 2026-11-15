@@ -1,0 +1,21 @@
+rank,iso3_code,location,income_class,pop_2024_thousands
+1,IND,India,developing,1450935.791
+2,CHN,China,developing,1419321.278
+3,USA,United States of America,high_income,345426.571
+4,IDN,Indonesia,developing,283487.931
+5,PAK,Pakistan,developing,251269.164
+6,NGA,Nigeria,developing,232679.478
+7,BRA,Brazil,developing,211998.573
+8,BGD,Bangladesh,developing,173562.364
+9,RUS,Russian Federation,developing,144820.423
+10,ETH,Ethiopia,developing,132059.767
+11,MEX,Mexico,developing,130861.007
+12,JPN,Japan,high_income,123753.041
+13,EGY,Egypt,developing,116538.258
+14,PHL,Philippines,developing,115843.67
+15,COD,Democratic Republic of the Congo,developing,109276.265
+16,VNM,Viet Nam,developing,100987.686
+17,IRN,Iran (Islamic Republic of),developing,91567.738
+18,TUR,Türkiye,developing,87473.805
+19,DEU,Germany,high_income,84552.242
+20,THA,Thailand,developing,71668.011

@@ -1,0 +1,15 @@
+# Large raw source files are not committed — they are freely
+# downloadable from the sources listed in the README (data_sources table).
+data/raw/
+
+# The processed age-group file exceeds GitHub's 100 MB file limit;
+# it is regenerable from the raw WPP files via scripts/process_data.py
+data/processed/un_wpp_age_groups_medium_1950_2100.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+Thumbs.db
+.DS_Store

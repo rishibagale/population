@@ -1,0 +1,3021 @@
+iso3,location,year,tfr,cbr,is_projected
+BGD,Bangladesh,1950,6.374,46.365,False
+BGD,Bangladesh,1951,6.394,46.719,False
+BGD,Bangladesh,1952,6.406,46.975,False
+BGD,Bangladesh,1953,6.421,47.21,False
+BGD,Bangladesh,1954,6.472,47.598,False
+BGD,Bangladesh,1955,6.505,47.837,False
+BGD,Bangladesh,1956,6.537,48.035,False
+BGD,Bangladesh,1957,6.576,48.25,False
+BGD,Bangladesh,1958,6.608,48.413,False
+BGD,Bangladesh,1959,6.678,48.675,False
+BGD,Bangladesh,1960,6.742,48.999,False
+BGD,Bangladesh,1961,6.78,49.131,False
+BGD,Bangladesh,1962,6.806,49.102,False
+BGD,Bangladesh,1963,6.798,48.74,False
+BGD,Bangladesh,1964,6.785,48.363,False
+BGD,Bangladesh,1965,6.771,47.973,False
+BGD,Bangladesh,1966,6.766,47.689,False
+BGD,Bangladesh,1967,6.79,47.559,False
+BGD,Bangladesh,1968,6.791,47.337,False
+BGD,Bangladesh,1969,6.806,47.322,False
+BGD,Bangladesh,1970,6.839,47.379,False
+BGD,Bangladesh,1971,6.831,47.599,False
+BGD,Bangladesh,1972,6.816,48.217,False
+BGD,Bangladesh,1973,6.8,47.866,False
+BGD,Bangladesh,1974,6.778,47.773,False
+BGD,Bangladesh,1975,6.728,47.216,False
+BGD,Bangladesh,1976,6.66,46.831,False
+BGD,Bangladesh,1977,6.583,46.409,False
+BGD,Bangladesh,1978,6.509,45.909,False
+BGD,Bangladesh,1979,6.421,45.597,False
+BGD,Bangladesh,1980,6.326,45.165,False
+BGD,Bangladesh,1981,6.237,44.581,False
+BGD,Bangladesh,1982,6.118,43.958,False
+BGD,Bangladesh,1983,5.906,42.644,False
+BGD,Bangladesh,1984,5.732,41.735,False
+BGD,Bangladesh,1985,5.539,40.685,False
+BGD,Bangladesh,1986,5.302,39.38,False
+BGD,Bangladesh,1987,5.075,38.238,False
+BGD,Bangladesh,1988,4.849,36.944,False
+BGD,Bangladesh,1989,4.695,36.221,False
+BGD,Bangladesh,1990,4.506,35.141,False
+BGD,Bangladesh,1991,4.261,33.635,False
+BGD,Bangladesh,1992,4.027,32.404,False
+BGD,Bangladesh,1993,3.832,31.405,False
+BGD,Bangladesh,1994,3.737,31.084,False
+BGD,Bangladesh,1995,3.588,30.355,False
+BGD,Bangladesh,1996,3.505,30.031,False
+BGD,Bangladesh,1997,3.502,30.377,False
+BGD,Bangladesh,1998,3.427,30.183,False
+BGD,Bangladesh,1999,3.357,29.865,False
+BGD,Bangladesh,2000,3.279,29.589,False
+BGD,Bangladesh,2001,3.203,29.174,False
+BGD,Bangladesh,2002,3.126,28.526,False
+BGD,Bangladesh,2003,3.029,27.745,False
+BGD,Bangladesh,2004,2.94,26.994,False
+BGD,Bangladesh,2005,2.846,26.055,False
+BGD,Bangladesh,2006,2.755,25.252,False
+BGD,Bangladesh,2007,2.666,24.526,False
+BGD,Bangladesh,2008,2.577,23.685,False
+BGD,Bangladesh,2009,2.484,22.829,False
+BGD,Bangladesh,2010,2.38,21.874,False
+BGD,Bangladesh,2011,2.309,21.114,False
+BGD,Bangladesh,2012,2.263,20.709,False
+BGD,Bangladesh,2013,2.247,20.55,False
+BGD,Bangladesh,2014,2.228,20.298,False
+BGD,Bangladesh,2015,2.227,20.254,False
+BGD,Bangladesh,2016,2.227,20.226,False
+BGD,Bangladesh,2017,2.205,19.991,False
+BGD,Bangladesh,2018,2.193,20.069,False
+BGD,Bangladesh,2019,2.18,20.131,False
+BGD,Bangladesh,2020,2.175,20.289,False
+BGD,Bangladesh,2021,2.173,20.414,False
+BGD,Bangladesh,2022,2.179,20.583,False
+BGD,Bangladesh,2023,2.163,20.353,False
+BGD,Bangladesh,2024,2.1384,19.988,False
+BGD,Bangladesh,2025,2.1143,19.587,True
+BGD,Bangladesh,2026,2.0899,19.165,True
+BGD,Bangladesh,2027,2.0683,18.745,True
+BGD,Bangladesh,2028,2.0485,18.322,True
+BGD,Bangladesh,2029,2.0305,17.903,True
+BGD,Bangladesh,2030,2.0129,17.478,True
+BGD,Bangladesh,2031,1.9959,17.055,True
+BGD,Bangladesh,2032,1.9812,16.655,True
+BGD,Bangladesh,2033,1.9646,16.242,True
+BGD,Bangladesh,2034,1.9494,15.853,True
+BGD,Bangladesh,2035,1.9348,15.481,True
+BGD,Bangladesh,2036,1.92,15.125,True
+BGD,Bangladesh,2037,1.9062,14.799,True
+BGD,Bangladesh,2038,1.8959,14.522,True
+BGD,Bangladesh,2039,1.8835,14.255,True
+BGD,Bangladesh,2040,1.8745,14.037,True
+BGD,Bangladesh,2041,1.8649,13.837,True
+BGD,Bangladesh,2042,1.8561,13.663,True
+BGD,Bangladesh,2043,1.8485,13.514,True
+BGD,Bangladesh,2044,1.8398,13.368,True
+BGD,Bangladesh,2045,1.8343,13.256,True
+BGD,Bangladesh,2046,1.8295,13.152,True
+BGD,Bangladesh,2047,1.823,13.04,True
+BGD,Bangladesh,2048,1.8176,12.936,True
+BGD,Bangladesh,2049,1.8117,12.826,True
+BGD,Bangladesh,2050,1.8064,12.716,True
+BGD,Bangladesh,2051,1.8028,12.614,True
+BGD,Bangladesh,2052,1.7971,12.489,True
+BGD,Bangladesh,2053,1.7963,12.389,True
+BGD,Bangladesh,2054,1.7946,12.273,True
+BGD,Bangladesh,2055,1.7912,12.133,True
+BGD,Bangladesh,2056,1.7901,12.003,True
+BGD,Bangladesh,2057,1.7868,11.848,True
+BGD,Bangladesh,2058,1.7833,11.688,True
+BGD,Bangladesh,2059,1.7817,11.538,True
+BGD,Bangladesh,2060,1.7774,11.367,True
+BGD,Bangladesh,2061,1.7727,11.197,True
+BGD,Bangladesh,2062,1.7712,11.051,True
+BGD,Bangladesh,2063,1.7688,10.903,True
+BGD,Bangladesh,2064,1.7664,10.761,True
+BGD,Bangladesh,2065,1.7643,10.627,True
+BGD,Bangladesh,2066,1.7627,10.505,True
+BGD,Bangladesh,2067,1.7602,10.386,True
+BGD,Bangladesh,2068,1.7583,10.28,True
+BGD,Bangladesh,2069,1.7562,10.182,True
+BGD,Bangladesh,2070,1.7555,10.1,True
+BGD,Bangladesh,2071,1.7535,10.02,True
+BGD,Bangladesh,2072,1.7518,9.95,True
+BGD,Bangladesh,2073,1.7508,9.892,True
+BGD,Bangladesh,2074,1.7493,9.837,True
+BGD,Bangladesh,2075,1.7472,9.783,True
+BGD,Bangladesh,2076,1.7447,9.732,True
+BGD,Bangladesh,2077,1.7411,9.676,True
+BGD,Bangladesh,2078,1.74,9.635,True
+BGD,Bangladesh,2079,1.7366,9.584,True
+BGD,Bangladesh,2080,1.7353,9.542,True
+BGD,Bangladesh,2081,1.7336,9.498,True
+BGD,Bangladesh,2082,1.7332,9.459,True
+BGD,Bangladesh,2083,1.7352,9.432,True
+BGD,Bangladesh,2084,1.7363,9.397,True
+BGD,Bangladesh,2085,1.7353,9.349,True
+BGD,Bangladesh,2086,1.7341,9.298,True
+BGD,Bangladesh,2087,1.7354,9.257,True
+BGD,Bangladesh,2088,1.7346,9.203,True
+BGD,Bangladesh,2089,1.7314,9.136,True
+BGD,Bangladesh,2090,1.7314,9.086,True
+BGD,Bangladesh,2091,1.7318,9.037,True
+BGD,Bangladesh,2092,1.7299,8.978,True
+BGD,Bangladesh,2093,1.7301,8.929,True
+BGD,Bangladesh,2094,1.7281,8.872,True
+BGD,Bangladesh,2095,1.7286,8.829,True
+BGD,Bangladesh,2096,1.7255,8.771,True
+BGD,Bangladesh,2097,1.7251,8.731,True
+BGD,Bangladesh,2098,1.7266,8.704,True
+BGD,Bangladesh,2099,1.7239,8.658,True
+BGD,Bangladesh,2100,1.7226,8.623,True
+BRA,Brazil,1950,6.122,46.377,False
+BRA,Brazil,1951,6.115,46.367,False
+BRA,Brazil,1952,6.102,46.25,False
+BRA,Brazil,1953,6.093,46.09,False
+BRA,Brazil,1954,6.087,45.891,False
+BRA,Brazil,1955,6.084,45.666,False
+BRA,Brazil,1956,6.083,45.403,False
+BRA,Brazil,1957,6.084,45.11,False
+BRA,Brazil,1958,6.083,44.777,False
+BRA,Brazil,1959,6.077,44.385,False
+BRA,Brazil,1960,6.051,43.85,False
+BRA,Brazil,1961,6.022,43.292,False
+BRA,Brazil,1962,5.984,42.698,False
+BRA,Brazil,1963,5.93,42.014,False
+BRA,Brazil,1964,5.818,41.001,False
+BRA,Brazil,1965,5.677,39.844,False
+BRA,Brazil,1966,5.516,38.638,False
+BRA,Brazil,1967,5.336,37.409,False
+BRA,Brazil,1968,5.165,36.345,False
+BRA,Brazil,1969,5.041,35.685,False
+BRA,Brazil,1970,4.934,35.231,False
+BRA,Brazil,1971,4.838,34.875,False
+BRA,Brazil,1972,4.735,34.541,False
+BRA,Brazil,1973,4.638,34.223,False
+BRA,Brazil,1974,4.502,33.682,False
+BRA,Brazil,1975,4.415,33.484,False
+BRA,Brazil,1976,4.339,33.32,False
+BRA,Brazil,1977,4.267,33.173,False
+BRA,Brazil,1978,4.195,32.979,False
+BRA,Brazil,1979,4.12,32.734,False
+BRA,Brazil,1980,4.037,32.417,False
+BRA,Brazil,1981,3.943,32.017,False
+BRA,Brazil,1982,3.838,31.463,False
+BRA,Brazil,1983,3.723,30.8,False
+BRA,Brazil,1984,3.6,29.967,False
+BRA,Brazil,1985,3.48,29.184,False
+BRA,Brazil,1986,3.361,28.343,False
+BRA,Brazil,1987,3.232,27.383,False
+BRA,Brazil,1988,3.112,26.459,False
+BRA,Brazil,1989,3.007,25.644,False
+BRA,Brazil,1990,2.896,24.765,False
+BRA,Brazil,1991,2.805,24.056,False
+BRA,Brazil,1992,2.71,23.302,False
+BRA,Brazil,1993,2.66,22.95,False
+BRA,Brazil,1994,2.603,22.525,False
+BRA,Brazil,1995,2.567,22.283,False
+BRA,Brazil,1996,2.511,21.872,False
+BRA,Brazil,1997,2.468,21.584,False
+BRA,Brazil,1998,2.418,21.221,False
+BRA,Brazil,1999,2.335,20.581,False
+BRA,Brazil,2000,2.247,19.879,False
+BRA,Brazil,2001,2.162,19.185,False
+BRA,Brazil,2002,2.081,18.49,False
+BRA,Brazil,2003,2.006,17.819,False
+BRA,Brazil,2004,1.973,17.5,False
+BRA,Brazil,2005,1.942,17.176,False
+BRA,Brazil,2006,1.896,16.691,False
+BRA,Brazil,2007,1.854,16.243,False
+BRA,Brazil,2008,1.815,15.801,False
+BRA,Brazil,2009,1.799,15.564,False
+BRA,Brazil,2010,1.786,15.338,False
+BRA,Brazil,2011,1.777,15.141,False
+BRA,Brazil,2012,1.766,14.935,False
+BRA,Brazil,2013,1.761,14.785,False
+BRA,Brazil,2014,1.775,14.784,False
+BRA,Brazil,2015,1.777,14.684,False
+BRA,Brazil,2016,1.727,14.146,False
+BRA,Brazil,2017,1.74,14.123,False
+BRA,Brazil,2018,1.744,14.022,False
+BRA,Brazil,2019,1.705,13.548,False
+BRA,Brazil,2020,1.653,12.995,False
+BRA,Brazil,2021,1.638,12.754,False
+BRA,Brazil,2022,1.629,12.555,False
+BRA,Brazil,2023,1.619,12.322,False
+BRA,Brazil,2024,1.6143,12.133,False
+BRA,Brazil,2025,1.6001,11.882,True
+BRA,Brazil,2026,1.5908,11.673,True
+BRA,Brazil,2027,1.5843,11.489,True
+BRA,Brazil,2028,1.5794,11.323,True
+BRA,Brazil,2029,1.5778,11.186,True
+BRA,Brazil,2030,1.5759,11.054,True
+BRA,Brazil,2031,1.5739,10.928,True
+BRA,Brazil,2032,1.5708,10.799,True
+BRA,Brazil,2033,1.5704,10.695,True
+BRA,Brazil,2034,1.57,10.594,True
+BRA,Brazil,2035,1.569,10.491,True
+BRA,Brazil,2036,1.5684,10.392,True
+BRA,Brazil,2037,1.5697,10.305,True
+BRA,Brazil,2038,1.5719,10.225,True
+BRA,Brazil,2039,1.5708,10.123,True
+BRA,Brazil,2040,1.573,10.044,True
+BRA,Brazil,2041,1.5726,9.951,True
+BRA,Brazil,2042,1.5709,9.852,True
+BRA,Brazil,2043,1.5702,9.761,True
+BRA,Brazil,2044,1.5687,9.669,True
+BRA,Brazil,2045,1.5661,9.573,True
+BRA,Brazil,2046,1.5662,9.497,True
+BRA,Brazil,2047,1.5641,9.411,True
+BRA,Brazil,2048,1.5633,9.333,True
+BRA,Brazil,2049,1.5604,9.246,True
+BRA,Brazil,2050,1.5589,9.167,True
+BRA,Brazil,2051,1.5599,9.103,True
+BRA,Brazil,2052,1.56,9.035,True
+BRA,Brazil,2053,1.5591,8.961,True
+BRA,Brazil,2054,1.5594,8.894,True
+BRA,Brazil,2055,1.5613,8.836,True
+BRA,Brazil,2056,1.5618,8.771,True
+BRA,Brazil,2057,1.5614,8.704,True
+BRA,Brazil,2058,1.5616,8.642,True
+BRA,Brazil,2059,1.5619,8.585,True
+BRA,Brazil,2060,1.5645,8.545,True
+BRA,Brazil,2061,1.565,8.498,True
+BRA,Brazil,2062,1.5641,8.448,True
+BRA,Brazil,2063,1.5662,8.419,True
+BRA,Brazil,2064,1.569,8.398,True
+BRA,Brazil,2065,1.5692,8.368,True
+BRA,Brazil,2066,1.5681,8.333,True
+BRA,Brazil,2067,1.5687,8.31,True
+BRA,Brazil,2068,1.5677,8.281,True
+BRA,Brazil,2069,1.5695,8.269,True
+BRA,Brazil,2070,1.5695,8.249,True
+BRA,Brazil,2071,1.5698,8.23,True
+BRA,Brazil,2072,1.5718,8.221,True
+BRA,Brazil,2073,1.5713,8.199,True
+BRA,Brazil,2074,1.5742,8.194,True
+BRA,Brazil,2075,1.5755,8.18,True
+BRA,Brazil,2076,1.5773,8.169,True
+BRA,Brazil,2077,1.5762,8.141,True
+BRA,Brazil,2078,1.5758,8.117,True
+BRA,Brazil,2079,1.5748,8.089,True
+BRA,Brazil,2080,1.5731,8.058,True
+BRA,Brazil,2081,1.5725,8.033,True
+BRA,Brazil,2082,1.5743,8.019,True
+BRA,Brazil,2083,1.5749,8.0,True
+BRA,Brazil,2084,1.5759,7.983,True
+BRA,Brazil,2085,1.5753,7.958,True
+BRA,Brazil,2086,1.5735,7.928,True
+BRA,Brazil,2087,1.5725,7.902,True
+BRA,Brazil,2088,1.574,7.89,True
+BRA,Brazil,2089,1.5767,7.885,True
+BRA,Brazil,2090,1.5771,7.869,True
+BRA,Brazil,2091,1.5774,7.854,True
+BRA,Brazil,2092,1.5779,7.842,True
+BRA,Brazil,2093,1.5791,7.834,True
+BRA,Brazil,2094,1.5785,7.819,True
+BRA,Brazil,2095,1.5777,7.804,True
+BRA,Brazil,2096,1.5775,7.793,True
+BRA,Brazil,2097,1.5771,7.782,True
+BRA,Brazil,2098,1.5768,7.773,True
+BRA,Brazil,2099,1.5783,7.774,True
+BRA,Brazil,2100,1.5775,7.763,True
+CHN,China,1950,5.813,40.977,False
+CHN,China,1951,5.699,39.99,False
+CHN,China,1952,6.472,45.116,False
+CHN,China,1953,6.042,41.796,False
+CHN,China,1954,6.278,43.108,False
+CHN,China,1955,6.263,42.627,False
+CHN,China,1956,5.854,39.516,False
+CHN,China,1957,6.425,42.942,False
+CHN,China,1958,5.698,37.697,False
+CHN,China,1959,4.718,31.117,False
+CHN,China,1960,4.451,20.86,False
+CHN,China,1961,3.863,18.02,False
+CHN,China,1962,6.085,37.01,False
+CHN,China,1963,7.513,43.37,False
+CHN,China,1964,6.672,39.14,False
+CHN,China,1965,6.605,37.88,False
+CHN,China,1966,6.307,35.05,False
+CHN,China,1967,5.806,33.96,False
+CHN,China,1968,6.508,35.59,False
+CHN,China,1969,6.175,34.11,False
+CHN,China,1970,6.085,33.43,False
+CHN,China,1971,5.523,30.65,False
+CHN,China,1972,5.112,29.77,False
+CHN,China,1973,4.726,27.93,False
+CHN,China,1974,4.17,24.82,False
+CHN,China,1975,3.571,23.01,False
+CHN,China,1976,3.235,19.91,False
+CHN,China,1977,2.844,18.93,False
+CHN,China,1978,2.716,18.25,False
+CHN,China,1979,2.745,17.82,False
+CHN,China,1980,2.739,18.21,False
+CHN,China,1981,2.792,20.91,False
+CHN,China,1982,2.972,22.28,False
+CHN,China,1983,2.559,20.19,False
+CHN,China,1984,2.607,19.9,False
+CHN,China,1985,2.633,21.04,False
+CHN,China,1986,2.721,22.43,False
+CHN,China,1987,2.76,23.33,False
+CHN,China,1988,2.539,22.37,False
+CHN,China,1989,2.52,21.58,False
+CHN,China,1990,2.514,21.06,False
+CHN,China,1991,1.934,19.68,False
+CHN,China,1992,1.776,18.27,False
+CHN,China,1993,1.691,18.09,False
+CHN,China,1994,1.628,17.7,False
+CHN,China,1995,1.588,17.12,False
+CHN,China,1996,1.554,16.98,False
+CHN,China,1997,1.527,16.57,False
+CHN,China,1998,1.522,15.64,False
+CHN,China,1999,1.53,14.64,False
+CHN,China,2000,1.628,14.03,False
+CHN,China,2001,1.563,13.38,False
+CHN,China,2002,1.566,12.86,False
+CHN,China,2003,1.57,12.41,False
+CHN,China,2004,1.605,12.29,False
+CHN,China,2005,1.624,12.4,False
+CHN,China,2006,1.644,12.09,False
+CHN,China,2007,1.666,12.1,False
+CHN,China,2008,1.701,12.14,False
+CHN,China,2009,1.714,11.95,False
+CHN,China,2010,1.687,11.9,False
+CHN,China,2011,1.668,13.27,False
+CHN,China,2012,1.798,14.57,False
+CHN,China,2013,1.714,13.03,False
+CHN,China,2014,1.769,13.83,False
+CHN,China,2015,1.67,11.99,False
+CHN,China,2016,1.772,13.57,False
+CHN,China,2017,1.795,12.64,False
+CHN,China,2018,1.539,10.86,False
+CHN,China,2019,1.496,10.41,False
+CHN,China,2020,1.236,8.52,False
+CHN,China,2021,1.117,7.52,False
+CHN,China,2022,1.034,6.77,False
+CHN,China,2023,0.999,6.39,False
+CHN,China,2024,1.013,6.77,False
+CHN,China,2025,1.0209,6.15,True
+CHN,China,2026,1.0308,6.105,True
+CHN,China,2027,1.0378,6.051,True
+CHN,China,2028,1.0459,6.016,True
+CHN,China,2029,1.0519,5.981,True
+CHN,China,2030,1.0612,5.979,True
+CHN,China,2031,1.0682,5.979,True
+CHN,China,2032,1.0766,6.002,True
+CHN,China,2033,1.0821,6.024,True
+CHN,China,2034,1.089,6.068,True
+CHN,China,2035,1.0969,6.129,True
+CHN,China,2036,1.1032,6.189,True
+CHN,China,2037,1.112,6.267,True
+CHN,China,2038,1.12,6.343,True
+CHN,China,2039,1.1254,6.405,True
+CHN,China,2040,1.1309,6.463,True
+CHN,China,2041,1.1346,6.505,True
+CHN,China,2042,1.1396,6.544,True
+CHN,China,2043,1.1467,6.581,True
+CHN,China,2044,1.1522,6.576,True
+CHN,China,2045,1.1584,6.543,True
+CHN,China,2046,1.1632,6.467,True
+CHN,China,2047,1.1678,6.354,True
+CHN,China,2048,1.1717,6.204,True
+CHN,China,2049,1.1779,6.037,True
+CHN,China,2050,1.1842,5.849,True
+CHN,China,2051,1.1881,5.637,True
+CHN,China,2052,1.1928,5.427,True
+CHN,China,2053,1.1986,5.227,True
+CHN,China,2054,1.2009,5.027,True
+CHN,China,2055,1.2075,4.867,True
+CHN,China,2056,1.2115,4.721,True
+CHN,China,2057,1.2163,4.607,True
+CHN,China,2058,1.2198,4.517,True
+CHN,China,2059,1.2249,4.463,True
+CHN,China,2060,1.2287,4.433,True
+CHN,China,2061,1.232,4.427,True
+CHN,China,2062,1.2365,4.448,True
+CHN,China,2063,1.2424,4.494,True
+CHN,China,2064,1.2467,4.55,True
+CHN,China,2065,1.2506,4.615,True
+CHN,China,2066,1.2544,4.689,True
+CHN,China,2067,1.259,4.771,True
+CHN,China,2068,1.2635,4.855,True
+CHN,China,2069,1.2651,4.927,True
+CHN,China,2070,1.2673,4.999,True
+CHN,China,2071,1.2709,5.071,True
+CHN,China,2072,1.2736,5.132,True
+CHN,China,2073,1.2778,5.189,True
+CHN,China,2074,1.2791,5.223,True
+CHN,China,2075,1.2825,5.253,True
+CHN,China,2076,1.2852,5.265,True
+CHN,China,2077,1.2874,5.261,True
+CHN,China,2078,1.291,5.248,True
+CHN,China,2079,1.2919,5.209,True
+CHN,China,2080,1.2947,5.165,True
+CHN,China,2081,1.2966,5.105,True
+CHN,China,2082,1.3007,5.046,True
+CHN,China,2083,1.3043,4.978,True
+CHN,China,2084,1.3053,4.897,True
+CHN,China,2085,1.3093,4.826,True
+CHN,China,2086,1.3108,4.75,True
+CHN,China,2087,1.314,4.686,True
+CHN,China,2088,1.3153,4.623,True
+CHN,China,2089,1.3185,4.578,True
+CHN,China,2090,1.3232,4.551,True
+CHN,China,2091,1.3257,4.53,True
+CHN,China,2092,1.3265,4.518,True
+CHN,China,2093,1.3287,4.525,True
+CHN,China,2094,1.3297,4.542,True
+CHN,China,2095,1.3312,4.574,True
+CHN,China,2096,1.3342,4.623,True
+CHN,China,2097,1.3388,4.687,True
+CHN,China,2098,1.3412,4.752,True
+CHN,China,2099,1.3451,4.828,True
+CHN,China,2100,1.3455,4.894,True
+COD,Democratic Republic of the Congo,1950,5.966,45.848,False
+COD,Democratic Republic of the Congo,1951,5.971,46.011,False
+COD,Democratic Republic of the Congo,1952,5.966,46.082,False
+COD,Democratic Republic of the Congo,1953,5.983,46.304,False
+COD,Democratic Republic of the Congo,1954,5.984,46.318,False
+COD,Democratic Republic of the Congo,1955,5.982,46.324,False
+COD,Democratic Republic of the Congo,1956,5.986,46.363,False
+COD,Democratic Republic of the Congo,1957,6.009,46.532,False
+COD,Democratic Republic of the Congo,1958,6.036,46.736,False
+COD,Democratic Republic of the Congo,1959,6.065,46.813,False
+COD,Democratic Republic of the Congo,1960,6.105,47.063,False
+COD,Democratic Republic of the Congo,1961,6.124,47.213,False
+COD,Democratic Republic of the Congo,1962,6.141,47.357,False
+COD,Democratic Republic of the Congo,1963,6.158,47.482,False
+COD,Democratic Republic of the Congo,1964,6.188,47.665,False
+COD,Democratic Republic of the Congo,1965,6.21,47.751,False
+COD,Democratic Republic of the Congo,1966,6.242,47.888,False
+COD,Democratic Republic of the Congo,1967,6.267,47.87,False
+COD,Democratic Republic of the Congo,1968,6.286,47.805,False
+COD,Democratic Republic of the Congo,1969,6.304,47.682,False
+COD,Democratic Republic of the Congo,1970,6.329,47.568,False
+COD,Democratic Republic of the Congo,1971,6.344,47.397,False
+COD,Democratic Republic of the Congo,1972,6.369,47.146,False
+COD,Democratic Republic of the Congo,1973,6.385,46.851,False
+COD,Democratic Republic of the Congo,1974,6.404,46.615,False
+COD,Democratic Republic of the Congo,1975,6.419,46.363,False
+COD,Democratic Republic of the Congo,1976,6.437,46.181,False
+COD,Democratic Republic of the Congo,1977,6.45,45.923,False
+COD,Democratic Republic of the Congo,1978,6.463,45.438,False
+COD,Democratic Republic of the Congo,1979,6.479,45.847,False
+COD,Democratic Republic of the Congo,1980,6.495,46.094,False
+COD,Democratic Republic of the Congo,1981,6.519,46.062,False
+COD,Democratic Republic of the Congo,1982,6.54,46.009,False
+COD,Democratic Republic of the Congo,1983,6.564,46.056,False
+COD,Democratic Republic of the Congo,1984,6.586,46.176,False
+COD,Democratic Republic of the Congo,1985,6.612,46.501,False
+COD,Democratic Republic of the Congo,1986,6.634,46.642,False
+COD,Democratic Republic of the Congo,1987,6.651,46.547,False
+COD,Democratic Republic of the Congo,1988,6.656,46.396,False
+COD,Democratic Republic of the Congo,1989,6.65,46.115,False
+COD,Democratic Republic of the Congo,1990,6.649,45.85,False
+COD,Democratic Republic of the Congo,1991,6.645,45.99,False
+COD,Democratic Republic of the Congo,1992,6.639,45.713,False
+COD,Democratic Republic of the Congo,1993,6.641,45.881,False
+COD,Democratic Republic of the Congo,1994,6.643,45.341,False
+COD,Democratic Republic of the Congo,1995,6.676,47.204,False
+COD,Democratic Republic of the Congo,1996,6.672,46.999,False
+COD,Democratic Republic of the Congo,1997,6.69,45.986,False
+COD,Democratic Republic of the Congo,1998,6.7,44.939,False
+COD,Democratic Republic of the Congo,1999,6.692,45.228,False
+COD,Democratic Republic of the Congo,2000,6.702,45.298,False
+COD,Democratic Republic of the Congo,2001,6.663,44.977,False
+COD,Democratic Republic of the Congo,2002,6.606,44.559,False
+COD,Democratic Republic of the Congo,2003,6.549,44.155,False
+COD,Democratic Republic of the Congo,2004,6.53,43.781,False
+COD,Democratic Republic of the Congo,2005,6.526,43.728,False
+COD,Democratic Republic of the Congo,2006,6.547,43.973,False
+COD,Democratic Republic of the Congo,2007,6.559,43.961,False
+COD,Democratic Republic of the Congo,2008,6.58,44.011,False
+COD,Democratic Republic of the Congo,2009,6.591,44.032,False
+COD,Democratic Republic of the Congo,2010,6.587,43.92,False
+COD,Democratic Republic of the Congo,2011,6.582,43.981,False
+COD,Democratic Republic of the Congo,2012,6.559,43.95,False
+COD,Democratic Republic of the Congo,2013,6.527,43.69,False
+COD,Democratic Republic of the Congo,2014,6.483,43.505,False
+COD,Democratic Republic of the Congo,2015,6.437,43.236,False
+COD,Democratic Republic of the Congo,2016,6.392,42.875,False
+COD,Democratic Republic of the Congo,2017,6.349,42.976,False
+COD,Democratic Republic of the Congo,2018,6.302,42.887,False
+COD,Democratic Republic of the Congo,2019,6.253,42.549,False
+COD,Democratic Republic of the Congo,2020,6.206,42.19,False
+COD,Democratic Republic of the Congo,2021,6.156,41.937,False
+COD,Democratic Republic of the Congo,2022,6.106,41.623,False
+COD,Democratic Republic of the Congo,2023,6.051,41.305,False
+COD,Democratic Republic of the Congo,2024,5.981,40.885,False
+COD,Democratic Republic of the Congo,2025,5.9024,40.411,True
+COD,Democratic Republic of the Congo,2026,5.8013,39.802,True
+COD,Democratic Republic of the Congo,2027,5.7062,39.251,True
+COD,Democratic Republic of the Congo,2028,5.6196,38.774,True
+COD,Democratic Republic of the Congo,2029,5.5154,38.188,True
+COD,Democratic Republic of the Congo,2030,5.4188,37.67,True
+COD,Democratic Republic of the Congo,2031,5.3176,37.128,True
+COD,Democratic Republic of the Congo,2032,5.1977,36.469,True
+COD,Democratic Republic of the Congo,2033,5.0945,35.937,True
+COD,Democratic Republic of the Congo,2034,4.9888,35.396,True
+COD,Democratic Republic of the Congo,2035,4.8674,34.75,True
+COD,Democratic Republic of the Congo,2036,4.7675,34.265,True
+COD,Democratic Republic of the Congo,2037,4.6417,33.595,True
+COD,Democratic Republic of the Congo,2038,4.554,33.2,True
+COD,Democratic Republic of the Congo,2039,4.4647,32.791,True
+COD,Democratic Republic of the Congo,2040,4.3801,32.411,True
+COD,Democratic Republic of the Congo,2041,4.2951,32.017,True
+COD,Democratic Republic of the Congo,2042,4.2143,31.645,True
+COD,Democratic Republic of the Congo,2043,4.1393,31.305,True
+COD,Democratic Republic of the Congo,2044,4.0642,30.947,True
+COD,Democratic Republic of the Congo,2045,3.9882,30.568,True
+COD,Democratic Republic of the Congo,2046,3.9201,30.231,True
+COD,Democratic Republic of the Congo,2047,3.8491,29.855,True
+COD,Democratic Republic of the Congo,2048,3.7846,29.511,True
+COD,Democratic Republic of the Congo,2049,3.7207,29.152,True
+COD,Democratic Republic of the Congo,2050,3.6585,28.786,True
+COD,Democratic Republic of the Congo,2051,3.5989,28.423,True
+COD,Democratic Republic of the Congo,2052,3.542,28.063,True
+COD,Democratic Republic of the Congo,2053,3.4835,27.671,True
+COD,Democratic Republic of the Congo,2054,3.4272,27.279,True
+COD,Democratic Republic of the Congo,2055,3.3737,26.897,True
+COD,Democratic Republic of the Congo,2056,3.3203,26.5,True
+COD,Democratic Republic of the Congo,2057,3.2702,26.119,True
+COD,Democratic Republic of the Congo,2058,3.2275,25.787,True
+COD,Democratic Republic of the Congo,2059,3.1849,25.446,True
+COD,Democratic Republic of the Congo,2060,3.1414,25.09,True
+COD,Democratic Republic of the Congo,2061,3.0985,24.734,True
+COD,Democratic Republic of the Congo,2062,3.0573,24.387,True
+COD,Democratic Republic of the Congo,2063,3.016,24.034,True
+COD,Democratic Republic of the Congo,2064,2.9756,23.687,True
+COD,Democratic Republic of the Congo,2065,2.9374,23.354,True
+COD,Democratic Republic of the Congo,2066,2.9029,23.051,True
+COD,Democratic Republic of the Congo,2067,2.8695,22.755,True
+COD,Democratic Republic of the Congo,2068,2.8353,22.452,True
+COD,Democratic Republic of the Congo,2069,2.8035,22.169,True
+COD,Democratic Republic of the Congo,2070,2.7689,21.865,True
+COD,Democratic Republic of the Congo,2071,2.7397,21.604,True
+COD,Democratic Republic of the Congo,2072,2.7087,21.328,True
+COD,Democratic Republic of the Congo,2073,2.6799,21.072,True
+COD,Democratic Republic of the Congo,2074,2.6492,20.8,True
+COD,Democratic Republic of the Congo,2075,2.6228,20.563,True
+COD,Democratic Republic of the Congo,2076,2.5965,20.325,True
+COD,Democratic Republic of the Congo,2077,2.5735,20.115,True
+COD,Democratic Republic of the Congo,2078,2.5468,19.873,True
+COD,Democratic Republic of the Congo,2079,2.5241,19.663,True
+COD,Democratic Republic of the Congo,2080,2.5001,19.439,True
+COD,Democratic Republic of the Congo,2081,2.4775,19.226,True
+COD,Democratic Republic of the Congo,2082,2.4587,19.039,True
+COD,Democratic Republic of the Congo,2083,2.4403,18.853,True
+COD,Democratic Republic of the Congo,2084,2.4214,18.661,True
+COD,Democratic Republic of the Congo,2085,2.4018,18.462,True
+COD,Democratic Republic of the Congo,2086,2.3797,18.241,True
+COD,Democratic Republic of the Congo,2087,2.3585,18.027,True
+COD,Democratic Republic of the Congo,2088,2.3426,17.851,True
+COD,Democratic Republic of the Congo,2089,2.3217,17.637,True
+COD,Democratic Republic of the Congo,2090,2.3031,17.44,True
+COD,Democratic Republic of the Congo,2091,2.2868,17.259,True
+COD,Democratic Republic of the Congo,2092,2.2698,17.074,True
+COD,Democratic Republic of the Congo,2093,2.2548,16.903,True
+COD,Democratic Republic of the Congo,2094,2.2426,16.754,True
+COD,Democratic Republic of the Congo,2095,2.2268,16.578,True
+COD,Democratic Republic of the Congo,2096,2.2129,16.418,True
+COD,Democratic Republic of the Congo,2097,2.1982,16.252,True
+COD,Democratic Republic of the Congo,2098,2.1865,16.109,True
+COD,Democratic Republic of the Congo,2099,2.173,15.956,True
+COD,Democratic Republic of the Congo,2100,2.1616,15.818,True
+EGY,Egypt,1950,7.058,54.618,False
+EGY,Egypt,1951,7.073,54.528,False
+EGY,Egypt,1952,7.079,54.236,False
+EGY,Egypt,1953,7.086,53.855,False
+EGY,Egypt,1954,7.057,53.127,False
+EGY,Egypt,1955,7.015,52.233,False
+EGY,Egypt,1956,6.968,51.247,False
+EGY,Egypt,1957,6.922,50.239,False
+EGY,Egypt,1958,6.863,49.189,False
+EGY,Egypt,1959,6.828,48.258,False
+EGY,Egypt,1960,6.793,47.465,False
+EGY,Egypt,1961,6.758,46.754,False
+EGY,Egypt,1962,6.709,46.018,False
+EGY,Egypt,1963,6.648,45.396,False
+EGY,Egypt,1964,6.541,44.545,False
+EGY,Egypt,1965,6.387,43.484,False
+EGY,Egypt,1966,6.308,43.166,False
+EGY,Egypt,1967,6.252,42.806,False
+EGY,Egypt,1968,6.193,42.485,False
+EGY,Egypt,1969,6.12,42.208,False
+EGY,Egypt,1970,6.059,41.907,False
+EGY,Egypt,1971,5.99,41.786,False
+EGY,Egypt,1972,5.929,41.631,False
+EGY,Egypt,1973,5.843,41.19,False
+EGY,Egypt,1974,5.784,41.134,False
+EGY,Egypt,1975,5.749,41.206,False
+EGY,Egypt,1976,5.727,41.25,False
+EGY,Egypt,1977,5.678,40.99,False
+EGY,Egypt,1978,5.629,40.842,False
+EGY,Egypt,1979,5.569,40.561,False
+EGY,Egypt,1980,5.494,40.155,False
+EGY,Egypt,1981,5.368,39.44,False
+EGY,Egypt,1982,5.329,39.316,False
+EGY,Egypt,1983,5.308,39.309,False
+EGY,Egypt,1984,5.207,38.671,False
+EGY,Egypt,1985,5.116,38.13,False
+EGY,Egypt,1986,4.998,37.316,False
+EGY,Egypt,1987,4.911,36.629,False
+EGY,Egypt,1988,4.833,36.04,False
+EGY,Egypt,1989,4.676,34.872,False
+EGY,Egypt,1990,4.512,33.545,False
+EGY,Egypt,1991,4.315,32.367,False
+EGY,Egypt,1992,4.149,31.149,False
+EGY,Egypt,1993,3.993,30.108,False
+EGY,Egypt,1994,3.865,29.246,False
+EGY,Egypt,1995,3.764,28.58,False
+EGY,Egypt,1996,3.7,28.21,False
+EGY,Egypt,1997,3.682,28.215,False
+EGY,Egypt,1998,3.681,28.303,False
+EGY,Egypt,1999,3.599,27.894,False
+EGY,Egypt,2000,3.505,27.392,False
+EGY,Egypt,2001,3.46,27.252,False
+EGY,Egypt,2002,3.412,27.076,False
+EGY,Egypt,2003,3.352,26.866,False
+EGY,Egypt,2004,3.283,26.569,False
+EGY,Egypt,2005,3.254,26.566,False
+EGY,Egypt,2006,3.223,26.562,False
+EGY,Egypt,2007,3.237,26.849,False
+EGY,Egypt,2008,3.238,26.976,False
+EGY,Egypt,2009,3.259,27.209,False
+EGY,Egypt,2010,3.296,27.491,False
+EGY,Egypt,2011,3.311,27.476,False
+EGY,Egypt,2012,3.4,28.117,False
+EGY,Egypt,2013,3.49,28.591,False
+EGY,Egypt,2014,3.49,28.393,False
+EGY,Egypt,2015,3.5,28.184,False
+EGY,Egypt,2016,3.35,26.679,False
+EGY,Egypt,2017,3.31,26.1,False
+EGY,Egypt,2018,3.02,23.592,False
+EGY,Egypt,2019,2.87,22.267,False
+EGY,Egypt,2020,2.85,22.004,False
+EGY,Egypt,2021,2.75,21.154,False
+EGY,Egypt,2022,2.75,21.091,False
+EGY,Egypt,2023,2.75,21.004,False
+EGY,Egypt,2024,2.7351,20.915,False
+EGY,Egypt,2025,2.7083,20.699,True
+EGY,Egypt,2026,2.6829,20.477,True
+EGY,Egypt,2027,2.6579,20.279,True
+EGY,Egypt,2028,2.6327,20.106,True
+EGY,Egypt,2029,2.6102,19.978,True
+EGY,Egypt,2030,2.5878,19.872,True
+EGY,Egypt,2031,2.5655,19.786,True
+EGY,Egypt,2032,2.5445,19.726,True
+EGY,Egypt,2033,2.5232,19.669,True
+EGY,Egypt,2034,2.5015,19.607,True
+EGY,Egypt,2035,2.4797,19.537,True
+EGY,Egypt,2036,2.4586,19.455,True
+EGY,Egypt,2037,2.438,19.358,True
+EGY,Egypt,2038,2.4194,19.25,True
+EGY,Egypt,2039,2.4028,19.122,True
+EGY,Egypt,2040,2.3853,18.947,True
+EGY,Egypt,2041,2.3661,18.713,True
+EGY,Egypt,2042,2.3472,18.437,True
+EGY,Egypt,2043,2.3293,18.128,True
+EGY,Egypt,2044,2.3079,17.762,True
+EGY,Egypt,2045,2.2862,17.382,True
+EGY,Egypt,2046,2.2701,17.045,True
+EGY,Egypt,2047,2.2567,16.742,True
+EGY,Egypt,2048,2.2414,16.448,True
+EGY,Egypt,2049,2.2268,16.186,True
+EGY,Egypt,2050,2.2124,15.952,True
+EGY,Egypt,2051,2.1989,15.748,True
+EGY,Egypt,2052,2.1834,15.548,True
+EGY,Egypt,2053,2.1693,15.376,True
+EGY,Egypt,2054,2.1571,15.232,True
+EGY,Egypt,2055,2.1457,15.104,True
+EGY,Egypt,2056,2.1347,14.987,True
+EGY,Egypt,2057,2.1217,14.865,True
+EGY,Egypt,2058,2.1114,14.767,True
+EGY,Egypt,2059,2.1012,14.675,True
+EGY,Egypt,2060,2.0921,14.594,True
+EGY,Egypt,2061,2.0843,14.525,True
+EGY,Egypt,2062,2.074,14.439,True
+EGY,Egypt,2063,2.0614,14.336,True
+EGY,Egypt,2064,2.0516,14.25,True
+EGY,Egypt,2065,2.041,14.155,True
+EGY,Egypt,2066,2.0344,14.077,True
+EGY,Egypt,2067,2.0264,13.98,True
+EGY,Egypt,2068,2.0181,13.869,True
+EGY,Egypt,2069,2.01,13.75,True
+EGY,Egypt,2070,2.0035,13.631,True
+EGY,Egypt,2071,1.998,13.509,True
+EGY,Egypt,2072,1.9928,13.383,True
+EGY,Egypt,2073,1.9873,13.251,True
+EGY,Egypt,2074,1.9798,13.103,True
+EGY,Egypt,2075,1.9719,12.953,True
+EGY,Egypt,2076,1.9663,12.822,True
+EGY,Egypt,2077,1.9585,12.681,True
+EGY,Egypt,2078,1.9516,12.55,True
+EGY,Egypt,2079,1.9449,12.425,True
+EGY,Egypt,2080,1.9358,12.291,True
+EGY,Egypt,2081,1.9298,12.182,True
+EGY,Egypt,2082,1.923,12.075,True
+EGY,Egypt,2083,1.9176,11.981,True
+EGY,Egypt,2084,1.913,11.898,True
+EGY,Egypt,2085,1.9084,11.819,True
+EGY,Egypt,2086,1.9037,11.744,True
+EGY,Egypt,2087,1.9008,11.685,True
+EGY,Egypt,2088,1.8943,11.608,True
+EGY,Egypt,2089,1.8908,11.552,True
+EGY,Egypt,2090,1.8861,11.49,True
+EGY,Egypt,2091,1.883,11.44,True
+EGY,Egypt,2092,1.8792,11.388,True
+EGY,Egypt,2093,1.8744,11.329,True
+EGY,Egypt,2094,1.868,11.262,True
+EGY,Egypt,2095,1.8609,11.189,True
+EGY,Egypt,2096,1.8563,11.131,True
+EGY,Egypt,2097,1.8514,11.069,True
+EGY,Egypt,2098,1.8484,11.015,True
+EGY,Egypt,2099,1.844,10.952,True
+EGY,Egypt,2100,1.8394,10.885,True
+ETH,Ethiopia,1950,6.433,45.223,False
+ETH,Ethiopia,1951,6.429,45.479,False
+ETH,Ethiopia,1952,6.435,45.766,False
+ETH,Ethiopia,1953,6.449,46.083,False
+ETH,Ethiopia,1954,6.459,46.311,False
+ETH,Ethiopia,1955,6.457,46.449,False
+ETH,Ethiopia,1956,6.458,46.591,False
+ETH,Ethiopia,1957,6.464,46.869,False
+ETH,Ethiopia,1958,6.473,47.269,False
+ETH,Ethiopia,1959,6.494,47.603,False
+ETH,Ethiopia,1960,6.514,47.871,False
+ETH,Ethiopia,1961,6.533,48.131,False
+ETH,Ethiopia,1962,6.561,48.453,False
+ETH,Ethiopia,1963,6.586,48.717,False
+ETH,Ethiopia,1964,6.612,49.048,False
+ETH,Ethiopia,1965,6.63,49.273,False
+ETH,Ethiopia,1966,6.661,49.508,False
+ETH,Ethiopia,1967,6.684,49.595,False
+ETH,Ethiopia,1968,6.7,49.544,False
+ETH,Ethiopia,1969,6.719,49.561,False
+ETH,Ethiopia,1970,6.782,49.732,False
+ETH,Ethiopia,1971,6.838,49.863,False
+ETH,Ethiopia,1972,6.895,49.963,False
+ETH,Ethiopia,1973,6.962,50.121,False
+ETH,Ethiopia,1974,7.018,50.371,False
+ETH,Ethiopia,1975,7.079,50.63,False
+ETH,Ethiopia,1976,7.129,50.719,False
+ETH,Ethiopia,1977,7.189,51.24,False
+ETH,Ethiopia,1978,7.229,50.99,False
+ETH,Ethiopia,1979,7.248,51.291,False
+ETH,Ethiopia,1980,7.287,51.435,False
+ETH,Ethiopia,1981,7.313,50.33,False
+ETH,Ethiopia,1982,7.337,50.818,False
+ETH,Ethiopia,1983,7.351,51.098,False
+ETH,Ethiopia,1984,7.356,51.382,False
+ETH,Ethiopia,1985,7.338,51.561,False
+ETH,Ethiopia,1986,7.318,51.498,False
+ETH,Ethiopia,1987,7.293,51.181,False
+ETH,Ethiopia,1988,7.262,50.929,False
+ETH,Ethiopia,1989,7.229,50.815,False
+ETH,Ethiopia,1990,7.196,50.789,False
+ETH,Ethiopia,1991,7.161,50.248,False
+ETH,Ethiopia,1992,7.125,50.396,False
+ETH,Ethiopia,1993,7.088,50.063,False
+ETH,Ethiopia,1994,7.051,49.627,False
+ETH,Ethiopia,1995,6.998,49.0,False
+ETH,Ethiopia,1996,6.928,48.551,False
+ETH,Ethiopia,1997,6.869,47.862,False
+ETH,Ethiopia,1998,6.792,46.985,False
+ETH,Ethiopia,1999,6.721,46.393,False
+ETH,Ethiopia,2000,6.654,45.59,False
+ETH,Ethiopia,2001,6.579,44.987,False
+ETH,Ethiopia,2002,6.499,44.264,False
+ETH,Ethiopia,2003,6.4,43.334,False
+ETH,Ethiopia,2004,6.301,42.712,False
+ETH,Ethiopia,2005,6.194,42.104,False
+ETH,Ethiopia,2006,6.047,41.086,False
+ETH,Ethiopia,2007,5.887,40.054,False
+ETH,Ethiopia,2008,5.695,38.886,False
+ETH,Ethiopia,2009,5.488,37.538,False
+ETH,Ethiopia,2010,5.282,36.571,False
+ETH,Ethiopia,2011,5.08,35.671,False
+ETH,Ethiopia,2012,4.887,34.563,False
+ETH,Ethiopia,2013,4.708,33.644,False
+ETH,Ethiopia,2014,4.605,33.408,False
+ETH,Ethiopia,2015,4.529,33.331,False
+ETH,Ethiopia,2016,4.473,33.329,False
+ETH,Ethiopia,2017,4.401,33.222,False
+ETH,Ethiopia,2018,4.371,33.394,False
+ETH,Ethiopia,2019,4.347,33.549,False
+ETH,Ethiopia,2020,4.274,33.31,False
+ETH,Ethiopia,2021,4.177,32.876,False
+ETH,Ethiopia,2022,4.082,32.413,False
+ETH,Ethiopia,2023,3.989,31.903,False
+ETH,Ethiopia,2024,3.9094,31.469,False
+ETH,Ethiopia,2025,3.8059,30.831,True
+ETH,Ethiopia,2026,3.7231,30.331,True
+ETH,Ethiopia,2027,3.6437,29.826,True
+ETH,Ethiopia,2028,3.5674,29.313,True
+ETH,Ethiopia,2029,3.4976,28.811,True
+ETH,Ethiopia,2030,3.4297,28.298,True
+ETH,Ethiopia,2031,3.3645,27.78,True
+ETH,Ethiopia,2032,3.3026,27.27,True
+ETH,Ethiopia,2033,3.2441,26.785,True
+ETH,Ethiopia,2034,3.1877,26.304,True
+ETH,Ethiopia,2035,3.1347,25.86,True
+ETH,Ethiopia,2036,3.0819,25.431,True
+ETH,Ethiopia,2037,3.0341,25.054,True
+ETH,Ethiopia,2038,2.9889,24.706,True
+ETH,Ethiopia,2039,2.9432,24.362,True
+ETH,Ethiopia,2040,2.9019,24.062,True
+ETH,Ethiopia,2041,2.8637,23.788,True
+ETH,Ethiopia,2042,2.8279,23.527,True
+ETH,Ethiopia,2043,2.7911,23.252,True
+ETH,Ethiopia,2044,2.7537,22.967,True
+ETH,Ethiopia,2045,2.7179,22.689,True
+ETH,Ethiopia,2046,2.6815,22.393,True
+ETH,Ethiopia,2047,2.647,22.107,True
+ETH,Ethiopia,2048,2.618,21.862,True
+ETH,Ethiopia,2049,2.5874,21.592,True
+ETH,Ethiopia,2050,2.5544,21.293,True
+ETH,Ethiopia,2051,2.5298,21.051,True
+ETH,Ethiopia,2052,2.5009,20.775,True
+ETH,Ethiopia,2053,2.4728,20.492,True
+ETH,Ethiopia,2054,2.4482,20.229,True
+ETH,Ethiopia,2055,2.4211,19.94,True
+ETH,Ethiopia,2056,2.4001,19.69,True
+ETH,Ethiopia,2057,2.3781,19.438,True
+ETH,Ethiopia,2058,2.3569,19.183,True
+ETH,Ethiopia,2059,2.3372,18.93,True
+ETH,Ethiopia,2060,2.3166,18.678,True
+ETH,Ethiopia,2061,2.2976,18.436,True
+ETH,Ethiopia,2062,2.2791,18.204,True
+ETH,Ethiopia,2063,2.2615,17.976,True
+ETH,Ethiopia,2064,2.2433,17.746,True
+ETH,Ethiopia,2065,2.2273,17.536,True
+ETH,Ethiopia,2066,2.2124,17.337,True
+ETH,Ethiopia,2067,2.1961,17.127,True
+ETH,Ethiopia,2068,2.1798,16.928,True
+ETH,Ethiopia,2069,2.1643,16.734,True
+ETH,Ethiopia,2070,2.1513,16.563,True
+ETH,Ethiopia,2071,2.1385,16.394,True
+ETH,Ethiopia,2072,2.1255,16.226,True
+ETH,Ethiopia,2073,2.1134,16.069,True
+ETH,Ethiopia,2074,2.1013,15.907,True
+ETH,Ethiopia,2075,2.0874,15.738,True
+ETH,Ethiopia,2076,2.077,15.595,True
+ETH,Ethiopia,2077,2.0645,15.437,True
+ETH,Ethiopia,2078,2.0514,15.274,True
+ETH,Ethiopia,2079,2.0378,15.109,True
+ETH,Ethiopia,2080,2.0274,14.962,True
+ETH,Ethiopia,2081,2.0185,14.826,True
+ETH,Ethiopia,2082,2.0093,14.687,True
+ETH,Ethiopia,2083,1.9985,14.542,True
+ETH,Ethiopia,2084,1.9885,14.399,True
+ETH,Ethiopia,2085,1.9785,14.254,True
+ETH,Ethiopia,2086,1.97,14.124,True
+ETH,Ethiopia,2087,1.9621,14.002,True
+ETH,Ethiopia,2088,1.9569,13.896,True
+ETH,Ethiopia,2089,1.949,13.766,True
+ETH,Ethiopia,2090,1.9409,13.636,True
+ETH,Ethiopia,2091,1.9353,13.532,True
+ETH,Ethiopia,2092,1.929,13.424,True
+ETH,Ethiopia,2093,1.923,13.314,True
+ETH,Ethiopia,2094,1.9157,13.2,True
+ETH,Ethiopia,2095,1.9102,13.104,True
+ETH,Ethiopia,2096,1.9044,13.001,True
+ETH,Ethiopia,2097,1.8971,12.898,True
+ETH,Ethiopia,2098,1.8905,12.801,True
+ETH,Ethiopia,2099,1.8859,12.715,True
+ETH,Ethiopia,2100,1.8795,12.615,True
+DEU,Germany,1950,2.194,17.263,False
+DEU,Germany,1951,2.166,16.631,False
+DEU,Germany,1952,2.136,16.068,False
+DEU,Germany,1953,2.129,15.753,False
+DEU,Germany,1954,2.15,15.728,False
+DEU,Germany,1955,2.158,15.688,False
+DEU,Germany,1956,2.206,15.983,False
+DEU,Germany,1957,2.256,16.358,False
+DEU,Germany,1958,2.262,16.325,False
+DEU,Germany,1959,2.359,17.183,False
+DEU,Germany,1960,2.381,17.3,False
+DEU,Germany,1961,2.465,17.9,False
+DEU,Germany,1962,2.462,17.8,False
+DEU,Germany,1963,2.523,18.1,False
+DEU,Germany,1964,2.525,18.0,False
+DEU,Germany,1965,2.487,17.4,False
+DEU,Germany,1966,2.503,17.2,False
+DEU,Germany,1967,2.439,16.5,False
+DEU,Germany,1968,2.341,15.7,False
+DEU,Germany,1969,2.2,14.7,False
+DEU,Germany,1970,2.024,13.4,False
+DEU,Germany,1971,1.951,12.9,False
+DEU,Germany,1972,1.726,11.5,False
+DEU,Germany,1973,1.551,10.3,False
+DEU,Germany,1974,1.521,10.2,False
+DEU,Germany,1975,1.477,9.9,False
+DEU,Germany,1976,1.494,10.2,False
+DEU,Germany,1977,1.498,10.3,False
+DEU,Germany,1978,1.489,10.4,False
+DEU,Germany,1979,1.494,10.5,False
+DEU,Germany,1980,1.556,11.1,False
+DEU,Germany,1981,1.529,11.0,False
+DEU,Germany,1982,1.504,11.0,False
+DEU,Germany,1983,1.43,10.6,False
+DEU,Germany,1984,1.389,10.4,False
+DEU,Germany,1985,1.378,10.5,False
+DEU,Germany,1986,1.417,10.9,False
+DEU,Germany,1987,1.438,11.2,False
+DEU,Germany,1988,1.464,11.4,False
+DEU,Germany,1989,1.433,11.2,False
+DEU,Germany,1990,1.46,11.4,False
+DEU,Germany,1991,1.344,10.4,False
+DEU,Germany,1992,1.305,10.0,False
+DEU,Germany,1993,1.288,9.8,False
+DEU,Germany,1994,1.254,9.5,False
+DEU,Germany,1995,1.262,9.4,False
+DEU,Germany,1996,1.33,9.7,False
+DEU,Germany,1997,1.377,9.9,False
+DEU,Germany,1998,1.364,9.6,False
+DEU,Germany,1999,1.37,9.4,False
+DEU,Germany,2000,1.386,9.3,False
+DEU,Germany,2001,1.354,8.9,False
+DEU,Germany,2002,1.344,8.7,False
+DEU,Germany,2003,1.343,8.6,False
+DEU,Germany,2004,1.361,8.6,False
+DEU,Germany,2005,1.344,8.3,False
+DEU,Germany,2006,1.339,8.2,False
+DEU,Germany,2007,1.378,8.3,False
+DEU,Germany,2008,1.387,8.3,False
+DEU,Germany,2009,1.367,8.1,False
+DEU,Germany,2010,1.4,8.3,False
+DEU,Germany,2011,1.385,8.3,False
+DEU,Germany,2012,1.405,8.4,False
+DEU,Germany,2013,1.415,8.5,False
+DEU,Germany,2014,1.469,8.8,False
+DEU,Germany,2015,1.501,9.0,False
+DEU,Germany,2016,1.591,9.6,False
+DEU,Germany,2017,1.57,9.5,False
+DEU,Germany,2018,1.566,9.5,False
+DEU,Germany,2019,1.541,9.4,False
+DEU,Germany,2020,1.531,9.3,False
+DEU,Germany,2021,1.577,9.6,False
+DEU,Germany,2022,1.46,8.9,False
+DEU,Germany,2023,1.441,8.3,False
+DEU,Germany,2024,1.4481,8.1,False
+DEU,Germany,2025,1.4553,8.421,True
+DEU,Germany,2026,1.4595,8.249,True
+DEU,Germany,2027,1.4627,8.154,True
+DEU,Germany,2028,1.4695,8.081,True
+DEU,Germany,2029,1.4737,7.999,True
+DEU,Germany,2030,1.4772,7.921,True
+DEU,Germany,2031,1.482,7.868,True
+DEU,Germany,2032,1.4856,7.821,True
+DEU,Germany,2033,1.4887,7.793,True
+DEU,Germany,2034,1.4942,7.796,True
+DEU,Germany,2035,1.4979,7.813,True
+DEU,Germany,2036,1.5039,7.855,True
+DEU,Germany,2037,1.5056,7.884,True
+DEU,Germany,2038,1.5084,7.934,True
+DEU,Germany,2039,1.5122,7.997,True
+DEU,Germany,2040,1.5139,8.057,True
+DEU,Germany,2041,1.5162,8.129,True
+DEU,Germany,2042,1.5204,8.223,True
+DEU,Germany,2043,1.5224,8.312,True
+DEU,Germany,2044,1.5255,8.406,True
+DEU,Germany,2045,1.5285,8.499,True
+DEU,Germany,2046,1.5317,8.59,True
+DEU,Germany,2047,1.5334,8.667,True
+DEU,Germany,2048,1.537,8.745,True
+DEU,Germany,2049,1.5371,8.788,True
+DEU,Germany,2050,1.5378,8.82,True
+DEU,Germany,2051,1.5394,8.845,True
+DEU,Germany,2052,1.5419,8.861,True
+DEU,Germany,2053,1.5435,8.859,True
+DEU,Germany,2054,1.5446,8.839,True
+DEU,Germany,2055,1.546,8.809,True
+DEU,Germany,2056,1.5498,8.782,True
+DEU,Germany,2057,1.5517,8.741,True
+DEU,Germany,2058,1.5524,8.688,True
+DEU,Germany,2059,1.5552,8.646,True
+DEU,Germany,2060,1.5578,8.607,True
+DEU,Germany,2061,1.5596,8.564,True
+DEU,Germany,2062,1.5601,8.524,True
+DEU,Germany,2063,1.5598,8.485,True
+DEU,Germany,2064,1.5615,8.465,True
+DEU,Germany,2065,1.5624,8.447,True
+DEU,Germany,2066,1.5633,8.438,True
+DEU,Germany,2067,1.5621,8.424,True
+DEU,Germany,2068,1.563,8.428,True
+DEU,Germany,2069,1.5644,8.444,True
+DEU,Germany,2070,1.5643,8.459,True
+DEU,Germany,2071,1.5642,8.484,True
+DEU,Germany,2072,1.5665,8.525,True
+DEU,Germany,2073,1.5688,8.574,True
+DEU,Germany,2074,1.5698,8.616,True
+DEU,Germany,2075,1.5716,8.666,True
+DEU,Germany,2076,1.574,8.725,True
+DEU,Germany,2077,1.5735,8.763,True
+DEU,Germany,2078,1.5735,8.802,True
+DEU,Germany,2079,1.5743,8.844,True
+DEU,Germany,2080,1.577,8.892,True
+DEU,Germany,2081,1.5767,8.918,True
+DEU,Germany,2082,1.575,8.931,True
+DEU,Germany,2083,1.5771,8.96,True
+DEU,Germany,2084,1.5789,8.977,True
+DEU,Germany,2085,1.5784,8.973,True
+DEU,Germany,2086,1.5793,8.969,True
+DEU,Germany,2087,1.5828,8.969,True
+DEU,Germany,2088,1.5838,8.948,True
+DEU,Germany,2089,1.5859,8.93,True
+DEU,Germany,2090,1.587,8.902,True
+DEU,Germany,2091,1.5912,8.884,True
+DEU,Germany,2092,1.5919,8.844,True
+DEU,Germany,2093,1.5928,8.807,True
+DEU,Germany,2094,1.592,8.761,True
+DEU,Germany,2095,1.5907,8.714,True
+DEU,Germany,2096,1.592,8.685,True
+DEU,Germany,2097,1.5919,8.65,True
+DEU,Germany,2098,1.5955,8.635,True
+DEU,Germany,2099,1.5962,8.615,True
+DEU,Germany,2100,1.597,8.6,True
+IND,India,1950,5.732,44.149,False
+IND,India,1951,5.772,44.263,False
+IND,India,1952,5.821,44.443,False
+IND,India,1953,5.865,44.585,False
+IND,India,1954,5.906,44.637,False
+IND,India,1955,5.911,44.415,False
+IND,India,1956,5.913,44.148,False
+IND,India,1957,5.913,43.878,False
+IND,India,1958,5.903,43.421,False
+IND,India,1959,5.892,43.029,False
+IND,India,1960,5.921,42.902,False
+IND,India,1961,5.937,42.67,False
+IND,India,1962,5.953,42.475,False
+IND,India,1963,5.969,42.261,False
+IND,India,1964,5.979,42.061,False
+IND,India,1965,5.941,41.65,False
+IND,India,1966,5.881,41.205,False
+IND,India,1967,5.825,40.831,False
+IND,India,1968,5.76,40.485,False
+IND,India,1969,5.684,40.058,False
+IND,India,1970,5.624,39.763,False
+IND,India,1971,5.565,39.724,False
+IND,India,1972,5.482,39.458,False
+IND,India,1973,5.402,39.299,False
+IND,India,1974,5.325,39.0,False
+IND,India,1975,5.195,38.362,False
+IND,India,1976,5.13,38.244,False
+IND,India,1977,5.007,37.563,False
+IND,India,1978,4.888,37.149,False
+IND,India,1979,4.808,37.001,False
+IND,India,1980,4.775,37.057,False
+IND,India,1981,4.698,36.761,False
+IND,India,1982,4.62,36.403,False
+IND,India,1983,4.565,36.125,False
+IND,India,1984,4.516,35.917,False
+IND,India,1985,4.432,35.42,False
+IND,India,1986,4.399,35.22,False
+IND,India,1987,4.311,34.442,False
+IND,India,1988,4.222,33.892,False
+IND,India,1989,4.132,33.279,False
+IND,India,1990,4.045,32.569,False
+IND,India,1991,3.959,32.023,False
+IND,India,1992,3.877,31.414,False
+IND,India,1993,3.799,30.771,False
+IND,India,1994,3.723,30.295,False
+IND,India,1995,3.651,29.77,False
+IND,India,1996,3.582,29.217,False
+IND,India,1997,3.514,28.685,False
+IND,India,1998,3.446,28.199,False
+IND,India,1999,3.383,27.73,False
+IND,India,2000,3.35,27.518,False
+IND,India,2001,3.303,27.206,False
+IND,India,2002,3.217,26.538,False
+IND,India,2003,3.122,25.783,False
+IND,India,2004,3.046,25.121,False
+IND,India,2005,2.958,24.304,False
+IND,India,2006,2.867,23.564,False
+IND,India,2007,2.775,22.932,False
+IND,India,2008,2.711,22.506,False
+IND,India,2009,2.674,22.211,False
+IND,India,2010,2.598,21.633,False
+IND,India,2011,2.532,21.156,False
+IND,India,2012,2.47,20.672,False
+IND,India,2013,2.399,20.061,False
+IND,India,2014,2.293,19.089,False
+IND,India,2015,2.289,18.936,False
+IND,India,2016,2.284,18.756,False
+IND,India,2017,2.193,17.995,False
+IND,India,2018,2.184,17.91,False
+IND,India,2019,2.12,17.368,False
+IND,India,2020,2.047,16.744,False
+IND,India,2021,2.014,16.491,False
+IND,India,2022,1.994,16.336,False
+IND,India,2023,1.975,16.146,False
+IND,India,2024,1.9622,15.981,False
+IND,India,2025,1.9435,15.762,True
+IND,India,2026,1.9293,15.568,True
+IND,India,2027,1.9153,15.364,True
+IND,India,2028,1.9019,15.155,True
+IND,India,2029,1.8916,14.965,True
+IND,India,2030,1.8832,14.786,True
+IND,India,2031,1.8728,14.585,True
+IND,India,2032,1.8609,14.369,True
+IND,India,2033,1.852,14.171,True
+IND,India,2034,1.8445,13.977,True
+IND,India,2035,1.8379,13.783,True
+IND,India,2036,1.8303,13.58,True
+IND,India,2037,1.8223,13.373,True
+IND,India,2038,1.8136,13.161,True
+IND,India,2039,1.8069,12.965,True
+IND,India,2040,1.8036,12.794,True
+IND,India,2041,1.7976,12.604,True
+IND,India,2042,1.7917,12.417,True
+IND,India,2043,1.7875,12.246,True
+IND,India,2044,1.7846,12.088,True
+IND,India,2045,1.7801,11.926,True
+IND,India,2046,1.7773,11.782,True
+IND,India,2047,1.7725,11.635,True
+IND,India,2048,1.7692,11.507,True
+IND,India,2049,1.7672,11.396,True
+IND,India,2050,1.7645,11.29,True
+IND,India,2051,1.7618,11.191,True
+IND,India,2052,1.757,11.087,True
+IND,India,2053,1.7537,10.999,True
+IND,India,2054,1.7478,10.901,True
+IND,India,2055,1.7452,10.827,True
+IND,India,2056,1.7442,10.767,True
+IND,India,2057,1.7414,10.696,True
+IND,India,2058,1.7374,10.62,True
+IND,India,2059,1.7341,10.546,True
+IND,India,2060,1.7318,10.478,True
+IND,India,2061,1.7276,10.396,True
+IND,India,2062,1.7274,10.337,True
+IND,India,2063,1.7249,10.262,True
+IND,India,2064,1.7249,10.201,True
+IND,India,2065,1.7231,10.128,True
+IND,India,2066,1.7227,10.061,True
+IND,India,2067,1.7207,9.985,True
+IND,India,2068,1.7191,9.911,True
+IND,India,2069,1.7165,9.831,True
+IND,India,2070,1.7165,9.767,True
+IND,India,2071,1.7174,9.709,True
+IND,India,2072,1.715,9.635,True
+IND,India,2073,1.7145,9.574,True
+IND,India,2074,1.7142,9.517,True
+IND,India,2075,1.7121,9.453,True
+IND,India,2076,1.7123,9.406,True
+IND,India,2077,1.7126,9.363,True
+IND,India,2078,1.7101,9.308,True
+IND,India,2079,1.7084,9.262,True
+IND,India,2080,1.7081,9.227,True
+IND,India,2081,1.7047,9.178,True
+IND,India,2082,1.7051,9.154,True
+IND,India,2083,1.7035,9.122,True
+IND,India,2084,1.7029,9.097,True
+IND,India,2085,1.7018,9.072,True
+IND,India,2086,1.7024,9.057,True
+IND,India,2087,1.7028,9.041,True
+IND,India,2088,1.7025,9.024,True
+IND,India,2089,1.7024,9.008,True
+IND,India,2090,1.7013,8.986,True
+IND,India,2091,1.7015,8.97,True
+IND,India,2092,1.7007,8.949,True
+IND,India,2093,1.6974,8.914,True
+IND,India,2094,1.6965,8.89,True
+IND,India,2095,1.6948,8.861,True
+IND,India,2096,1.6957,8.845,True
+IND,India,2097,1.6957,8.824,True
+IND,India,2098,1.6931,8.788,True
+IND,India,2099,1.6948,8.774,True
+IND,India,2100,1.6926,8.739,True
+IDN,Indonesia,1950,5.109,40.454,False
+IDN,Indonesia,1951,5.159,41.152,False
+IDN,Indonesia,1952,5.21,41.82,False
+IDN,Indonesia,1953,5.256,42.415,False
+IDN,Indonesia,1954,5.314,43.055,False
+IDN,Indonesia,1955,5.362,43.557,False
+IDN,Indonesia,1956,5.393,43.865,False
+IDN,Indonesia,1957,5.418,44.069,False
+IDN,Indonesia,1958,5.448,44.255,False
+IDN,Indonesia,1959,5.476,44.359,False
+IDN,Indonesia,1960,5.505,44.391,False
+IDN,Indonesia,1961,5.522,44.251,False
+IDN,Indonesia,1962,5.534,44.013,False
+IDN,Indonesia,1963,5.551,43.755,False
+IDN,Indonesia,1964,5.568,43.455,False
+IDN,Indonesia,1965,5.593,43.309,False
+IDN,Indonesia,1966,5.593,42.821,False
+IDN,Indonesia,1967,5.583,42.202,False
+IDN,Indonesia,1968,5.568,41.534,False
+IDN,Indonesia,1969,5.553,40.986,False
+IDN,Indonesia,1970,5.488,40.201,False
+IDN,Indonesia,1971,5.397,39.353,False
+IDN,Indonesia,1972,5.315,38.612,False
+IDN,Indonesia,1973,5.246,38.08,False
+IDN,Indonesia,1974,5.089,36.956,False
+IDN,Indonesia,1975,5.032,36.512,False
+IDN,Indonesia,1976,4.921,35.836,False
+IDN,Indonesia,1977,4.807,35.194,False
+IDN,Indonesia,1978,4.732,34.9,False
+IDN,Indonesia,1979,4.625,34.36,False
+IDN,Indonesia,1980,4.495,33.686,False
+IDN,Indonesia,1981,4.356,33.014,False
+IDN,Indonesia,1982,4.247,32.501,False
+IDN,Indonesia,1983,4.109,31.753,False
+IDN,Indonesia,1984,3.956,30.929,False
+IDN,Indonesia,1985,3.725,29.411,False
+IDN,Indonesia,1986,3.53,28.153,False
+IDN,Indonesia,1987,3.42,27.587,False
+IDN,Indonesia,1988,3.353,27.271,False
+IDN,Indonesia,1989,3.247,26.643,False
+IDN,Indonesia,1990,3.114,25.808,False
+IDN,Indonesia,1991,3.058,25.546,False
+IDN,Indonesia,1992,2.95,24.822,False
+IDN,Indonesia,1993,2.9,24.533,False
+IDN,Indonesia,1994,2.851,24.263,False
+IDN,Indonesia,1995,2.809,24.029,False
+IDN,Indonesia,1996,2.782,23.889,False
+IDN,Indonesia,1997,2.742,23.6,False
+IDN,Indonesia,1998,2.66,22.967,False
+IDN,Indonesia,1999,2.568,22.21,False
+IDN,Indonesia,2000,2.503,21.688,False
+IDN,Indonesia,2001,2.466,21.386,False
+IDN,Indonesia,2002,2.436,21.107,False
+IDN,Indonesia,2003,2.41,20.834,False
+IDN,Indonesia,2004,2.415,20.796,False
+IDN,Indonesia,2005,2.452,21.018,False
+IDN,Indonesia,2006,2.457,20.943,False
+IDN,Indonesia,2007,2.476,20.968,False
+IDN,Indonesia,2008,2.44,20.511,False
+IDN,Indonesia,2009,2.442,20.375,False
+IDN,Indonesia,2010,2.462,20.362,False
+IDN,Indonesia,2011,2.515,20.611,False
+IDN,Indonesia,2012,2.514,20.41,False
+IDN,Indonesia,2013,2.441,19.643,False
+IDN,Indonesia,2014,2.393,19.091,False
+IDN,Indonesia,2015,2.346,18.569,False
+IDN,Indonesia,2016,2.311,18.138,False
+IDN,Indonesia,2017,2.253,17.54,False
+IDN,Indonesia,2018,2.219,17.146,False
+IDN,Indonesia,2019,2.205,16.909,False
+IDN,Indonesia,2020,2.189,16.674,False
+IDN,Indonesia,2021,2.166,16.417,False
+IDN,Indonesia,2022,2.149,16.204,False
+IDN,Indonesia,2023,2.127,15.941,False
+IDN,Indonesia,2024,2.1147,15.762,False
+IDN,Indonesia,2025,2.0959,15.543,True
+IDN,Indonesia,2026,2.0798,15.353,True
+IDN,Indonesia,2027,2.0627,15.169,True
+IDN,Indonesia,2028,2.0437,14.982,True
+IDN,Indonesia,2029,2.0272,14.825,True
+IDN,Indonesia,2030,2.011,14.68,True
+IDN,Indonesia,2031,1.9997,14.577,True
+IDN,Indonesia,2032,1.9887,14.482,True
+IDN,Indonesia,2033,1.9783,14.392,True
+IDN,Indonesia,2034,1.9657,14.285,True
+IDN,Indonesia,2035,1.9529,14.174,True
+IDN,Indonesia,2036,1.9425,14.074,True
+IDN,Indonesia,2037,1.9352,13.989,True
+IDN,Indonesia,2038,1.9263,13.882,True
+IDN,Indonesia,2039,1.919,13.776,True
+IDN,Indonesia,2040,1.9087,13.639,True
+IDN,Indonesia,2041,1.9019,13.517,True
+IDN,Indonesia,2042,1.8935,13.375,True
+IDN,Indonesia,2043,1.887,13.238,True
+IDN,Indonesia,2044,1.8797,13.09,True
+IDN,Indonesia,2045,1.8718,12.935,True
+IDN,Indonesia,2046,1.8651,12.786,True
+IDN,Indonesia,2047,1.8619,12.66,True
+IDN,Indonesia,2048,1.8587,12.536,True
+IDN,Indonesia,2049,1.8541,12.404,True
+IDN,Indonesia,2050,1.8477,12.263,True
+IDN,Indonesia,2051,1.8423,12.134,True
+IDN,Indonesia,2052,1.8391,12.024,True
+IDN,Indonesia,2053,1.8347,11.913,True
+IDN,Indonesia,2054,1.8298,11.806,True
+IDN,Indonesia,2055,1.8256,11.713,True
+IDN,Indonesia,2056,1.8237,11.642,True
+IDN,Indonesia,2057,1.8183,11.556,True
+IDN,Indonesia,2058,1.8161,11.499,True
+IDN,Indonesia,2059,1.8123,11.436,True
+IDN,Indonesia,2060,1.8089,11.381,True
+IDN,Indonesia,2061,1.804,11.32,True
+IDN,Indonesia,2062,1.8014,11.276,True
+IDN,Indonesia,2063,1.7998,11.24,True
+IDN,Indonesia,2064,1.7973,11.199,True
+IDN,Indonesia,2065,1.796,11.165,True
+IDN,Indonesia,2066,1.7929,11.119,True
+IDN,Indonesia,2067,1.789,11.066,True
+IDN,Indonesia,2068,1.7865,11.019,True
+IDN,Indonesia,2069,1.7843,10.972,True
+IDN,Indonesia,2070,1.7821,10.921,True
+IDN,Indonesia,2071,1.7783,10.857,True
+IDN,Indonesia,2072,1.7748,10.792,True
+IDN,Indonesia,2073,1.7718,10.727,True
+IDN,Indonesia,2074,1.771,10.674,True
+IDN,Indonesia,2075,1.7667,10.597,True
+IDN,Indonesia,2076,1.7664,10.542,True
+IDN,Indonesia,2077,1.7627,10.467,True
+IDN,Indonesia,2078,1.7589,10.39,True
+IDN,Indonesia,2079,1.7583,10.334,True
+IDN,Indonesia,2080,1.7575,10.276,True
+IDN,Indonesia,2081,1.7572,10.223,True
+IDN,Indonesia,2082,1.7567,10.171,True
+IDN,Indonesia,2083,1.7541,10.11,True
+IDN,Indonesia,2084,1.7521,10.055,True
+IDN,Indonesia,2085,1.7512,10.01,True
+IDN,Indonesia,2086,1.7484,9.958,True
+IDN,Indonesia,2087,1.7466,9.915,True
+IDN,Indonesia,2088,1.7458,9.88,True
+IDN,Indonesia,2089,1.7443,9.845,True
+IDN,Indonesia,2090,1.743,9.814,True
+IDN,Indonesia,2091,1.7415,9.784,True
+IDN,Indonesia,2092,1.7409,9.761,True
+IDN,Indonesia,2093,1.74,9.738,True
+IDN,Indonesia,2094,1.7392,9.716,True
+IDN,Indonesia,2095,1.7384,9.695,True
+IDN,Indonesia,2096,1.7359,9.664,True
+IDN,Indonesia,2097,1.7349,9.642,True
+IDN,Indonesia,2098,1.7341,9.619,True
+IDN,Indonesia,2099,1.7337,9.597,True
+IDN,Indonesia,2100,1.7311,9.562,True
+IRN,Iran (Islamic Republic of),1950,6.97,50.763,False
+IRN,Iran (Islamic Republic of),1951,6.977,50.854,False
+IRN,Iran (Islamic Republic of),1952,7.005,51.073,False
+IRN,Iran (Islamic Republic of),1953,7.026,51.171,False
+IRN,Iran (Islamic Republic of),1954,7.048,51.164,False
+IRN,Iran (Islamic Republic of),1955,7.151,51.646,False
+IRN,Iran (Islamic Republic of),1956,7.249,51.957,False
+IRN,Iran (Islamic Republic of),1957,7.354,52.2,False
+IRN,Iran (Islamic Republic of),1958,7.458,52.257,False
+IRN,Iran (Islamic Republic of),1959,7.571,52.175,False
+IRN,Iran (Islamic Republic of),1960,7.519,50.991,False
+IRN,Iran (Islamic Republic of),1961,7.459,49.823,False
+IRN,Iran (Islamic Republic of),1962,7.401,48.767,False
+IRN,Iran (Islamic Republic of),1963,7.317,47.657,False
+IRN,Iran (Islamic Republic of),1964,7.237,46.69,False
+IRN,Iran (Islamic Republic of),1965,7.222,46.265,False
+IRN,Iran (Islamic Republic of),1966,7.214,46.022,False
+IRN,Iran (Islamic Republic of),1967,7.19,45.776,False
+IRN,Iran (Islamic Republic of),1968,7.119,45.314,False
+IRN,Iran (Islamic Republic of),1969,7.007,44.694,False
+IRN,Iran (Islamic Republic of),1970,6.798,43.589,False
+IRN,Iran (Islamic Republic of),1971,6.549,42.362,False
+IRN,Iran (Islamic Republic of),1972,6.257,40.894,False
+IRN,Iran (Islamic Republic of),1973,6.061,40.103,False
+IRN,Iran (Islamic Republic of),1974,5.968,39.969,False
+IRN,Iran (Islamic Republic of),1975,5.947,40.263,False
+IRN,Iran (Islamic Republic of),1976,6.066,41.386,False
+IRN,Iran (Islamic Republic of),1977,6.179,42.243,False
+IRN,Iran (Islamic Republic of),1978,6.344,43.394,False
+IRN,Iran (Islamic Republic of),1979,6.549,44.702,False
+IRN,Iran (Islamic Republic of),1980,6.63,45.143,False
+IRN,Iran (Islamic Republic of),1981,6.618,44.24,False
+IRN,Iran (Islamic Republic of),1982,6.586,45.213,False
+IRN,Iran (Islamic Republic of),1983,6.528,44.68,False
+IRN,Iran (Islamic Republic of),1984,6.433,43.92,False
+IRN,Iran (Islamic Republic of),1985,6.242,42.394,False
+IRN,Iran (Islamic Republic of),1986,6.011,40.706,False
+IRN,Iran (Islamic Republic of),1987,5.719,38.818,False
+IRN,Iran (Islamic Republic of),1988,5.434,37.019,False
+IRN,Iran (Islamic Republic of),1989,5.172,35.186,False
+IRN,Iran (Islamic Republic of),1990,4.934,33.466,False
+IRN,Iran (Islamic Republic of),1991,4.568,31.184,False
+IRN,Iran (Islamic Republic of),1992,4.099,28.333,False
+IRN,Iran (Islamic Republic of),1993,3.674,25.722,False
+IRN,Iran (Islamic Republic of),1994,3.244,21.965,False
+IRN,Iran (Islamic Republic of),1995,2.852,19.541,False
+IRN,Iran (Islamic Republic of),1996,2.542,17.742,False
+IRN,Iran (Islamic Republic of),1997,2.323,16.622,False
+IRN,Iran (Islamic Republic of),1998,2.19,16.207,False
+IRN,Iran (Islamic Republic of),1999,2.089,16.07,False
+IRN,Iran (Islamic Republic of),2000,1.999,15.966,False
+IRN,Iran (Islamic Republic of),2001,1.918,15.935,False
+IRN,Iran (Islamic Republic of),2002,1.836,15.947,False
+IRN,Iran (Islamic Republic of),2003,1.801,15.878,False
+IRN,Iran (Islamic Republic of),2004,1.78,16.176,False
+IRN,Iran (Islamic Republic of),2005,1.756,16.385,False
+IRN,Iran (Islamic Republic of),2006,1.755,16.725,False
+IRN,Iran (Islamic Republic of),2007,1.748,16.971,False
+IRN,Iran (Islamic Republic of),2008,1.743,17.095,False
+IRN,Iran (Islamic Republic of),2009,1.74,17.157,False
+IRN,Iran (Islamic Republic of),2010,1.749,17.276,False
+IRN,Iran (Islamic Republic of),2011,1.792,17.673,False
+IRN,Iran (Islamic Republic of),2012,1.851,18.138,False
+IRN,Iran (Islamic Republic of),2013,1.913,18.531,False
+IRN,Iran (Islamic Republic of),2014,1.975,18.828,False
+IRN,Iran (Islamic Republic of),2015,2.017,18.879,False
+IRN,Iran (Islamic Republic of),2016,2.054,18.787,False
+IRN,Iran (Islamic Republic of),2017,2.023,18.045,False
+IRN,Iran (Islamic Republic of),2018,1.919,16.664,False
+IRN,Iran (Islamic Republic of),2019,1.766,14.918,False
+IRN,Iran (Islamic Republic of),2020,1.7,14.008,False
+IRN,Iran (Islamic Republic of),2021,1.709,13.687,False
+IRN,Iran (Islamic Republic of),2022,1.704,13.314,False
+IRN,Iran (Islamic Republic of),2023,1.695,12.951,False
+IRN,Iran (Islamic Republic of),2024,1.6842,12.571,False
+IRN,Iran (Islamic Republic of),2025,1.6699,12.175,True
+IRN,Iran (Islamic Republic of),2026,1.6584,11.825,True
+IRN,Iran (Islamic Republic of),2027,1.6511,11.533,True
+IRN,Iran (Islamic Republic of),2028,1.6446,11.277,True
+IRN,Iran (Islamic Republic of),2029,1.6394,11.06,True
+IRN,Iran (Islamic Republic of),2030,1.6331,10.869,True
+IRN,Iran (Islamic Republic of),2031,1.6292,10.727,True
+IRN,Iran (Islamic Republic of),2032,1.6266,10.629,True
+IRN,Iran (Islamic Republic of),2033,1.627,10.58,True
+IRN,Iran (Islamic Republic of),2034,1.6293,10.568,True
+IRN,Iran (Islamic Republic of),2035,1.6299,10.562,True
+IRN,Iran (Islamic Republic of),2036,1.6299,10.562,True
+IRN,Iran (Islamic Republic of),2037,1.6287,10.558,True
+IRN,Iran (Islamic Republic of),2038,1.6273,10.551,True
+IRN,Iran (Islamic Republic of),2039,1.6266,10.543,True
+IRN,Iran (Islamic Republic of),2040,1.6284,10.542,True
+IRN,Iran (Islamic Republic of),2041,1.629,10.525,True
+IRN,Iran (Islamic Republic of),2042,1.6285,10.488,True
+IRN,Iran (Islamic Republic of),2043,1.6293,10.447,True
+IRN,Iran (Islamic Republic of),2044,1.6276,10.374,True
+IRN,Iran (Islamic Republic of),2045,1.6276,10.299,True
+IRN,Iran (Islamic Republic of),2046,1.6288,10.214,True
+IRN,Iran (Islamic Republic of),2047,1.6284,10.102,True
+IRN,Iran (Islamic Republic of),2048,1.6288,9.981,True
+IRN,Iran (Islamic Republic of),2049,1.6264,9.829,True
+IRN,Iran (Islamic Republic of),2050,1.6259,9.676,True
+IRN,Iran (Islamic Republic of),2051,1.6273,9.527,True
+IRN,Iran (Islamic Republic of),2052,1.6294,9.374,True
+IRN,Iran (Islamic Republic of),2053,1.6321,9.221,True
+IRN,Iran (Islamic Republic of),2054,1.6325,9.055,True
+IRN,Iran (Islamic Republic of),2055,1.6321,8.889,True
+IRN,Iran (Islamic Republic of),2056,1.6325,8.735,True
+IRN,Iran (Islamic Republic of),2057,1.6333,8.594,True
+IRN,Iran (Islamic Republic of),2058,1.6337,8.466,True
+IRN,Iran (Islamic Republic of),2059,1.6341,8.356,True
+IRN,Iran (Islamic Republic of),2060,1.6342,8.262,True
+IRN,Iran (Islamic Republic of),2061,1.6354,8.195,True
+IRN,Iran (Islamic Republic of),2062,1.6328,8.127,True
+IRN,Iran (Islamic Republic of),2063,1.6356,8.105,True
+IRN,Iran (Islamic Republic of),2064,1.6357,8.085,True
+IRN,Iran (Islamic Republic of),2065,1.6383,8.094,True
+IRN,Iran (Islamic Republic of),2066,1.64,8.113,True
+IRN,Iran (Islamic Republic of),2067,1.6394,8.132,True
+IRN,Iran (Islamic Republic of),2068,1.6381,8.156,True
+IRN,Iran (Islamic Republic of),2069,1.6383,8.193,True
+IRN,Iran (Islamic Republic of),2070,1.6368,8.224,True
+IRN,Iran (Islamic Republic of),2071,1.6364,8.261,True
+IRN,Iran (Islamic Republic of),2072,1.6371,8.3,True
+IRN,Iran (Islamic Republic of),2073,1.6354,8.324,True
+IRN,Iran (Islamic Republic of),2074,1.6337,8.341,True
+IRN,Iran (Islamic Republic of),2075,1.6338,8.361,True
+IRN,Iran (Islamic Republic of),2076,1.6321,8.362,True
+IRN,Iran (Islamic Republic of),2077,1.6343,8.374,True
+IRN,Iran (Islamic Republic of),2078,1.6333,8.36,True
+IRN,Iran (Islamic Republic of),2079,1.6334,8.341,True
+IRN,Iran (Islamic Republic of),2080,1.6306,8.298,True
+IRN,Iran (Islamic Republic of),2081,1.6312,8.263,True
+IRN,Iran (Islamic Republic of),2082,1.6306,8.215,True
+IRN,Iran (Islamic Republic of),2083,1.6315,8.168,True
+IRN,Iran (Islamic Republic of),2084,1.6306,8.107,True
+IRN,Iran (Islamic Republic of),2085,1.6309,8.048,True
+IRN,Iran (Islamic Republic of),2086,1.6318,7.99,True
+IRN,Iran (Islamic Republic of),2087,1.6303,7.92,True
+IRN,Iran (Islamic Republic of),2088,1.6305,7.861,True
+IRN,Iran (Islamic Republic of),2089,1.6314,7.808,True
+IRN,Iran (Islamic Republic of),2090,1.6346,7.771,True
+IRN,Iran (Islamic Republic of),2091,1.6336,7.721,True
+IRN,Iran (Islamic Republic of),2092,1.6337,7.683,True
+IRN,Iran (Islamic Republic of),2093,1.6359,7.663,True
+IRN,Iran (Islamic Republic of),2094,1.635,7.637,True
+IRN,Iran (Islamic Republic of),2095,1.6352,7.624,True
+IRN,Iran (Islamic Republic of),2096,1.6348,7.617,True
+IRN,Iran (Islamic Republic of),2097,1.6373,7.63,True
+IRN,Iran (Islamic Republic of),2098,1.6379,7.641,True
+IRN,Iran (Islamic Republic of),2099,1.6378,7.655,True
+IRN,Iran (Islamic Republic of),2100,1.6359,7.663,True
+JPN,Japan,1950,3.615,28.476,False
+JPN,Japan,1951,3.225,25.604,False
+JPN,Japan,1952,2.947,23.663,False
+JPN,Japan,1953,2.673,21.761,False
+JPN,Japan,1954,2.468,20.39,False
+JPN,Japan,1955,2.349,19.674,False
+JPN,Japan,1956,2.206,18.727,False
+JPN,Japan,1957,2.036,17.493,False
+JPN,Japan,1958,2.097,18.203,False
+JPN,Japan,1959,2.035,17.756,False
+JPN,Japan,1960,1.981,17.2,False
+JPN,Japan,1961,1.928,16.9,False
+JPN,Japan,1962,1.928,17.0,False
+JPN,Japan,1963,1.951,17.3,False
+JPN,Japan,1964,1.998,17.7,False
+JPN,Japan,1965,2.089,18.6,False
+JPN,Japan,1966,1.632,13.7,False
+JPN,Japan,1967,2.158,19.4,False
+JPN,Japan,1968,2.065,18.6,False
+JPN,Japan,1969,2.026,18.5,False
+JPN,Japan,1970,2.035,18.8,False
+JPN,Japan,1971,2.089,19.2,False
+JPN,Japan,1972,2.114,19.3,False
+JPN,Japan,1973,2.145,19.4,False
+JPN,Japan,1974,2.065,18.6,False
+JPN,Japan,1975,1.921,17.1,False
+JPN,Japan,1976,1.841,16.3,False
+JPN,Japan,1977,1.789,15.5,False
+JPN,Japan,1978,1.786,14.9,False
+JPN,Japan,1979,1.769,14.2,False
+JPN,Japan,1980,1.739,13.6,False
+JPN,Japan,1981,1.718,13.0,False
+JPN,Japan,1982,1.738,12.8,False
+JPN,Japan,1983,1.77,12.7,False
+JPN,Japan,1984,1.78,12.5,False
+JPN,Japan,1985,1.736,11.9,False
+JPN,Japan,1986,1.698,11.4,False
+JPN,Japan,1987,1.666,11.1,False
+JPN,Japan,1988,1.625,10.8,False
+JPN,Japan,1989,1.547,10.2,False
+JPN,Japan,1990,1.509,10.0,False
+JPN,Japan,1991,1.504,9.9,False
+JPN,Japan,1992,1.478,9.8,False
+JPN,Japan,1993,1.44,9.6,False
+JPN,Japan,1994,1.468,10.0,False
+JPN,Japan,1995,1.407,9.6,False
+JPN,Japan,1996,1.403,9.7,False
+JPN,Japan,1997,1.376,9.5,False
+JPN,Japan,1998,1.371,9.6,False
+JPN,Japan,1999,1.34,9.4,False
+JPN,Japan,2000,1.346,9.5,False
+JPN,Japan,2001,1.325,9.3,False
+JPN,Japan,2002,1.308,9.2,False
+JPN,Japan,2003,1.285,8.9,False
+JPN,Japan,2004,1.277,8.8,False
+JPN,Japan,2005,1.245,8.4,False
+JPN,Japan,2006,1.285,8.7,False
+JPN,Japan,2007,1.305,8.6,False
+JPN,Japan,2008,1.33,8.7,False
+JPN,Japan,2009,1.333,8.5,False
+JPN,Japan,2010,1.357,8.5,False
+JPN,Japan,2011,1.363,8.3,False
+JPN,Japan,2012,1.376,8.2,False
+JPN,Japan,2013,1.389,8.2,False
+JPN,Japan,2014,1.388,8.0,False
+JPN,Japan,2015,1.415,8.0,False
+JPN,Japan,2016,1.408,7.8,False
+JPN,Japan,2017,1.39,7.6,False
+JPN,Japan,2018,1.373,7.4,False
+JPN,Japan,2019,1.323,7.0,False
+JPN,Japan,2020,1.304,6.8,False
+JPN,Japan,2021,1.275,6.6,False
+JPN,Japan,2022,1.256,6.3,False
+JPN,Japan,2023,1.208,6.0,False
+JPN,Japan,2024,1.2168,5.7,False
+JPN,Japan,2025,1.225,6.078,True
+JPN,Japan,2026,1.2315,6.093,True
+JPN,Japan,2027,1.2396,6.128,True
+JPN,Japan,2028,1.2461,6.167,True
+JPN,Japan,2029,1.2538,6.223,True
+JPN,Japan,2030,1.2606,6.286,True
+JPN,Japan,2031,1.2661,6.352,True
+JPN,Japan,2032,1.2726,6.43,True
+JPN,Japan,2033,1.2771,6.504,True
+JPN,Japan,2034,1.2837,6.592,True
+JPN,Japan,2035,1.2897,6.681,True
+JPN,Japan,2036,1.2945,6.761,True
+JPN,Japan,2037,1.2992,6.84,True
+JPN,Japan,2038,1.3052,6.92,True
+JPN,Japan,2039,1.3097,6.987,True
+JPN,Japan,2040,1.3126,7.037,True
+JPN,Japan,2041,1.3146,7.072,True
+JPN,Japan,2042,1.317,7.097,True
+JPN,Japan,2043,1.3215,7.122,True
+JPN,Japan,2044,1.3244,7.126,True
+JPN,Japan,2045,1.3309,7.135,True
+JPN,Japan,2046,1.3343,7.115,True
+JPN,Japan,2047,1.3372,7.079,True
+JPN,Japan,2048,1.3416,7.038,True
+JPN,Japan,2049,1.3452,6.984,True
+JPN,Japan,2050,1.3491,6.925,True
+JPN,Japan,2051,1.3527,6.859,True
+JPN,Japan,2052,1.3576,6.799,True
+JPN,Japan,2053,1.3605,6.73,True
+JPN,Japan,2054,1.3648,6.673,True
+JPN,Japan,2055,1.3685,6.62,True
+JPN,Japan,2056,1.3693,6.565,True
+JPN,Japan,2057,1.3732,6.535,True
+JPN,Japan,2058,1.3765,6.516,True
+JPN,Japan,2059,1.3803,6.514,True
+JPN,Japan,2060,1.3847,6.527,True
+JPN,Japan,2061,1.3892,6.555,True
+JPN,Japan,2062,1.3915,6.586,True
+JPN,Japan,2063,1.3941,6.63,True
+JPN,Japan,2064,1.3971,6.688,True
+JPN,Japan,2065,1.4017,6.762,True
+JPN,Japan,2066,1.4047,6.834,True
+JPN,Japan,2067,1.4073,6.908,True
+JPN,Japan,2068,1.4122,6.998,True
+JPN,Japan,2069,1.4153,7.077,True
+JPN,Japan,2070,1.4199,7.163,True
+JPN,Japan,2071,1.4229,7.235,True
+JPN,Japan,2072,1.4243,7.295,True
+JPN,Japan,2073,1.4278,7.36,True
+JPN,Japan,2074,1.431,7.415,True
+JPN,Japan,2075,1.434,7.46,True
+JPN,Japan,2076,1.4364,7.494,True
+JPN,Japan,2077,1.4375,7.51,True
+JPN,Japan,2078,1.441,7.529,True
+JPN,Japan,2079,1.4426,7.529,True
+JPN,Japan,2080,1.4438,7.518,True
+JPN,Japan,2081,1.4452,7.5,True
+JPN,Japan,2082,1.4493,7.488,True
+JPN,Japan,2083,1.4517,7.462,True
+JPN,Japan,2084,1.4519,7.421,True
+JPN,Japan,2085,1.4553,7.392,True
+JPN,Japan,2086,1.4575,7.356,True
+JPN,Japan,2087,1.4578,7.311,True
+JPN,Japan,2088,1.4595,7.276,True
+JPN,Japan,2089,1.4608,7.241,True
+JPN,Japan,2090,1.463,7.216,True
+JPN,Japan,2091,1.4653,7.197,True
+JPN,Japan,2092,1.4665,7.179,True
+JPN,Japan,2093,1.4664,7.16,True
+JPN,Japan,2094,1.4667,7.152,True
+JPN,Japan,2095,1.4665,7.149,True
+JPN,Japan,2096,1.4685,7.165,True
+JPN,Japan,2097,1.4703,7.186,True
+JPN,Japan,2098,1.4735,7.22,True
+JPN,Japan,2099,1.4708,7.231,True
+JPN,Japan,2100,1.472,7.264,True
+MEX,Mexico,1950,6.709,49.243,False
+MEX,Mexico,1951,6.727,49.155,False
+MEX,Mexico,1952,6.731,48.929,False
+MEX,Mexico,1953,6.734,48.655,False
+MEX,Mexico,1954,6.745,48.409,False
+MEX,Mexico,1955,6.73,47.966,False
+MEX,Mexico,1956,6.743,47.726,False
+MEX,Mexico,1957,6.752,47.481,False
+MEX,Mexico,1958,6.758,47.207,False
+MEX,Mexico,1959,6.758,46.993,False
+MEX,Mexico,1960,6.763,46.858,False
+MEX,Mexico,1961,6.777,46.753,False
+MEX,Mexico,1962,6.8,46.793,False
+MEX,Mexico,1963,6.817,46.79,False
+MEX,Mexico,1964,6.833,46.754,False
+MEX,Mexico,1965,6.819,46.542,False
+MEX,Mexico,1966,6.79,46.261,False
+MEX,Mexico,1967,6.753,45.908,False
+MEX,Mexico,1968,6.707,45.614,False
+MEX,Mexico,1969,6.626,45.098,False
+MEX,Mexico,1970,6.529,44.518,False
+MEX,Mexico,1971,6.419,43.854,False
+MEX,Mexico,1972,6.281,43.039,False
+MEX,Mexico,1973,6.121,42.125,False
+MEX,Mexico,1974,5.947,41.176,False
+MEX,Mexico,1975,5.739,40.06,False
+MEX,Mexico,1976,5.543,39.056,False
+MEX,Mexico,1977,5.361,38.125,False
+MEX,Mexico,1978,5.202,37.383,False
+MEX,Mexico,1979,4.964,36.18,False
+MEX,Mexico,1980,4.739,35.026,False
+MEX,Mexico,1981,4.574,34.344,False
+MEX,Mexico,1982,4.425,33.856,False
+MEX,Mexico,1983,4.296,33.416,False
+MEX,Mexico,1984,4.184,33.072,False
+MEX,Mexico,1985,4.087,32.747,False
+MEX,Mexico,1986,3.971,32.309,False
+MEX,Mexico,1987,3.803,31.376,False
+MEX,Mexico,1988,3.64,30.428,False
+MEX,Mexico,1989,3.532,29.882,False
+MEX,Mexico,1990,3.444,29.42,False
+MEX,Mexico,1991,3.363,29.075,False
+MEX,Mexico,1992,3.285,28.701,False
+MEX,Mexico,1993,3.211,28.277,False
+MEX,Mexico,1994,3.132,27.744,False
+MEX,Mexico,1995,3.044,27.062,False
+MEX,Mexico,1996,2.964,26.417,False
+MEX,Mexico,1997,2.886,25.752,False
+MEX,Mexico,1998,2.815,25.117,False
+MEX,Mexico,1999,2.763,24.64,False
+MEX,Mexico,2000,2.714,24.192,False
+MEX,Mexico,2001,2.671,23.779,False
+MEX,Mexico,2002,2.633,23.379,False
+MEX,Mexico,2003,2.579,22.832,False
+MEX,Mexico,2004,2.536,22.369,False
+MEX,Mexico,2005,2.495,21.912,False
+MEX,Mexico,2006,2.456,21.482,False
+MEX,Mexico,2007,2.421,21.11,False
+MEX,Mexico,2008,2.391,20.82,False
+MEX,Mexico,2009,2.364,20.567,False
+MEX,Mexico,2010,2.34,20.331,False
+MEX,Mexico,2011,2.317,20.095,False
+MEX,Mexico,2012,2.294,19.855,False
+MEX,Mexico,2013,2.269,19.557,False
+MEX,Mexico,2014,2.211,18.959,False
+MEX,Mexico,2015,2.137,18.227,False
+MEX,Mexico,2016,2.086,17.69,False
+MEX,Mexico,2017,2.041,17.214,False
+MEX,Mexico,2018,2.03,17.037,False
+MEX,Mexico,2019,2.02,16.877,False
+MEX,Mexico,2020,1.99,16.565,False
+MEX,Mexico,2021,1.97,16.353,False
+MEX,Mexico,2022,1.94,16.041,False
+MEX,Mexico,2023,1.91,15.706,False
+MEX,Mexico,2024,1.8916,15.464,False
+MEX,Mexico,2025,1.8689,15.185,True
+MEX,Mexico,2026,1.8521,14.957,True
+MEX,Mexico,2027,1.834,14.721,True
+MEX,Mexico,2028,1.8186,14.511,True
+MEX,Mexico,2029,1.8056,14.32,True
+MEX,Mexico,2030,1.7926,14.129,True
+MEX,Mexico,2031,1.7832,13.96,True
+MEX,Mexico,2032,1.7747,13.789,True
+MEX,Mexico,2033,1.767,13.617,True
+MEX,Mexico,2034,1.7611,13.452,True
+MEX,Mexico,2035,1.7563,13.291,True
+MEX,Mexico,2036,1.751,13.127,True
+MEX,Mexico,2037,1.7475,12.976,True
+MEX,Mexico,2038,1.7435,12.821,True
+MEX,Mexico,2039,1.7383,12.656,True
+MEX,Mexico,2040,1.7324,12.485,True
+MEX,Mexico,2041,1.7266,12.313,True
+MEX,Mexico,2042,1.7216,12.148,True
+MEX,Mexico,2043,1.7175,11.988,True
+MEX,Mexico,2044,1.7163,11.85,True
+MEX,Mexico,2045,1.7131,11.701,True
+MEX,Mexico,2046,1.71,11.556,True
+MEX,Mexico,2047,1.7059,11.408,True
+MEX,Mexico,2048,1.7047,11.283,True
+MEX,Mexico,2049,1.7025,11.157,True
+MEX,Mexico,2050,1.7007,11.036,True
+MEX,Mexico,2051,1.6986,10.919,True
+MEX,Mexico,2052,1.6959,10.801,True
+MEX,Mexico,2053,1.695,10.7,True
+MEX,Mexico,2054,1.6936,10.6,True
+MEX,Mexico,2055,1.6933,10.512,True
+MEX,Mexico,2056,1.6911,10.417,True
+MEX,Mexico,2057,1.6903,10.334,True
+MEX,Mexico,2058,1.6894,10.254,True
+MEX,Mexico,2059,1.6897,10.184,True
+MEX,Mexico,2060,1.6864,10.096,True
+MEX,Mexico,2061,1.6845,10.018,True
+MEX,Mexico,2062,1.6851,9.957,True
+MEX,Mexico,2063,1.6848,9.893,True
+MEX,Mexico,2064,1.6827,9.819,True
+MEX,Mexico,2065,1.6822,9.755,True
+MEX,Mexico,2066,1.6799,9.682,True
+MEX,Mexico,2067,1.6797,9.623,True
+MEX,Mexico,2068,1.6798,9.566,True
+MEX,Mexico,2069,1.6786,9.502,True
+MEX,Mexico,2070,1.6801,9.454,True
+MEX,Mexico,2071,1.6802,9.4,True
+MEX,Mexico,2072,1.6785,9.336,True
+MEX,Mexico,2073,1.6786,9.284,True
+MEX,Mexico,2074,1.6761,9.218,True
+MEX,Mexico,2075,1.676,9.166,True
+MEX,Mexico,2076,1.6754,9.115,True
+MEX,Mexico,2077,1.6748,9.064,True
+MEX,Mexico,2078,1.673,9.01,True
+MEX,Mexico,2079,1.6741,8.973,True
+MEX,Mexico,2080,1.6721,8.921,True
+MEX,Mexico,2081,1.6742,8.893,True
+MEX,Mexico,2082,1.6746,8.858,True
+MEX,Mexico,2083,1.6724,8.813,True
+MEX,Mexico,2084,1.6723,8.78,True
+MEX,Mexico,2085,1.6716,8.746,True
+MEX,Mexico,2086,1.6723,8.72,True
+MEX,Mexico,2087,1.6715,8.69,True
+MEX,Mexico,2088,1.6718,8.666,True
+MEX,Mexico,2089,1.6706,8.637,True
+MEX,Mexico,2090,1.6713,8.619,True
+MEX,Mexico,2091,1.6712,8.598,True
+MEX,Mexico,2092,1.6706,8.575,True
+MEX,Mexico,2093,1.6699,8.552,True
+MEX,Mexico,2094,1.6666,8.517,True
+MEX,Mexico,2095,1.6651,8.492,True
+MEX,Mexico,2096,1.6642,8.47,True
+MEX,Mexico,2097,1.6651,8.459,True
+MEX,Mexico,2098,1.6659,8.447,True
+MEX,Mexico,2099,1.6675,8.439,True
+MEX,Mexico,2100,1.6691,8.432,True
+NGA,Nigeria,1950,6.419,45.783,False
+NGA,Nigeria,1951,6.415,45.86,False
+NGA,Nigeria,1952,6.391,45.796,False
+NGA,Nigeria,1953,6.396,45.927,False
+NGA,Nigeria,1954,6.396,45.988,False
+NGA,Nigeria,1955,6.402,46.107,False
+NGA,Nigeria,1956,6.409,46.228,False
+NGA,Nigeria,1957,6.404,46.34,False
+NGA,Nigeria,1958,6.386,46.371,False
+NGA,Nigeria,1959,6.375,46.374,False
+NGA,Nigeria,1960,6.364,46.462,False
+NGA,Nigeria,1961,6.353,46.554,False
+NGA,Nigeria,1962,6.356,46.743,False
+NGA,Nigeria,1963,6.349,46.759,False
+NGA,Nigeria,1964,6.362,46.87,False
+NGA,Nigeria,1965,6.367,46.898,False
+NGA,Nigeria,1966,6.386,47.001,False
+NGA,Nigeria,1967,6.401,47.064,False
+NGA,Nigeria,1968,6.42,47.161,False
+NGA,Nigeria,1969,6.438,47.261,False
+NGA,Nigeria,1970,6.466,47.384,False
+NGA,Nigeria,1971,6.532,47.765,False
+NGA,Nigeria,1972,6.579,47.953,False
+NGA,Nigeria,1973,6.633,48.194,False
+NGA,Nigeria,1974,6.703,48.658,False
+NGA,Nigeria,1975,6.773,49.009,False
+NGA,Nigeria,1976,6.806,49.001,False
+NGA,Nigeria,1977,6.862,49.115,False
+NGA,Nigeria,1978,6.921,49.252,False
+NGA,Nigeria,1979,6.887,48.797,False
+NGA,Nigeria,1980,6.847,48.288,False
+NGA,Nigeria,1981,6.82,47.858,False
+NGA,Nigeria,1982,6.799,47.529,False
+NGA,Nigeria,1983,6.775,47.529,False
+NGA,Nigeria,1984,6.701,46.541,False
+NGA,Nigeria,1985,6.616,45.899,False
+NGA,Nigeria,1986,6.557,45.292,False
+NGA,Nigeria,1987,6.504,44.848,False
+NGA,Nigeria,1988,6.498,44.715,False
+NGA,Nigeria,1989,6.494,44.79,False
+NGA,Nigeria,1990,6.459,44.513,False
+NGA,Nigeria,1991,6.426,44.321,False
+NGA,Nigeria,1992,6.391,44.211,False
+NGA,Nigeria,1993,6.354,44.109,False
+NGA,Nigeria,1994,6.319,43.991,False
+NGA,Nigeria,1995,6.273,44.079,False
+NGA,Nigeria,1996,6.217,43.85,False
+NGA,Nigeria,1997,6.138,43.509,False
+NGA,Nigeria,1998,6.069,43.218,False
+NGA,Nigeria,1999,6.082,43.447,False
+NGA,Nigeria,2000,6.124,43.892,False
+NGA,Nigeria,2001,6.128,43.934,False
+NGA,Nigeria,2002,6.116,43.822,False
+NGA,Nigeria,2003,6.1,43.71,False
+NGA,Nigeria,2004,6.09,43.474,False
+NGA,Nigeria,2005,6.063,43.37,False
+NGA,Nigeria,2006,6.053,43.172,False
+NGA,Nigeria,2007,6.027,42.897,False
+NGA,Nigeria,2008,6.024,42.803,False
+NGA,Nigeria,2009,5.993,42.497,False
+NGA,Nigeria,2010,5.948,42.139,False
+NGA,Nigeria,2011,5.893,41.793,False
+NGA,Nigeria,2012,5.797,41.116,False
+NGA,Nigeria,2013,5.694,40.441,False
+NGA,Nigeria,2014,5.622,39.892,False
+NGA,Nigeria,2015,5.503,38.951,False
+NGA,Nigeria,2016,5.343,37.771,False
+NGA,Nigeria,2017,5.182,36.693,False
+NGA,Nigeria,2018,5.021,35.69,False
+NGA,Nigeria,2019,4.861,34.685,False
+NGA,Nigeria,2020,4.7,33.732,False
+NGA,Nigeria,2021,4.636,33.546,False
+NGA,Nigeria,2022,4.552,33.192,False
+NGA,Nigeria,2023,4.482,32.954,False
+NGA,Nigeria,2024,4.3818,32.493,False
+NGA,Nigeria,2025,4.2965,32.167,True
+NGA,Nigeria,2026,4.2046,31.81,True
+NGA,Nigeria,2027,4.1027,31.386,True
+NGA,Nigeria,2028,4.0066,31.008,True
+NGA,Nigeria,2029,3.92,30.696,True
+NGA,Nigeria,2030,3.8217,30.279,True
+NGA,Nigeria,2031,3.7333,29.918,True
+NGA,Nigeria,2032,3.6511,29.577,True
+NGA,Nigeria,2033,3.5614,29.141,True
+NGA,Nigeria,2034,3.4836,28.762,True
+NGA,Nigeria,2035,3.41,28.374,True
+NGA,Nigeria,2036,3.3416,27.986,True
+NGA,Nigeria,2037,3.2731,27.554,True
+NGA,Nigeria,2038,3.2117,27.146,True
+NGA,Nigeria,2039,3.1554,26.748,True
+NGA,Nigeria,2040,3.0969,26.306,True
+NGA,Nigeria,2041,3.0396,25.855,True
+NGA,Nigeria,2042,2.9859,25.42,True
+NGA,Nigeria,2043,2.9378,25.019,True
+NGA,Nigeria,2044,2.8907,24.616,True
+NGA,Nigeria,2045,2.8454,24.22,True
+NGA,Nigeria,2046,2.804,23.849,True
+NGA,Nigeria,2047,2.7642,23.486,True
+NGA,Nigeria,2048,2.7249,23.124,True
+NGA,Nigeria,2049,2.6907,22.802,True
+NGA,Nigeria,2050,2.6584,22.496,True
+NGA,Nigeria,2051,2.626,22.189,True
+NGA,Nigeria,2052,2.5993,21.931,True
+NGA,Nigeria,2053,2.5688,21.641,True
+NGA,Nigeria,2054,2.5378,21.348,True
+NGA,Nigeria,2055,2.51,21.083,True
+NGA,Nigeria,2056,2.4849,20.84,True
+NGA,Nigeria,2057,2.4585,20.585,True
+NGA,Nigeria,2058,2.4357,20.359,True
+NGA,Nigeria,2059,2.4132,20.132,True
+NGA,Nigeria,2060,2.3914,19.908,True
+NGA,Nigeria,2061,2.3685,19.67,True
+NGA,Nigeria,2062,2.3445,19.421,True
+NGA,Nigeria,2063,2.3228,19.188,True
+NGA,Nigeria,2064,2.3026,18.963,True
+NGA,Nigeria,2065,2.2834,18.743,True
+NGA,Nigeria,2066,2.2645,18.523,True
+NGA,Nigeria,2067,2.2492,18.329,True
+NGA,Nigeria,2068,2.233,18.125,True
+NGA,Nigeria,2069,2.2165,17.917,True
+NGA,Nigeria,2070,2.2013,17.718,True
+NGA,Nigeria,2071,2.1864,17.522,True
+NGA,Nigeria,2072,2.1722,17.332,True
+NGA,Nigeria,2073,2.1586,17.148,True
+NGA,Nigeria,2074,2.1459,16.972,True
+NGA,Nigeria,2075,2.1328,16.794,True
+NGA,Nigeria,2076,2.1198,16.62,True
+NGA,Nigeria,2077,2.1072,16.452,True
+NGA,Nigeria,2078,2.0956,16.294,True
+NGA,Nigeria,2079,2.0853,16.15,True
+NGA,Nigeria,2080,2.0732,15.995,True
+NGA,Nigeria,2081,2.062,15.85,True
+NGA,Nigeria,2082,2.0532,15.727,True
+NGA,Nigeria,2083,2.0426,15.59,True
+NGA,Nigeria,2084,2.0344,15.475,True
+NGA,Nigeria,2085,2.024,15.346,True
+NGA,Nigeria,2086,2.0146,15.227,True
+NGA,Nigeria,2087,2.0059,15.115,True
+NGA,Nigeria,2088,1.9969,15.002,True
+NGA,Nigeria,2089,1.9902,14.908,True
+NGA,Nigeria,2090,1.982,14.804,True
+NGA,Nigeria,2091,1.9736,14.699,True
+NGA,Nigeria,2092,1.9636,14.583,True
+NGA,Nigeria,2093,1.9568,14.492,True
+NGA,Nigeria,2094,1.9509,14.408,True
+NGA,Nigeria,2095,1.945,14.323,True
+NGA,Nigeria,2096,1.9397,14.245,True
+NGA,Nigeria,2097,1.9329,14.156,True
+NGA,Nigeria,2098,1.9275,14.077,True
+NGA,Nigeria,2099,1.919,13.977,True
+NGA,Nigeria,2100,1.9129,13.895,True
+PAK,Pakistan,1950,6.8,45.907,False
+PAK,Pakistan,1951,6.8,46.138,False
+PAK,Pakistan,1952,6.8,46.319,False
+PAK,Pakistan,1953,6.8,46.459,False
+PAK,Pakistan,1954,6.8,46.558,False
+PAK,Pakistan,1955,6.8,46.63,False
+PAK,Pakistan,1956,6.8,46.677,False
+PAK,Pakistan,1957,6.8,46.703,False
+PAK,Pakistan,1958,6.8,46.711,False
+PAK,Pakistan,1959,6.8,46.689,False
+PAK,Pakistan,1960,6.8,46.693,False
+PAK,Pakistan,1961,6.8,46.63,False
+PAK,Pakistan,1962,6.8,46.448,False
+PAK,Pakistan,1963,6.8,46.242,False
+PAK,Pakistan,1964,6.8,45.998,False
+PAK,Pakistan,1965,6.8,45.721,False
+PAK,Pakistan,1966,6.8,45.403,False
+PAK,Pakistan,1967,6.8,45.08,False
+PAK,Pakistan,1968,6.8,44.714,False
+PAK,Pakistan,1969,6.8,44.304,False
+PAK,Pakistan,1970,6.801,44.083,False
+PAK,Pakistan,1971,6.802,43.945,False
+PAK,Pakistan,1972,6.805,43.833,False
+PAK,Pakistan,1973,6.808,43.733,False
+PAK,Pakistan,1974,6.811,43.59,False
+PAK,Pakistan,1975,6.812,43.493,False
+PAK,Pakistan,1976,6.808,43.408,False
+PAK,Pakistan,1977,6.799,43.439,False
+PAK,Pakistan,1978,6.783,43.499,False
+PAK,Pakistan,1979,6.761,43.508,False
+PAK,Pakistan,1980,6.734,43.642,False
+PAK,Pakistan,1981,6.704,44.405,False
+PAK,Pakistan,1982,6.674,44.648,False
+PAK,Pakistan,1983,6.644,44.671,False
+PAK,Pakistan,1984,6.615,44.515,False
+PAK,Pakistan,1985,6.585,44.26,False
+PAK,Pakistan,1986,6.554,44.147,False
+PAK,Pakistan,1987,6.518,43.993,False
+PAK,Pakistan,1988,6.476,43.774,False
+PAK,Pakistan,1989,6.425,43.417,False
+PAK,Pakistan,1990,6.364,42.89,False
+PAK,Pakistan,1991,6.291,42.462,False
+PAK,Pakistan,1992,6.207,41.988,False
+PAK,Pakistan,1993,6.112,41.179,False
+PAK,Pakistan,1994,6.008,40.449,False
+PAK,Pakistan,1995,5.894,39.581,False
+PAK,Pakistan,1996,5.771,38.86,False
+PAK,Pakistan,1997,5.642,38.03,False
+PAK,Pakistan,1998,5.507,37.363,False
+PAK,Pakistan,1999,5.462,37.203,False
+PAK,Pakistan,2000,5.352,36.541,False
+PAK,Pakistan,2001,5.182,35.71,False
+PAK,Pakistan,2002,5.012,34.883,False
+PAK,Pakistan,2003,4.894,34.295,False
+PAK,Pakistan,2004,4.685,33.21,False
+PAK,Pakistan,2005,4.595,32.887,False
+PAK,Pakistan,2006,4.589,33.162,False
+PAK,Pakistan,2007,4.554,33.262,False
+PAK,Pakistan,2008,4.515,33.583,False
+PAK,Pakistan,2009,4.465,33.609,False
+PAK,Pakistan,2010,4.398,33.525,False
+PAK,Pakistan,2011,4.305,33.045,False
+PAK,Pakistan,2012,4.204,32.48,False
+PAK,Pakistan,2013,4.125,31.902,False
+PAK,Pakistan,2014,4.055,31.303,False
+PAK,Pakistan,2015,3.988,30.697,False
+PAK,Pakistan,2016,3.902,29.956,False
+PAK,Pakistan,2017,3.9,29.738,False
+PAK,Pakistan,2018,3.855,29.343,False
+PAK,Pakistan,2019,3.81,28.986,False
+PAK,Pakistan,2020,3.765,28.625,False
+PAK,Pakistan,2021,3.72,28.384,False
+PAK,Pakistan,2022,3.662,28.13,False
+PAK,Pakistan,2023,3.605,27.806,False
+PAK,Pakistan,2024,3.5467,27.412,False
+PAK,Pakistan,2025,3.4952,27.073,True
+PAK,Pakistan,2026,3.4422,26.748,True
+PAK,Pakistan,2027,3.3892,26.438,True
+PAK,Pakistan,2028,3.3419,26.199,True
+PAK,Pakistan,2029,3.298,26.003,True
+PAK,Pakistan,2030,3.254,25.805,True
+PAK,Pakistan,2031,3.2081,25.59,True
+PAK,Pakistan,2032,3.1642,25.38,True
+PAK,Pakistan,2033,3.1238,25.177,True
+PAK,Pakistan,2034,3.0813,24.935,True
+PAK,Pakistan,2035,3.044,24.705,True
+PAK,Pakistan,2036,3.0063,24.443,True
+PAK,Pakistan,2037,2.972,24.185,True
+PAK,Pakistan,2038,2.9366,23.89,True
+PAK,Pakistan,2039,2.8997,23.566,True
+PAK,Pakistan,2040,2.8679,23.266,True
+PAK,Pakistan,2041,2.8334,22.925,True
+PAK,Pakistan,2042,2.8005,22.589,True
+PAK,Pakistan,2043,2.7695,22.259,True
+PAK,Pakistan,2044,2.7404,21.94,True
+PAK,Pakistan,2045,2.7151,21.646,True
+PAK,Pakistan,2046,2.6873,21.333,True
+PAK,Pakistan,2047,2.6585,21.014,True
+PAK,Pakistan,2048,2.6342,20.733,True
+PAK,Pakistan,2049,2.606,20.425,True
+PAK,Pakistan,2050,2.5821,20.159,True
+PAK,Pakistan,2051,2.5588,19.908,True
+PAK,Pakistan,2052,2.5373,19.677,True
+PAK,Pakistan,2053,2.5191,19.481,True
+PAK,Pakistan,2054,2.4985,19.274,True
+PAK,Pakistan,2055,2.4788,19.081,True
+PAK,Pakistan,2056,2.4571,18.876,True
+PAK,Pakistan,2057,2.4339,18.667,True
+PAK,Pakistan,2058,2.4101,18.454,True
+PAK,Pakistan,2059,2.3894,18.267,True
+PAK,Pakistan,2060,2.369,18.078,True
+PAK,Pakistan,2061,2.3502,17.902,True
+PAK,Pakistan,2062,2.3337,17.739,True
+PAK,Pakistan,2063,2.3174,17.577,True
+PAK,Pakistan,2064,2.3009,17.405,True
+PAK,Pakistan,2065,2.2842,17.23,True
+PAK,Pakistan,2066,2.266,17.038,True
+PAK,Pakistan,2067,2.2505,16.863,True
+PAK,Pakistan,2068,2.2349,16.683,True
+PAK,Pakistan,2069,2.2179,16.49,True
+PAK,Pakistan,2070,2.2046,16.323,True
+PAK,Pakistan,2071,2.1909,16.148,True
+PAK,Pakistan,2072,2.179,15.986,True
+PAK,Pakistan,2073,2.1648,15.807,True
+PAK,Pakistan,2074,2.1503,15.625,True
+PAK,Pakistan,2075,2.142,15.491,True
+PAK,Pakistan,2076,2.1312,15.341,True
+PAK,Pakistan,2077,2.1209,15.196,True
+PAK,Pakistan,2078,2.1096,15.045,True
+PAK,Pakistan,2079,2.0999,14.907,True
+PAK,Pakistan,2080,2.0924,14.785,True
+PAK,Pakistan,2081,2.0832,14.656,True
+PAK,Pakistan,2082,2.0732,14.524,True
+PAK,Pakistan,2083,2.0621,14.387,True
+PAK,Pakistan,2084,2.0536,14.271,True
+PAK,Pakistan,2085,2.0432,14.144,True
+PAK,Pakistan,2086,2.0341,14.027,True
+PAK,Pakistan,2087,2.0219,13.893,True
+PAK,Pakistan,2088,2.0141,13.787,True
+PAK,Pakistan,2089,2.0074,13.694,True
+PAK,Pakistan,2090,2.0011,13.601,True
+PAK,Pakistan,2091,1.9918,13.49,True
+PAK,Pakistan,2092,1.9866,13.407,True
+PAK,Pakistan,2093,1.9797,13.311,True
+PAK,Pakistan,2094,1.9707,13.202,True
+PAK,Pakistan,2095,1.9619,13.095,True
+PAK,Pakistan,2096,1.9548,12.998,True
+PAK,Pakistan,2097,1.9497,12.914,True
+PAK,Pakistan,2098,1.9439,12.822,True
+PAK,Pakistan,2099,1.9369,12.723,True
+PAK,Pakistan,2100,1.9318,12.636,True
+PHL,Philippines,1950,7.129,47.926,False
+PHL,Philippines,1951,7.117,47.846,False
+PHL,Philippines,1952,7.111,47.8,False
+PHL,Philippines,1953,7.104,47.76,False
+PHL,Philippines,1954,7.089,47.668,False
+PHL,Philippines,1955,7.071,47.557,False
+PHL,Philippines,1956,7.052,47.435,False
+PHL,Philippines,1957,7.026,47.267,False
+PHL,Philippines,1958,7.003,47.11,False
+PHL,Philippines,1959,7.0,47.046,False
+PHL,Philippines,1960,6.996,47.158,False
+PHL,Philippines,1961,6.994,46.699,False
+PHL,Philippines,1962,6.98,46.199,False
+PHL,Philippines,1963,6.952,45.604,False
+PHL,Philippines,1964,6.886,44.792,False
+PHL,Philippines,1965,6.799,43.907,False
+PHL,Philippines,1966,6.691,42.972,False
+PHL,Philippines,1967,6.572,42.089,False
+PHL,Philippines,1968,6.448,41.141,False
+PHL,Philippines,1969,6.333,40.51,False
+PHL,Philippines,1970,6.218,40.07,False
+PHL,Philippines,1971,6.083,39.474,False
+PHL,Philippines,1972,5.937,38.705,False
+PHL,Philippines,1973,5.787,38.08,False
+PHL,Philippines,1974,5.693,37.706,False
+PHL,Philippines,1975,5.596,37.477,False
+PHL,Philippines,1976,5.505,37.208,False
+PHL,Philippines,1977,5.442,37.474,False
+PHL,Philippines,1978,5.393,37.801,False
+PHL,Philippines,1979,5.255,37.581,False
+PHL,Philippines,1980,5.108,37.167,False
+PHL,Philippines,1981,4.973,36.856,False
+PHL,Philippines,1982,4.917,36.943,False
+PHL,Philippines,1983,4.867,37.128,False
+PHL,Philippines,1984,4.77,36.969,False
+PHL,Philippines,1985,4.664,36.664,False
+PHL,Philippines,1986,4.563,36.166,False
+PHL,Philippines,1987,4.509,35.908,False
+PHL,Philippines,1988,4.449,35.572,False
+PHL,Philippines,1989,4.365,35.025,False
+PHL,Philippines,1990,4.322,34.516,False
+PHL,Philippines,1991,4.273,34.257,False
+PHL,Philippines,1992,4.161,33.074,False
+PHL,Philippines,1993,4.098,32.598,False
+PHL,Philippines,1994,4.079,32.269,False
+PHL,Philippines,1995,4.067,32.066,False
+PHL,Philippines,1996,4.004,31.361,False
+PHL,Philippines,1997,3.943,30.818,False
+PHL,Philippines,1998,3.884,30.237,False
+PHL,Philippines,1999,3.825,29.836,False
+PHL,Philippines,2000,3.754,29.285,False
+PHL,Philippines,2001,3.719,29.145,False
+PHL,Philippines,2002,3.651,28.534,False
+PHL,Philippines,2003,3.591,28.101,False
+PHL,Philippines,2004,3.524,27.629,False
+PHL,Philippines,2005,3.448,27.154,False
+PHL,Philippines,2006,3.466,27.419,False
+PHL,Philippines,2007,3.403,27.0,False
+PHL,Philippines,2008,3.401,27.12,False
+PHL,Philippines,2009,3.376,26.987,False
+PHL,Philippines,2010,3.315,26.564,False
+PHL,Philippines,2011,3.236,26.007,False
+PHL,Philippines,2012,3.143,25.22,False
+PHL,Philippines,2013,3.042,24.56,False
+PHL,Philippines,2014,2.894,23.404,False
+PHL,Philippines,2015,2.829,22.933,False
+PHL,Philippines,2016,2.679,21.76,False
+PHL,Philippines,2017,2.525,20.571,False
+PHL,Philippines,2018,2.378,19.418,False
+PHL,Philippines,2019,2.215,18.104,False
+PHL,Philippines,2020,2.075,17.017,False
+PHL,Philippines,2021,1.95,16.108,False
+PHL,Philippines,2022,1.929,16.057,False
+PHL,Philippines,2023,1.916,16.019,False
+PHL,Philippines,2024,1.8936,15.894,False
+PHL,Philippines,2025,1.876,15.804,True
+PHL,Philippines,2026,1.863,15.747,True
+PHL,Philippines,2027,1.8501,15.684,True
+PHL,Philippines,2028,1.8396,15.633,True
+PHL,Philippines,2029,1.8282,15.565,True
+PHL,Philippines,2030,1.8188,15.501,True
+PHL,Philippines,2031,1.81,15.432,True
+PHL,Philippines,2032,1.805,15.384,True
+PHL,Philippines,2033,1.8012,15.336,True
+PHL,Philippines,2034,1.7984,15.286,True
+PHL,Philippines,2035,1.7931,15.197,True
+PHL,Philippines,2036,1.7884,15.091,True
+PHL,Philippines,2037,1.7827,14.951,True
+PHL,Philippines,2038,1.7767,14.784,True
+PHL,Philippines,2039,1.7698,14.592,True
+PHL,Philippines,2040,1.7656,14.406,True
+PHL,Philippines,2041,1.7614,14.209,True
+PHL,Philippines,2042,1.7584,14.011,True
+PHL,Philippines,2043,1.7573,13.815,True
+PHL,Philippines,2044,1.7533,13.586,True
+PHL,Philippines,2045,1.7508,13.357,True
+PHL,Philippines,2046,1.7481,13.116,True
+PHL,Philippines,2047,1.7453,12.869,True
+PHL,Philippines,2048,1.742,12.614,True
+PHL,Philippines,2049,1.739,12.364,True
+PHL,Philippines,2050,1.7348,12.113,True
+PHL,Philippines,2051,1.733,11.892,True
+PHL,Philippines,2052,1.7302,11.679,True
+PHL,Philippines,2053,1.7287,11.492,True
+PHL,Philippines,2054,1.7276,11.326,True
+PHL,Philippines,2055,1.7247,11.167,True
+PHL,Philippines,2056,1.7232,11.037,True
+PHL,Philippines,2057,1.7197,10.915,True
+PHL,Philippines,2058,1.7162,10.814,True
+PHL,Philippines,2059,1.7145,10.746,True
+PHL,Philippines,2060,1.714,10.703,True
+PHL,Philippines,2061,1.7126,10.67,True
+PHL,Philippines,2062,1.7106,10.644,True
+PHL,Philippines,2063,1.7094,10.631,True
+PHL,Philippines,2064,1.7103,10.634,True
+PHL,Philippines,2065,1.7091,10.623,True
+PHL,Philippines,2066,1.7083,10.611,True
+PHL,Philippines,2067,1.7071,10.592,True
+PHL,Philippines,2068,1.707,10.572,True
+PHL,Philippines,2069,1.7073,10.547,True
+PHL,Philippines,2070,1.7045,10.494,True
+PHL,Philippines,2071,1.7039,10.447,True
+PHL,Philippines,2072,1.7031,10.39,True
+PHL,Philippines,2073,1.7015,10.32,True
+PHL,Philippines,2074,1.6998,10.244,True
+PHL,Philippines,2075,1.7008,10.177,True
+PHL,Philippines,2076,1.6971,10.078,True
+PHL,Philippines,2077,1.6947,9.983,True
+PHL,Philippines,2078,1.6942,9.896,True
+PHL,Philippines,2079,1.694,9.811,True
+PHL,Philippines,2080,1.6934,9.726,True
+PHL,Philippines,2081,1.6913,9.632,True
+PHL,Philippines,2082,1.6908,9.552,True
+PHL,Philippines,2083,1.6919,9.486,True
+PHL,Philippines,2084,1.6892,9.404,True
+PHL,Philippines,2085,1.6863,9.327,True
+PHL,Philippines,2086,1.6858,9.272,True
+PHL,Philippines,2087,1.6861,9.229,True
+PHL,Philippines,2088,1.6861,9.192,True
+PHL,Philippines,2089,1.6869,9.169,True
+PHL,Philippines,2090,1.6864,9.146,True
+PHL,Philippines,2091,1.6832,9.116,True
+PHL,Philippines,2092,1.6827,9.108,True
+PHL,Philippines,2093,1.6812,9.1,True
+PHL,Philippines,2094,1.6785,9.09,True
+PHL,Philippines,2095,1.6778,9.095,True
+PHL,Philippines,2096,1.6762,9.096,True
+PHL,Philippines,2097,1.674,9.094,True
+PHL,Philippines,2098,1.6733,9.1,True
+PHL,Philippines,2099,1.6744,9.113,True
+PHL,Philippines,2100,1.6737,9.112,True
+RUS,Russian Federation,1950,2.926,27.9,False
+RUS,Russian Federation,1951,2.902,27.857,False
+RUS,Russian Federation,1952,2.863,27.543,False
+RUS,Russian Federation,1953,2.829,27.096,False
+RUS,Russian Federation,1954,2.852,26.913,False
+RUS,Russian Federation,1955,2.812,26.224,False
+RUS,Russian Federation,1956,2.758,25.459,False
+RUS,Russian Federation,1957,2.729,25.1,False
+RUS,Russian Federation,1958,2.692,24.83,False
+RUS,Russian Federation,1959,2.663,24.43,False
+RUS,Russian Federation,1960,2.633,23.881,False
+RUS,Russian Federation,1961,2.52,22.451,False
+RUS,Russian Federation,1962,2.362,20.49,False
+RUS,Russian Federation,1963,2.285,18.974,False
+RUS,Russian Federation,1964,2.176,17.155,False
+RUS,Russian Federation,1965,2.113,15.939,False
+RUS,Russian Federation,1966,2.105,15.42,False
+RUS,Russian Federation,1967,2.023,14.571,False
+RUS,Russian Federation,1968,1.98,14.195,False
+RUS,Russian Federation,1969,1.988,14.343,False
+RUS,Russian Federation,1970,2.007,14.716,False
+RUS,Russian Federation,1971,2.048,15.264,False
+RUS,Russian Federation,1972,2.068,15.596,False
+RUS,Russian Federation,1973,2.01,15.435,False
+RUS,Russian Federation,1974,2.027,15.921,False
+RUS,Russian Federation,1975,2.002,16.005,False
+RUS,Russian Federation,1976,1.993,16.192,False
+RUS,Russian Federation,1977,1.978,16.284,False
+RUS,Russian Federation,1978,1.953,16.325,False
+RUS,Russian Federation,1979,1.92,15.8,False
+RUS,Russian Federation,1980,1.916,15.9,False
+RUS,Russian Federation,1981,1.941,16.0,False
+RUS,Russian Federation,1982,2.022,16.6,False
+RUS,Russian Federation,1983,2.135,17.5,False
+RUS,Russian Federation,1984,2.099,16.9,False
+RUS,Russian Federation,1985,2.094,16.6,False
+RUS,Russian Federation,1986,2.205,17.2,False
+RUS,Russian Federation,1987,2.249,17.2,False
+RUS,Russian Federation,1988,2.159,16.0,False
+RUS,Russian Federation,1989,2.034,14.6,False
+RUS,Russian Federation,1990,1.91,13.4,False
+RUS,Russian Federation,1991,1.751,12.1,False
+RUS,Russian Federation,1992,1.566,10.7,False
+RUS,Russian Federation,1993,1.393,9.4,False
+RUS,Russian Federation,1994,1.398,9.5,False
+RUS,Russian Federation,1995,1.352,9.3,False
+RUS,Russian Federation,1996,1.289,8.9,False
+RUS,Russian Federation,1997,1.243,8.6,False
+RUS,Russian Federation,1998,1.242,8.8,False
+RUS,Russian Federation,1999,1.183,8.3,False
+RUS,Russian Federation,2000,1.19,8.7,False
+RUS,Russian Federation,2001,1.221,9.0,False
+RUS,Russian Federation,2002,1.287,9.7,False
+RUS,Russian Federation,2003,1.334,10.2,False
+RUS,Russian Federation,2004,1.345,10.4,False
+RUS,Russian Federation,2005,1.299,10.2,False
+RUS,Russian Federation,2006,1.315,10.3,False
+RUS,Russian Federation,2007,1.428,11.3,False
+RUS,Russian Federation,2008,1.517,12.0,False
+RUS,Russian Federation,2009,1.559,12.3,False
+RUS,Russian Federation,2010,1.585,12.5,False
+RUS,Russian Federation,2011,1.601,12.6,False
+RUS,Russian Federation,2012,1.708,13.3,False
+RUS,Russian Federation,2013,1.725,13.2,False
+RUS,Russian Federation,2014,1.766,13.3,False
+RUS,Russian Federation,2015,1.79,13.3,False
+RUS,Russian Federation,2016,1.773,12.9,False
+RUS,Russian Federation,2017,1.627,11.5,False
+RUS,Russian Federation,2018,1.581,10.9,False
+RUS,Russian Federation,2019,1.504,10.1,False
+RUS,Russian Federation,2020,1.505,9.8,False
+RUS,Russian Federation,2021,1.505,9.6,False
+RUS,Russian Federation,2022,1.452,8.9,False
+RUS,Russian Federation,2023,1.449,8.6,False
+RUS,Russian Federation,2024,1.457,8.4,False
+RUS,Russian Federation,2025,1.4647,8.624,True
+RUS,Russian Federation,2026,1.4699,8.462,True
+RUS,Russian Federation,2027,1.4743,8.39,True
+RUS,Russian Federation,2028,1.4787,8.348,True
+RUS,Russian Federation,2029,1.4823,8.334,True
+RUS,Russian Federation,2030,1.4865,8.358,True
+RUS,Russian Federation,2031,1.4892,8.408,True
+RUS,Russian Federation,2032,1.4935,8.501,True
+RUS,Russian Federation,2033,1.4974,8.626,True
+RUS,Russian Federation,2034,1.5005,8.776,True
+RUS,Russian Federation,2035,1.5018,8.938,True
+RUS,Russian Federation,2036,1.506,9.135,True
+RUS,Russian Federation,2037,1.5074,9.325,True
+RUS,Russian Federation,2038,1.511,9.529,True
+RUS,Russian Federation,2039,1.5136,9.725,True
+RUS,Russian Federation,2040,1.5169,9.918,True
+RUS,Russian Federation,2041,1.5204,10.101,True
+RUS,Russian Federation,2042,1.5223,10.256,True
+RUS,Russian Federation,2043,1.5246,10.392,True
+RUS,Russian Federation,2044,1.5264,10.464,True
+RUS,Russian Federation,2045,1.529,10.495,True
+RUS,Russian Federation,2046,1.5322,10.482,True
+RUS,Russian Federation,2047,1.5346,10.421,True
+RUS,Russian Federation,2048,1.5372,10.32,True
+RUS,Russian Federation,2049,1.5391,10.181,True
+RUS,Russian Federation,2050,1.5405,10.018,True
+RUS,Russian Federation,2051,1.5406,9.834,True
+RUS,Russian Federation,2052,1.5409,9.646,True
+RUS,Russian Federation,2053,1.5425,9.473,True
+RUS,Russian Federation,2054,1.5451,9.313,True
+RUS,Russian Federation,2055,1.5457,9.16,True
+RUS,Russian Federation,2056,1.5473,9.033,True
+RUS,Russian Federation,2057,1.5508,8.943,True
+RUS,Russian Federation,2058,1.552,8.868,True
+RUS,Russian Federation,2059,1.5539,8.823,True
+RUS,Russian Federation,2060,1.5554,8.802,True
+RUS,Russian Federation,2061,1.5557,8.805,True
+RUS,Russian Federation,2062,1.5577,8.838,True
+RUS,Russian Federation,2063,1.5586,8.888,True
+RUS,Russian Federation,2064,1.5608,8.96,True
+RUS,Russian Federation,2065,1.5645,9.057,True
+RUS,Russian Federation,2066,1.5634,9.137,True
+RUS,Russian Federation,2067,1.564,9.237,True
+RUS,Russian Federation,2068,1.5637,9.338,True
+RUS,Russian Federation,2069,1.5657,9.454,True
+RUS,Russian Federation,2070,1.567,9.559,True
+RUS,Russian Federation,2071,1.5681,9.658,True
+RUS,Russian Federation,2072,1.5694,9.744,True
+RUS,Russian Federation,2073,1.5723,9.833,True
+RUS,Russian Federation,2074,1.5748,9.902,True
+RUS,Russian Federation,2075,1.5724,9.923,True
+RUS,Russian Federation,2076,1.5725,9.94,True
+RUS,Russian Federation,2077,1.5757,9.96,True
+RUS,Russian Federation,2078,1.5752,9.936,True
+RUS,Russian Federation,2079,1.5762,9.903,True
+RUS,Russian Federation,2080,1.5788,9.863,True
+RUS,Russian Federation,2081,1.5798,9.803,True
+RUS,Russian Federation,2082,1.5807,9.73,True
+RUS,Russian Federation,2083,1.5813,9.648,True
+RUS,Russian Federation,2084,1.5808,9.556,True
+RUS,Russian Federation,2085,1.5806,9.464,True
+RUS,Russian Federation,2086,1.582,9.383,True
+RUS,Russian Federation,2087,1.5831,9.305,True
+RUS,Russian Federation,2088,1.5842,9.237,True
+RUS,Russian Federation,2089,1.5842,9.172,True
+RUS,Russian Federation,2090,1.586,9.128,True
+RUS,Russian Federation,2091,1.5861,9.086,True
+RUS,Russian Federation,2092,1.5866,9.06,True
+RUS,Russian Federation,2093,1.5843,9.028,True
+RUS,Russian Federation,2094,1.5854,9.029,True
+RUS,Russian Federation,2095,1.586,9.042,True
+RUS,Russian Federation,2096,1.5879,9.07,True
+RUS,Russian Federation,2097,1.5889,9.1,True
+RUS,Russian Federation,2098,1.5908,9.143,True
+RUS,Russian Federation,2099,1.5901,9.174,True
+RUS,Russian Federation,2100,1.5922,9.225,True
+THA,Thailand,1950,6.359,44.17,False
+THA,Thailand,1951,6.384,44.496,False
+THA,Thailand,1952,6.396,44.726,False
+THA,Thailand,1953,6.416,44.938,False
+THA,Thailand,1954,6.408,44.897,False
+THA,Thailand,1955,6.391,44.784,False
+THA,Thailand,1956,6.373,44.647,False
+THA,Thailand,1957,6.355,44.467,False
+THA,Thailand,1958,6.345,44.331,False
+THA,Thailand,1959,6.332,44.047,False
+THA,Thailand,1960,6.325,43.803,False
+THA,Thailand,1961,6.324,43.582,False
+THA,Thailand,1962,6.331,43.397,False
+THA,Thailand,1963,6.342,43.23,False
+THA,Thailand,1964,6.309,42.764,False
+THA,Thailand,1965,6.258,42.229,False
+THA,Thailand,1966,6.182,41.577,False
+THA,Thailand,1967,6.077,40.772,False
+THA,Thailand,1968,5.928,39.745,False
+THA,Thailand,1969,5.704,38.297,False
+THA,Thailand,1970,5.452,36.729,False
+THA,Thailand,1971,5.253,35.606,False
+THA,Thailand,1972,5.077,34.67,False
+THA,Thailand,1973,4.845,33.512,False
+THA,Thailand,1974,4.598,32.27,False
+THA,Thailand,1975,4.364,31.095,False
+THA,Thailand,1976,4.119,29.846,False
+THA,Thailand,1977,3.865,28.588,False
+THA,Thailand,1978,3.617,27.455,False
+THA,Thailand,1979,3.451,26.79,False
+THA,Thailand,1980,3.293,26.279,False
+THA,Thailand,1981,3.127,25.532,False
+THA,Thailand,1982,2.943,24.457,False
+THA,Thailand,1983,2.755,23.304,False
+THA,Thailand,1984,2.582,22.33,False
+THA,Thailand,1985,2.45,21.651,False
+THA,Thailand,1986,2.358,21.281,False
+THA,Thailand,1987,2.255,20.721,False
+THA,Thailand,1988,2.171,20.243,False
+THA,Thailand,1989,2.136,20.149,False
+THA,Thailand,1990,2.065,19.622,False
+THA,Thailand,1991,2.036,19.452,False
+THA,Thailand,1992,2.008,19.19,False
+THA,Thailand,1993,1.967,18.744,False
+THA,Thailand,1994,1.928,18.238,False
+THA,Thailand,1995,1.888,17.676,False
+THA,Thailand,1996,1.865,17.254,False
+THA,Thailand,1997,1.845,16.83,False
+THA,Thailand,1998,1.815,16.277,False
+THA,Thailand,1999,1.768,15.585,False
+THA,Thailand,2000,1.734,15.027,False
+THA,Thailand,2001,1.711,14.665,False
+THA,Thailand,2002,1.688,14.335,False
+THA,Thailand,2003,1.673,14.053,False
+THA,Thailand,2004,1.665,13.82,False
+THA,Thailand,2005,1.644,13.488,False
+THA,Thailand,2006,1.631,13.208,False
+THA,Thailand,2007,1.616,12.926,False
+THA,Thailand,2008,1.587,12.525,False
+THA,Thailand,2009,1.565,12.188,False
+THA,Thailand,2010,1.562,12.009,False
+THA,Thailand,2011,1.571,11.943,False
+THA,Thailand,2012,1.563,11.758,False
+THA,Thailand,2013,1.526,11.367,False
+THA,Thailand,2014,1.484,10.95,False
+THA,Thailand,2015,1.451,10.594,False
+THA,Thailand,2016,1.4,10.111,False
+THA,Thailand,2017,1.363,9.765,False
+THA,Thailand,2018,1.323,9.4,False
+THA,Thailand,2019,1.285,9.056,False
+THA,Thailand,2020,1.259,8.792,False
+THA,Thailand,2021,1.234,8.544,False
+THA,Thailand,2022,1.221,8.38,False
+THA,Thailand,2023,1.212,8.245,False
+THA,Thailand,2024,1.2035,8.116,False
+THA,Thailand,2025,1.1945,7.992,True
+THA,Thailand,2026,1.1913,7.911,True
+THA,Thailand,2027,1.1908,7.852,True
+THA,Thailand,2028,1.1936,7.817,True
+THA,Thailand,2029,1.1953,7.776,True
+THA,Thailand,2030,1.1999,7.756,True
+THA,Thailand,2031,1.2053,7.74,True
+THA,Thailand,2032,1.21,7.717,True
+THA,Thailand,2033,1.215,7.693,True
+THA,Thailand,2034,1.2186,7.657,True
+THA,Thailand,2035,1.2243,7.632,True
+THA,Thailand,2036,1.2294,7.6,True
+THA,Thailand,2037,1.2341,7.564,True
+THA,Thailand,2038,1.2391,7.529,True
+THA,Thailand,2039,1.2441,7.495,True
+THA,Thailand,2040,1.2507,7.47,True
+THA,Thailand,2041,1.2525,7.414,True
+THA,Thailand,2042,1.2564,7.369,True
+THA,Thailand,2043,1.2623,7.333,True
+THA,Thailand,2044,1.2655,7.279,True
+THA,Thailand,2045,1.2701,7.232,True
+THA,Thailand,2046,1.2728,7.172,True
+THA,Thailand,2047,1.2774,7.122,True
+THA,Thailand,2048,1.2811,7.067,True
+THA,Thailand,2049,1.2829,7.001,True
+THA,Thailand,2050,1.2872,6.95,True
+THA,Thailand,2051,1.2927,6.907,True
+THA,Thailand,2052,1.2978,6.864,True
+THA,Thailand,2053,1.303,6.824,True
+THA,Thailand,2054,1.3087,6.793,True
+THA,Thailand,2055,1.3156,6.774,True
+THA,Thailand,2056,1.3166,6.732,True
+THA,Thailand,2057,1.3199,6.71,True
+THA,Thailand,2058,1.3228,6.695,True
+THA,Thailand,2059,1.3283,6.702,True
+THA,Thailand,2060,1.3326,6.711,True
+THA,Thailand,2061,1.336,6.721,True
+THA,Thailand,2062,1.3408,6.745,True
+THA,Thailand,2063,1.3467,6.779,True
+THA,Thailand,2064,1.3498,6.802,True
+THA,Thailand,2065,1.3523,6.825,True
+THA,Thailand,2066,1.355,6.849,True
+THA,Thailand,2067,1.358,6.877,True
+THA,Thailand,2068,1.3607,6.901,True
+THA,Thailand,2069,1.3638,6.925,True
+THA,Thailand,2070,1.3684,6.955,True
+THA,Thailand,2071,1.3705,6.969,True
+THA,Thailand,2072,1.3747,6.992,True
+THA,Thailand,2073,1.3774,7.004,True
+THA,Thailand,2074,1.3785,7.005,True
+THA,Thailand,2075,1.3807,7.007,True
+THA,Thailand,2076,1.3828,7.008,True
+THA,Thailand,2077,1.386,7.013,True
+THA,Thailand,2078,1.3878,7.008,True
+THA,Thailand,2079,1.3908,7.009,True
+THA,Thailand,2080,1.3961,7.018,True
+THA,Thailand,2081,1.4002,7.022,True
+THA,Thailand,2082,1.4013,7.011,True
+THA,Thailand,2083,1.4022,6.998,True
+THA,Thailand,2084,1.4065,7.003,True
+THA,Thailand,2085,1.4096,7.003,True
+THA,Thailand,2086,1.4118,7.001,True
+THA,Thailand,2087,1.4137,7.001,True
+THA,Thailand,2088,1.4166,7.008,True
+THA,Thailand,2089,1.4165,7.005,True
+THA,Thailand,2090,1.4177,7.009,True
+THA,Thailand,2091,1.4196,7.02,True
+THA,Thailand,2092,1.4203,7.028,True
+THA,Thailand,2093,1.4228,7.046,True
+THA,Thailand,2094,1.4255,7.068,True
+THA,Thailand,2095,1.4308,7.104,True
+THA,Thailand,2096,1.4311,7.117,True
+THA,Thailand,2097,1.4335,7.14,True
+THA,Thailand,2098,1.4345,7.159,True
+THA,Thailand,2099,1.4369,7.184,True
+THA,Thailand,2100,1.4372,7.198,True
+TUR,Türkiye,1950,6.468,46.738,False
+TUR,Türkiye,1951,6.468,46.819,False
+TUR,Türkiye,1952,6.47,46.89,False
+TUR,Türkiye,1953,6.477,46.945,False
+TUR,Türkiye,1954,6.468,46.858,False
+TUR,Türkiye,1955,6.463,46.776,False
+TUR,Türkiye,1956,6.463,46.542,False
+TUR,Türkiye,1957,6.454,46.132,False
+TUR,Türkiye,1958,6.434,45.709,False
+TUR,Türkiye,1959,6.416,45.388,False
+TUR,Türkiye,1960,6.383,45.019,False
+TUR,Türkiye,1961,6.419,45.195,False
+TUR,Türkiye,1962,6.382,44.739,False
+TUR,Türkiye,1963,6.339,44.303,False
+TUR,Türkiye,1964,6.291,43.888,False
+TUR,Türkiye,1965,6.22,43.386,False
+TUR,Türkiye,1966,6.152,42.901,False
+TUR,Türkiye,1967,6.057,42.148,False
+TUR,Türkiye,1968,5.962,41.505,False
+TUR,Türkiye,1969,5.872,41.013,False
+TUR,Türkiye,1970,5.775,40.565,False
+TUR,Türkiye,1971,5.671,40.118,False
+TUR,Türkiye,1972,5.548,39.288,False
+TUR,Türkiye,1973,5.41,38.376,False
+TUR,Türkiye,1974,5.243,37.276,False
+TUR,Türkiye,1975,5.087,36.238,False
+TUR,Türkiye,1976,4.931,35.319,False
+TUR,Türkiye,1977,4.784,34.693,False
+TUR,Türkiye,1978,4.691,34.487,False
+TUR,Türkiye,1979,4.579,34.19,False
+TUR,Türkiye,1980,4.453,33.671,False
+TUR,Türkiye,1981,4.351,33.101,False
+TUR,Türkiye,1982,4.205,32.045,False
+TUR,Türkiye,1983,4.056,31.231,False
+TUR,Türkiye,1984,3.911,30.425,False
+TUR,Türkiye,1985,3.779,29.689,False
+TUR,Türkiye,1986,3.658,29.036,False
+TUR,Türkiye,1987,3.542,28.287,False
+TUR,Türkiye,1988,3.445,27.673,False
+TUR,Türkiye,1989,3.336,26.938,False
+TUR,Türkiye,1990,3.107,25.453,False
+TUR,Türkiye,1991,3.003,24.89,False
+TUR,Türkiye,1992,2.939,24.439,False
+TUR,Türkiye,1993,2.916,24.443,False
+TUR,Türkiye,1994,2.874,24.267,False
+TUR,Türkiye,1995,2.835,24.108,False
+TUR,Türkiye,1996,2.779,23.743,False
+TUR,Türkiye,1997,2.744,23.543,False
+TUR,Türkiye,1998,2.707,23.264,False
+TUR,Türkiye,1999,2.63,22.646,False
+TUR,Türkiye,2000,2.487,21.42,False
+TUR,Türkiye,2001,2.392,20.593,False
+TUR,Türkiye,2002,2.268,19.531,False
+TUR,Türkiye,2003,2.202,18.949,False
+TUR,Türkiye,2004,2.197,18.857,False
+TUR,Türkiye,2005,2.197,18.794,False
+TUR,Türkiye,2006,2.193,18.686,False
+TUR,Türkiye,2007,2.183,18.4,False
+TUR,Türkiye,2008,2.167,18.2,False
+TUR,Türkiye,2009,2.145,17.6,False
+TUR,Türkiye,2010,2.08,17.2,False
+TUR,Türkiye,2011,2.047,16.9,False
+TUR,Türkiye,2012,2.109,17.2,False
+TUR,Türkiye,2013,2.107,17.0,False
+TUR,Türkiye,2014,2.186,17.5,False
+TUR,Türkiye,2015,2.157,17.1,False
+TUR,Türkiye,2016,2.115,16.6,False
+TUR,Türkiye,2017,2.082,16.2,False
+TUR,Türkiye,2018,2.004,15.4,False
+TUR,Türkiye,2019,1.886,14.4,False
+TUR,Türkiye,2020,1.768,13.4,False
+TUR,Türkiye,2021,1.708,12.9,False
+TUR,Türkiye,2022,1.625,12.2,False
+TUR,Türkiye,2023,1.625,11.2,False
+TUR,Türkiye,2024,1.6206,11.0,False
+TUR,Türkiye,2025,1.6195,12.012,True
+TUR,Türkiye,2026,1.6193,11.893,True
+TUR,Türkiye,2027,1.6164,11.747,True
+TUR,Türkiye,2028,1.6164,11.62,True
+TUR,Türkiye,2029,1.6141,11.474,True
+TUR,Türkiye,2030,1.613,11.332,True
+TUR,Türkiye,2031,1.613,11.202,True
+TUR,Türkiye,2032,1.6124,11.071,True
+TUR,Türkiye,2033,1.6116,10.942,True
+TUR,Türkiye,2034,1.6111,10.826,True
+TUR,Türkiye,2035,1.6116,10.724,True
+TUR,Türkiye,2036,1.612,10.632,True
+TUR,Türkiye,2037,1.6112,10.544,True
+TUR,Türkiye,2038,1.6136,10.486,True
+TUR,Türkiye,2039,1.6127,10.413,True
+TUR,Türkiye,2040,1.6116,10.343,True
+TUR,Türkiye,2041,1.6119,10.285,True
+TUR,Türkiye,2042,1.612,10.226,True
+TUR,Türkiye,2043,1.6115,10.163,True
+TUR,Türkiye,2044,1.6136,10.099,True
+TUR,Türkiye,2045,1.6152,10.017,True
+TUR,Türkiye,2046,1.619,9.927,True
+TUR,Türkiye,2047,1.6186,9.795,True
+TUR,Türkiye,2048,1.6166,9.633,True
+TUR,Türkiye,2049,1.6159,9.463,True
+TUR,Türkiye,2050,1.6164,9.287,True
+TUR,Türkiye,2051,1.6172,9.105,True
+TUR,Türkiye,2052,1.6168,8.918,True
+TUR,Türkiye,2053,1.6143,8.725,True
+TUR,Türkiye,2054,1.6119,8.546,True
+TUR,Türkiye,2055,1.6122,8.397,True
+TUR,Türkiye,2056,1.6125,8.265,True
+TUR,Türkiye,2057,1.6119,8.144,True
+TUR,Türkiye,2058,1.6127,8.049,True
+TUR,Türkiye,2059,1.6125,7.967,True
+TUR,Türkiye,2060,1.6123,7.897,True
+TUR,Türkiye,2061,1.6141,7.854,True
+TUR,Türkiye,2062,1.6151,7.818,True
+TUR,Türkiye,2063,1.614,7.781,True
+TUR,Türkiye,2064,1.6147,7.763,True
+TUR,Türkiye,2065,1.6156,7.749,True
+TUR,Türkiye,2066,1.6136,7.727,True
+TUR,Türkiye,2067,1.6123,7.712,True
+TUR,Türkiye,2068,1.6117,7.706,True
+TUR,Türkiye,2069,1.6125,7.706,True
+TUR,Türkiye,2070,1.6125,7.703,True
+TUR,Türkiye,2071,1.6121,7.695,True
+TUR,Türkiye,2072,1.6118,7.686,True
+TUR,Türkiye,2073,1.6129,7.68,True
+TUR,Türkiye,2074,1.6123,7.662,True
+TUR,Türkiye,2075,1.6125,7.639,True
+TUR,Türkiye,2076,1.6135,7.615,True
+TUR,Türkiye,2077,1.6158,7.589,True
+TUR,Türkiye,2078,1.6157,7.545,True
+TUR,Türkiye,2079,1.6146,7.49,True
+TUR,Türkiye,2080,1.6163,7.443,True
+TUR,Türkiye,2081,1.6155,7.377,True
+TUR,Türkiye,2082,1.6151,7.312,True
+TUR,Türkiye,2083,1.6159,7.248,True
+TUR,Türkiye,2084,1.6152,7.178,True
+TUR,Türkiye,2085,1.6168,7.121,True
+TUR,Türkiye,2086,1.6174,7.06,True
+TUR,Türkiye,2087,1.618,7.004,True
+TUR,Türkiye,2088,1.6183,6.955,True
+TUR,Türkiye,2089,1.6182,6.908,True
+TUR,Türkiye,2090,1.6191,6.874,True
+TUR,Türkiye,2091,1.6186,6.839,True
+TUR,Türkiye,2092,1.6178,6.812,True
+TUR,Türkiye,2093,1.6167,6.792,True
+TUR,Türkiye,2094,1.6176,6.785,True
+TUR,Türkiye,2095,1.6171,6.781,True
+TUR,Türkiye,2096,1.615,6.776,True
+TUR,Türkiye,2097,1.6138,6.779,True
+TUR,Türkiye,2098,1.6131,6.785,True
+TUR,Türkiye,2099,1.6124,6.795,True
+TUR,Türkiye,2100,1.6112,6.801,True
+USA,United States of America,1950,3.086,23.981,False
+USA,United States of America,1951,3.197,24.352,False
+USA,United States of America,1952,3.29,24.561,False
+USA,United States of America,1953,3.358,24.539,False
+USA,United States of America,1954,3.475,24.87,False
+USA,United States of America,1955,3.515,24.638,False
+USA,United States of America,1956,3.624,24.905,False
+USA,United States of America,1957,3.703,24.991,False
+USA,United States of America,1958,3.754,24.944,False
+USA,United States of America,1959,3.747,24.552,False
+USA,United States of America,1960,3.732,23.7,False
+USA,United States of America,1961,3.691,23.3,False
+USA,United States of America,1962,3.533,22.4,False
+USA,United States of America,1963,3.39,21.7,False
+USA,United States of America,1964,3.258,21.1,False
+USA,United States of America,1965,2.983,19.4,False
+USA,United States of America,1966,2.769,18.4,False
+USA,United States of America,1967,2.605,17.8,False
+USA,United States of America,1968,2.508,17.6,False
+USA,United States of America,1969,2.504,17.9,False
+USA,United States of America,1970,2.515,18.4,False
+USA,United States of America,1971,2.318,17.2,False
+USA,United States of America,1972,2.057,15.6,False
+USA,United States of America,1973,1.921,14.8,False
+USA,United States of America,1974,1.872,14.8,False
+USA,United States of America,1975,1.815,14.6,False
+USA,United States of America,1976,1.785,14.6,False
+USA,United States of America,1977,1.826,15.1,False
+USA,United States of America,1978,1.804,15.0,False
+USA,United States of America,1979,1.843,15.6,False
+USA,United States of America,1980,1.861,15.9,False
+USA,United States of America,1981,1.847,15.8,False
+USA,United States of America,1982,1.855,15.9,False
+USA,United States of America,1983,1.827,15.6,False
+USA,United States of America,1984,1.827,15.6,False
+USA,United States of America,1985,1.854,15.8,False
+USA,United States of America,1986,1.852,15.6,False
+USA,United States of America,1987,1.885,15.7,False
+USA,United States of America,1988,1.942,16.0,False
+USA,United States of America,1989,2.014,16.4,False
+USA,United States of America,1990,2.072,16.7,False
+USA,United States of America,1991,2.059,16.2,False
+USA,United States of America,1992,2.039,15.8,False
+USA,United States of America,1993,2.01,15.4,False
+USA,United States of America,1994,1.988,15.0,False
+USA,United States of America,1995,1.965,14.6,False
+USA,United States of America,1996,1.96,14.4,False
+USA,United States of America,1997,1.956,14.2,False
+USA,United States of America,1998,1.98,14.3,False
+USA,United States of America,1999,1.99,14.2,False
+USA,United States of America,2000,2.03,14.4,False
+USA,United States of America,2001,2.011,14.1,False
+USA,United States of America,2002,2.003,14.0,False
+USA,United States of America,2003,2.025,14.1,False
+USA,United States of America,2004,2.031,14.0,False
+USA,United States of America,2005,2.04,14.0,False
+USA,United States of America,2006,2.087,14.3,False
+USA,United States of America,2007,2.096,14.3,False
+USA,United States of America,2008,2.053,14.0,False
+USA,United States of America,2009,1.987,13.5,False
+USA,United States of America,2010,1.916,13.0,False
+USA,United States of America,2011,1.879,12.7,False
+USA,United States of America,2012,1.862,12.6,False
+USA,United States of America,2013,1.84,12.4,False
+USA,United States of America,2014,1.848,12.5,False
+USA,United States of America,2015,1.832,12.4,False
+USA,United States of America,2016,1.804,12.2,False
+USA,United States of America,2017,1.753,11.8,False
+USA,United States of America,2018,1.715,11.6,False
+USA,United States of America,2019,1.684,11.4,False
+USA,United States of America,2020,1.616,10.9,False
+USA,United States of America,2021,1.634,11.0,False
+USA,United States of America,2022,1.665,11.0,False
+USA,United States of America,2023,1.624,10.7,False
+USA,United States of America,2024,1.6221,10.6,False
+USA,United States of America,2025,1.6234,10.55,True
+USA,United States of America,2026,1.6247,10.524,True
+USA,United States of America,2027,1.6235,10.485,True
+USA,United States of America,2028,1.6254,10.471,True
+USA,United States of America,2029,1.6272,10.465,True
+USA,United States of America,2030,1.6293,10.466,True
+USA,United States of America,2031,1.6298,10.465,True
+USA,United States of America,2032,1.631,10.478,True
+USA,United States of America,2033,1.6331,10.506,True
+USA,United States of America,2034,1.6314,10.514,True
+USA,United States of America,2035,1.6328,10.549,True
+USA,United States of America,2036,1.635,10.587,True
+USA,United States of America,2037,1.6345,10.6,True
+USA,United States of America,2038,1.6359,10.616,True
+USA,United States of America,2039,1.6385,10.629,True
+USA,United States of America,2040,1.6389,10.612,True
+USA,United States of America,2041,1.6398,10.585,True
+USA,United States of America,2042,1.6389,10.532,True
+USA,United States of America,2043,1.6398,10.481,True
+USA,United States of America,2044,1.6402,10.412,True
+USA,United States of America,2045,1.6445,10.36,True
+USA,United States of America,2046,1.6428,10.266,True
+USA,United States of America,2047,1.6418,10.174,True
+USA,United States of America,2048,1.6422,10.093,True
+USA,United States of America,2049,1.6414,10.008,True
+USA,United States of America,2050,1.6428,9.943,True
+USA,United States of America,2051,1.6431,9.879,True
+USA,United States of America,2052,1.642,9.816,True
+USA,United States of America,2053,1.6425,9.771,True
+USA,United States of America,2054,1.6416,9.727,True
+USA,United States of America,2055,1.6415,9.693,True
+USA,United States of America,2056,1.6421,9.671,True
+USA,United States of America,2057,1.6411,9.648,True
+USA,United States of America,2058,1.6395,9.629,True
+USA,United States of America,2059,1.6394,9.628,True
+USA,United States of America,2060,1.6398,9.633,True
+USA,United States of America,2061,1.6393,9.635,True
+USA,United States of America,2062,1.638,9.637,True
+USA,United States of America,2063,1.638,9.649,True
+USA,United States of America,2064,1.6382,9.662,True
+USA,United States of America,2065,1.6387,9.676,True
+USA,United States of America,2066,1.6394,9.691,True
+USA,United States of America,2067,1.6405,9.706,True
+USA,United States of America,2068,1.6411,9.717,True
+USA,United States of America,2069,1.6416,9.723,True
+USA,United States of America,2070,1.6434,9.733,True
+USA,United States of America,2071,1.6415,9.715,True
+USA,United States of America,2072,1.642,9.709,True
+USA,United States of America,2073,1.6399,9.68,True
+USA,United States of America,2074,1.641,9.666,True
+USA,United States of America,2075,1.642,9.646,True
+USA,United States of America,2076,1.6427,9.624,True
+USA,United States of America,2077,1.6444,9.603,True
+USA,United States of America,2078,1.646,9.578,True
+USA,United States of America,2079,1.6456,9.541,True
+USA,United States of America,2080,1.6452,9.502,True
+USA,United States of America,2081,1.6447,9.462,True
+USA,United States of America,2082,1.6446,9.43,True
+USA,United States of America,2083,1.6448,9.4,True
+USA,United States of America,2084,1.6449,9.372,True
+USA,United States of America,2085,1.6459,9.352,True
+USA,United States of America,2086,1.647,9.333,True
+USA,United States of America,2087,1.6469,9.312,True
+USA,United States of America,2088,1.6472,9.298,True
+USA,United States of America,2089,1.6491,9.298,True
+USA,United States of America,2090,1.6503,9.296,True
+USA,United States of America,2091,1.6486,9.279,True
+USA,United States of America,2092,1.6499,9.284,True
+USA,United States of America,2093,1.6492,9.281,True
+USA,United States of America,2094,1.6488,9.28,True
+USA,United States of America,2095,1.6499,9.29,True
+USA,United States of America,2096,1.6492,9.291,True
+USA,United States of America,2097,1.651,9.304,True
+USA,United States of America,2098,1.6487,9.296,True
+USA,United States of America,2099,1.6494,9.303,True
+USA,United States of America,2100,1.6469,9.291,True
+VNM,Viet Nam,1950,5.147,38.776,False
+VNM,Viet Nam,1951,4.651,34.849,False
+VNM,Viet Nam,1952,5.467,40.712,False
+VNM,Viet Nam,1953,5.274,38.962,False
+VNM,Viet Nam,1954,5.797,42.425,False
+VNM,Viet Nam,1955,5.535,40.034,False
+VNM,Viet Nam,1956,5.621,40.148,False
+VNM,Viet Nam,1957,6.145,43.21,False
+VNM,Viet Nam,1958,6.209,42.856,False
+VNM,Viet Nam,1959,6.25,42.293,False
+VNM,Viet Nam,1960,6.273,41.589,False
+VNM,Viet Nam,1961,5.476,35.639,False
+VNM,Viet Nam,1962,6.257,39.972,False
+VNM,Viet Nam,1963,6.385,39.952,False
+VNM,Viet Nam,1964,6.285,38.561,False
+VNM,Viet Nam,1965,6.156,37.087,False
+VNM,Viet Nam,1966,5.968,35.441,False
+VNM,Viet Nam,1967,5.883,34.575,False
+VNM,Viet Nam,1968,6.029,35.221,False
+VNM,Viet Nam,1969,6.013,35.077,False
+VNM,Viet Nam,1970,6.019,35.187,False
+VNM,Viet Nam,1971,6.069,35.679,False
+VNM,Viet Nam,1972,6.1,36.371,False
+VNM,Viet Nam,1973,6.108,36.891,False
+VNM,Viet Nam,1974,5.781,35.484,False
+VNM,Viet Nam,1975,5.621,35.086,False
+VNM,Viet Nam,1976,5.461,34.852,False
+VNM,Viet Nam,1977,5.291,34.558,False
+VNM,Viet Nam,1978,5.104,34.253,False
+VNM,Viet Nam,1979,4.94,34.062,False
+VNM,Viet Nam,1980,4.795,33.499,False
+VNM,Viet Nam,1981,4.665,33.428,False
+VNM,Viet Nam,1982,4.593,33.584,False
+VNM,Viet Nam,1983,4.524,33.68,False
+VNM,Viet Nam,1984,4.412,33.319,False
+VNM,Viet Nam,1985,4.206,32.195,False
+VNM,Viet Nam,1986,3.955,30.717,False
+VNM,Viet Nam,1987,3.717,29.23,False
+VNM,Viet Nam,1988,3.623,28.713,False
+VNM,Viet Nam,1989,3.641,29.041,False
+VNM,Viet Nam,1990,3.602,28.896,False
+VNM,Viet Nam,1991,3.524,28.489,False
+VNM,Viet Nam,1992,3.353,27.342,False
+VNM,Viet Nam,1993,3.172,26.094,False
+VNM,Viet Nam,1994,2.941,24.452,False
+VNM,Viet Nam,1995,2.7,22.727,False
+VNM,Viet Nam,1996,2.468,21.012,False
+VNM,Viet Nam,1997,2.274,19.573,False
+VNM,Viet Nam,1998,2.098,18.254,False
+VNM,Viet Nam,1999,1.999,17.591,False
+VNM,Viet Nam,2000,2.028,18.018,False
+VNM,Viet Nam,2001,2.023,18.123,False
+VNM,Viet Nam,2002,2.006,18.095,False
+VNM,Viet Nam,2003,1.999,18.151,False
+VNM,Viet Nam,2004,1.968,17.996,False
+VNM,Viet Nam,2005,1.887,17.369,False
+VNM,Viet Nam,2006,1.873,17.249,False
+VNM,Viet Nam,2007,1.911,17.537,False
+VNM,Viet Nam,2008,1.933,17.664,False
+VNM,Viet Nam,2009,1.92,17.528,False
+VNM,Viet Nam,2010,1.906,17.409,False
+VNM,Viet Nam,2011,1.927,17.588,False
+VNM,Viet Nam,2012,1.967,17.892,False
+VNM,Viet Nam,2013,1.98,17.888,False
+VNM,Viet Nam,2014,2.09,18.671,False
+VNM,Viet Nam,2015,2.1,18.498,False
+VNM,Viet Nam,2016,2.0,17.313,False
+VNM,Viet Nam,2017,1.985,16.764,False
+VNM,Viet Nam,2018,1.88,15.438,False
+VNM,Viet Nam,2019,1.943,15.513,False
+VNM,Viet Nam,2020,1.957,15.234,False
+VNM,Viet Nam,2021,1.942,14.735,False
+VNM,Viet Nam,2022,1.927,14.272,False
+VNM,Viet Nam,2023,1.913,13.831,False
+VNM,Viet Nam,2024,1.895,13.423,False
+VNM,Viet Nam,2025,1.8783,13.075,True
+VNM,Viet Nam,2026,1.8642,12.796,True
+VNM,Viet Nam,2027,1.85,12.564,True
+VNM,Viet Nam,2028,1.838,12.398,True
+VNM,Viet Nam,2029,1.8279,12.291,True
+VNM,Viet Nam,2030,1.8195,12.236,True
+VNM,Viet Nam,2031,1.8083,12.197,True
+VNM,Viet Nam,2032,1.7992,12.191,True
+VNM,Viet Nam,2033,1.7928,12.21,True
+VNM,Viet Nam,2034,1.7879,12.236,True
+VNM,Viet Nam,2035,1.7835,12.258,True
+VNM,Viet Nam,2036,1.7795,12.267,True
+VNM,Viet Nam,2037,1.7783,12.273,True
+VNM,Viet Nam,2038,1.7731,12.229,True
+VNM,Viet Nam,2039,1.7712,12.181,True
+VNM,Viet Nam,2040,1.7692,12.103,True
+VNM,Viet Nam,2041,1.7695,12.013,True
+VNM,Viet Nam,2042,1.7666,11.876,True
+VNM,Viet Nam,2043,1.7622,11.707,True
+VNM,Viet Nam,2044,1.7602,11.537,True
+VNM,Viet Nam,2045,1.7576,11.353,True
+VNM,Viet Nam,2046,1.7556,11.171,True
+VNM,Viet Nam,2047,1.7521,10.977,True
+VNM,Viet Nam,2048,1.7491,10.787,True
+VNM,Viet Nam,2049,1.7456,10.596,True
+VNM,Viet Nam,2050,1.7447,10.427,True
+VNM,Viet Nam,2051,1.742,10.255,True
+VNM,Viet Nam,2052,1.7407,10.097,True
+VNM,Viet Nam,2053,1.7394,9.955,True
+VNM,Viet Nam,2054,1.735,9.818,True
+VNM,Viet Nam,2055,1.7345,9.727,True
+VNM,Viet Nam,2056,1.7357,9.668,True
+VNM,Viet Nam,2057,1.7329,9.608,True
+VNM,Viet Nam,2058,1.7315,9.573,True
+VNM,Viet Nam,2059,1.7317,9.561,True
+VNM,Viet Nam,2060,1.7299,9.547,True
+VNM,Viet Nam,2061,1.7274,9.538,True
+VNM,Viet Nam,2062,1.7244,9.529,True
+VNM,Viet Nam,2063,1.7229,9.531,True
+VNM,Viet Nam,2064,1.7228,9.542,True
+VNM,Viet Nam,2065,1.7211,9.543,True
+VNM,Viet Nam,2066,1.7211,9.551,True
+VNM,Viet Nam,2067,1.7188,9.54,True
+VNM,Viet Nam,2068,1.7186,9.536,True
+VNM,Viet Nam,2069,1.7183,9.524,True
+VNM,Viet Nam,2070,1.7177,9.504,True
+VNM,Viet Nam,2071,1.7178,9.478,True
+VNM,Viet Nam,2072,1.7168,9.438,True
+VNM,Viet Nam,2073,1.7156,9.389,True
+VNM,Viet Nam,2074,1.7168,9.346,True
+VNM,Viet Nam,2075,1.7173,9.294,True
+VNM,Viet Nam,2076,1.7149,9.222,True
+VNM,Viet Nam,2077,1.7148,9.161,True
+VNM,Viet Nam,2078,1.7162,9.104,True
+VNM,Viet Nam,2079,1.7156,9.037,True
+VNM,Viet Nam,2080,1.7149,8.969,True
+VNM,Viet Nam,2081,1.7133,8.9,True
+VNM,Viet Nam,2082,1.7107,8.829,True
+VNM,Viet Nam,2083,1.7116,8.781,True
+VNM,Viet Nam,2084,1.7134,8.744,True
+VNM,Viet Nam,2085,1.7121,8.698,True
+VNM,Viet Nam,2086,1.7104,8.656,True
+VNM,Viet Nam,2087,1.7099,8.625,True
+VNM,Viet Nam,2088,1.7085,8.596,True
+VNM,Viet Nam,2089,1.7091,8.584,True
+VNM,Viet Nam,2090,1.7077,8.565,True
+VNM,Viet Nam,2091,1.706,8.549,True
+VNM,Viet Nam,2092,1.7064,8.549,True
+VNM,Viet Nam,2093,1.7051,8.543,True
+VNM,Viet Nam,2094,1.7056,8.548,True
+VNM,Viet Nam,2095,1.7056,8.551,True
+VNM,Viet Nam,2096,1.7078,8.566,True
+VNM,Viet Nam,2097,1.707,8.563,True
+VNM,Viet Nam,2098,1.7053,8.555,True
+VNM,Viet Nam,2099,1.7048,8.548,True
+VNM,Viet Nam,2100,1.7039,8.538,True
