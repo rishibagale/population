@@ -1,8 +1,25 @@
 # World Population, Birth Rates & Long-Term Projections
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/pandas-analysis-150458.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/matplotlib-charts-11557C.svg)](https://matplotlib.org/)
+
 A multi-source demographic research project built on the **UN World Population Prospects 2024**, **Our World in Data**, the **World Bank**, **Gapminder**, the **CIA World Factbook**, and three Kaggle datasets. It cleans and harmonizes ~40 datasets into tidy CSVs and produces 19 publication-style charts covering world, continental, and country-level population and fertility trajectories through 2100.
 
 **The full written analysis with every finding, table, and chart is in [`reports/report.md`](reports/report.md).**
+
+---
+
+## Contents
+
+- [Headline findings](#headline-findings)
+- [Repository layout](#repository-layout)
+- [Charts](#charts)
+- [Data sources](#data-sources)
+- [Reproducibility](#reproducibility)
+- [License](#license)
+- [Report an issue](#report-an-issue)
 
 ---
 
@@ -142,3 +159,9 @@ Processing gotchas are documented in [`reports/report.md` §14](reports/report.m
 Code in this repository is released under the [MIT License](LICENSE).
 
 Processed and chart outputs are derived from the sources above; each retains its original terms (UN WPP: CC BY 3.0 IGO; OWID / World Bank / Gapminder: CC BY; Kaggle datasets: CC0 or CC BY as noted; CIA Factbook: public domain). Attribution to the original sources is preserved in the `reports/report.md` source table.
+
+---
+
+## Report an issue
+
+Found an error in the analysis, a data-processing bug, or a chart that looks wrong? Please [open an issue](https://github.com/rishibagale/population/issues) with the affected chart or CSV name and the source in question. Corrections to headline numbers are especially welcome.
