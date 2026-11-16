@@ -9,17 +9,33 @@ A multi-source demographic research project built on the **UN World Population P
 
 **The full written analysis with every finding, table, and chart is in [`reports/report.md`](reports/report.md).**
 
+A companion study on the consequences of low fertility and what can be done about it is in [`reports/consequences_and_solutions.md`](reports/consequences_and_solutions.md).
+
+## Formats & live site
+
+- **Read online**: the full site (landing page + both reports, all charts) is served via GitHub Pages at **https://rishibagale.github.io/population**
+- **PDF**: [`reports/population_report.pdf`](reports/population_report.pdf) (3.0 MB) and [`reports/consequences_and_solutions.pdf`](reports/consequences_and_solutions.pdf) (1.9 MB) — print-ready versions with charts
+- **Markdown**: [`reports/report.md`](reports/report.md) and [`reports/consequences_and_solutions.md`](reports/consequences_and_solutions.md)
+- To rebuild the site locally: `pip install markdown` then `python build_site.py` (writes `docs/`)
+
 ---
 
 ## Contents
 
 - [Headline findings](#headline-findings)
+- [Consequences & solutions](#consequences--solutions)
 - [Repository layout](#repository-layout)
 - [Charts](#charts)
 - [Data sources](#data-sources)
 - [Reproducibility](#reproducibility)
 - [License](#license)
 - [Report an issue](#report-an-issue)
+
+---
+
+## Consequences & solutions
+
+A second, dedicated study: what happens when births fall far below replacement — depopulation of working-age cohorts, pension and care burden, shrinking tax bases, innovation slowdown, rural hollowing — and an evidence-based menu of responses (pro-natal policy and what it can realistically achieve, labor-force participation, migration, automation/AI productivity, pension reform), with honest trade-offs and which countries are already testing each approach. Findings include: pro-natal packages reliably lift TFR only ~0.1–0.3 (France 1.8, Korea ~1.3 despite $230B since 2006); a 10pp-higher 55–64 employment rate can offset roughly a third of a decade of workforce shrinkage; and age-based pension reform vs. higher productivity is a quantified trade-off (each +1pp in the 65+ dependency share historically costs about 0.2–0.3pp of per-capita GDP growth absent offsetting gains).
 
 ---
 
@@ -41,8 +57,13 @@ A multi-source demographic research project built on the **UN World Population P
 ├── data/
 │   ├── raw/         original source files (not committed — see sources table)
 │   └── processed/   26 tidy CSVs produced by scripts/
+├── docs/            GitHub Pages site (index.html + HTML reports, built by build_site.py)
 ├── reports/
-│   └── report.md    the full analysis, section by section
+│   ├── report.md                            the full analysis, section by section
+│   ├── consequences_and_solutions.md        the companion low-fertility study
+│   ├── population_report.pdf                print-ready full report
+│   └── consequences_and_solutions.pdf       print-ready companion study
+├── build_site.py    builds docs/ HTML from the reports (pip install markdown)
 ├── scripts/         pandas + matplotlib pipelines (see Reproducibility)
 ├── LICENSE          MIT
 └── README.md

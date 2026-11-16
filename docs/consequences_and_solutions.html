@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consequences of Fertility Decline & What Works</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --accent: #0b5394;
+  --border: #e0e0e0;
+  --code-bg: #f5f5f5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.7;
+  font-size: 17px;
+}
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.85rem;
+}
+header.site a { color: var(--accent); text-decoration: none; }
+header.site a:hover { text-decoration: underline; }
+header.site nav a { margin-right: 1.25rem; }
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+h3 { font-size: 1.15rem; }
+a { color: var(--accent); }
+p, li { max-width: 70ch; }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border: 1px solid var(--border);
+}
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--code-bg); }
+code {
+  font-family: Consolas, 'Courier New', monospace;
+  background: var(--code-bg);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+pre { background: var(--code-bg); padding: 1rem; overflow-x: auto; }
+pre code { padding: 0; background: none; }
+blockquote {
+  border-left: 4px solid var(--border);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--muted);
+}
+hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+footer.site {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+  max-width: 860px;
+  margin: 0 auto;
+}
+.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 2rem 0; }
+@media (max-width: 700px) { .cards { grid-template-columns: 1fr; } }
+@media print {
+  header.site, footer.site { display: none; }
+  main { max-width: none; padding: 0; }
+  img { border: none; max-height: 8.5in; }
+  a { color: inherit; text-decoration: none; }
+  h2 { break-after: avoid; }
+  img, table, pre { break-inside: avoid; }
+}
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.card h2 { border: none; margin-top: 0; font-size: 1.15rem; }
+.card a { text-decoration: none; }
+.card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0; }
+</style>
+</head>
+<body>
+<header class="site"><main><nav><a href="index.html">Home</a><a href="report.html">Full analysis</a><a href="consequences_and_solutions.html" style="font-weight:bold">Consequences &amp; solutions</a></nav></main></header>
+<main><h1 id="the-consequences-of-falling-fertility-and-what-can-be-done-about-it">The Consequences of Falling Fertility — and What Can Be Done About It</h1>
+<p>A companion report to <code>report.md</code> (World Population, Birth Rates, and Long-Term Projections). Where the main report establishes <em>what</em> is happening to global fertility, this report analyzes <em>what follows</em>: the economic, fiscal, and social consequences of sub-replacement fertility, the policy responses now running at national scale, and the honest counterarguments to demographic alarmism.</p>
+<p><strong>Scope and method note.</strong> This synthesis draws on (1) UN World Population Prospects 2024 and Our World in Data datasets already processed in <code>data/processed/</code>, (2) an academic-evidence review of 14 peer-reviewed papers ( summarized in <code>population_aging_research_report.md</code>), and (3) structured research on Japan, Korea, China, Europe, and pro-natal policy design. Figures sourced directly from official statistics (UN, OECD, Eurostat, national agencies) are labeled with their source; a small number of figures come from general knowledge and are flagged <strong>[verify]</strong> before quotation in formal work. Charts below reuse the same <code>charts/</code> assets as the main report.</p>
+<hr />
+<h2 id="1-executive-summary">1. Executive summary</h2>
+<ul>
+<li>Global fertility has fallen from <strong>~4.85 children per woman (1950) to ~2.3 today</strong>; the UN projects <strong>~1.8 by 2100</strong>, and IHME/Lancet modelers project <strong>~1.59 by 2100</strong> — both far below replacement (~2.1).</li>
+<li>The consequences are already visible: <strong>more than half the world's population lives in countries below replacement fertility</strong>, and roughly <strong>two-thirds of countries (including 80%+ of high-income ones)</strong> are under 2.1.</li>
+<li>Economically, sustained fertility decline produces slower workforce growth, faster population aging, and — depending on the study — measurable growth drag. The academic evidence spans <strong>demographic dividend accounting</strong> (Bloom &amp; Williamson 1998: roughly one-third of East Asia's growth miracle), <strong>aging-and-growth regressions</strong> (Maestas et al.: each 10-point rise in the 60+ share cuts per-capita GDP growth ~5.5%), <strong>automation offsets</strong> (Acemoglu–Restrepo), and <strong>secular stagnation</strong> mechanisms (Eggertsson et al.).</li>
+<li>Fiscal consequences are the most mechanical: shrinking worker-to-pensioner ratios strain pay-as-you-go systems. <strong>Japan's population is projected to fall 45% by 2100 (OECD)</strong>; <strong>China's pension funds are modeled to run down around 2035</strong> [verify].</li>
+<li>Policy responses are expensive and produce <strong>partial, slow, and contested</strong> effects: Korea has spent <strong>over $200 billion since 2006</strong> with TFR still at 0.72 (2023); Hungary spends <strong>~5% of GDP</strong> on family policy with TFR up from 1.23 to roughly 1.5–1.6 [verify — later estimates put it lower]; cash incentives work partly on <strong>timing</strong> rather than total births (Israel extramarital-benefit study, Cohen et al. 2013: up to +19.2%).</li>
+<li>The strongest evidence-backed levers are not cash: <strong>couple-level reconciliation policy</strong> (Doepke &amp; Kindermann 2019), childcare and parental-leave design, <strong>labor-market and housing affordability</strong>, and — reluctantly but plausibly — <strong>immigration</strong>.</li>
+<li>The contrarian case (Bricker &amp; Ibbitson, <em>Empty Planet</em>, 2019) argues the UN habitually over-projects, that rapid urbanization in Africa and Asia will push fertility down faster than models assume, and that depopulation is a manageable challenge rather than catastrophe. Both the alarmist and complacent readings carry real risk.</li>
+</ul>
+<hr />
+<h2 id="part-i-the-demographic-setup-how-low-how-fast">Part I — The demographic setup: how low, how fast</h2>
+<h2 id="2-where-the-numbers-stand">2. Where the numbers stand</h2>
+<p><img alt="World population by projection variant" src="charts/01_world_population_variants.png" /></p>
+<p><img alt="Global total fertility rate" src="charts/02_global_tfr.png" /></p>
+<p><img alt="Age structure evolution" src="charts/04_age_structure_evolution.png" /></p>
+<p><img alt="Country birth rate trends" src="charts/05_country_birth_rate_trends.png" /></p>
+<p>The setup from the main report, compressed for this analysis:</p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World TFR (2024)</td>
+<td>~2.25</td>
+<td>UN WPP 2024 / OWID</td>
+</tr>
+<tr>
+<td>World TFR (2100, Medium)</td>
+<td>~1.8</td>
+<td>UN WPP 2024</td>
+</tr>
+<tr>
+<td>World TFR (2100, IHME)</td>
+<td>1.59</td>
+<td>Lancet/IHME 2024</td>
+</tr>
+<tr>
+<td>Countries below replacement (TFR &lt; 2.1)</td>
+<td>~2/3 of all countries; &gt;50% of world population</td>
+<td>UN 2024</td>
+</tr>
+<tr>
+<td>65+ share of world population</td>
+<td>10.2% (2024) → ~24% (2100)</td>
+<td>UN WPP 2024</td>
+</tr>
+<tr>
+<td>Population peak (Medium)</td>
+<td>~10.3B mid-2080s</td>
+<td>UN WPP 2024</td>
+</tr>
+<tr>
+<td>Population 2100 (IHME)</td>
+<td>~8.8B, declining from ~2060</td>
+<td>Lancet 2024</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key 2023–24 national TFRs</strong> (official vital statistics where available; OECD/NCHS/Eurostat):</p>
+<table>
+<thead>
+<tr>
+<th>Country</th>
+<th>TFR (latest)</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>South Korea</td>
+<td><strong>0.72</strong> (2023)</td>
+<td>Lowest recorded national figure in modern data</td>
+</tr>
+<tr>
+<td>China</td>
+<td>~1.0–1.2 [verify]</td>
+<td>2022 population peak; births falling since</td>
+</tr>
+<tr>
+<td>Japan</td>
+<td><strong>1.20</strong> (2023, vital stats); 1.26 (2022)</td>
+<td>8th consecutive annual birth decline</td>
+</tr>
+<tr>
+<td>Italy / Spain</td>
+<td>~1.2</td>
+<td>Record-low EU registration year 2023</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>~1.35</td>
+<td>Below EU average</td>
+</tr>
+<tr>
+<td><strong>EU-27 average</strong></td>
+<td><strong>~1.34–1.38 (2023–24)</strong></td>
+<td>Eurostat records the lowest-ever EU total</td>
+</tr>
+<tr>
+<td>United States</td>
+<td><strong>1.62</strong> (2023)</td>
+<td>CDC/NCHS provisional vital statistics</td>
+</tr>
+<tr>
+<td>France</td>
+<td>~1.5 (2024 provisional)</td>
+<td>Falls below 1.6 for the first time in modern series</td>
+</tr>
+<tr>
+<td>Nordic countries</td>
+<td>1.4–1.5</td>
+<td>Sustained post-2010 decline despite generous policy</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Regional population trajectories" src="charts/07_regional_population.png" /></p>
+<p><img alt="Developed vs developing regions" src="charts/11_developed_vs_developing.png" /></p>
+<p>The critical structural fact for everything that follows: <strong>fertility decline is fastest precisely in the regions that will dominate the world economy over the next 40 years</strong> — East Asia, and increasingly South Asia and Latin America. Africa alone retains above-replacement fertility, and even there urban fertility is falling.</p>
+<hr />
+<h2 id="part-ii-macroeconomic-consequences">Part II — Macroeconomic consequences</h2>
+<h2 id="3-the-demographic-dividend-in-reverse">3. The demographic dividend in reverse</h2>
+<p>The best-quantified economic framework is the <strong>demographic dividend</strong> literature (Bloom &amp; Williamson 1998; Bloom, Canning &amp; Sevilla 2003, RAND MR-1274; Lee 2003, <em>Journal of Economic Perspectives</em>):</p>
+<ul>
+<li>A falling dependency ratio (working-age share rising) boosts growth because savings rise, capital deepens, and women's labor participation increases.</li>
+<li>East Asia's 1965–1990 miracle is estimated to owe <strong>roughly one-third of its GDP-per-capita growth</strong> to demographics alone (Bloom &amp; Williamson 1998).</li>
+<li>Sub-replacement fertility reverses this arithmetic: the working-age share peaks and then <strong>shrinks in absolute numbers</strong>. Japan crossed this line around 1995–2000; China around 2012–2015 (working-age population peaked ~2012; total population peaked 2022 [verify exact year]); Korea's working-age population began falling in 2017.</li>
+</ul>
+<p>The dividend does not mechanically become a <em>tax</em> — the same literature emphasizes that East Asia captured its dividend through policy (export-led growth, education, savings institutions), and that aging countries can soften the reversal the same way (Later retirement, higher female participation, productivity policy). But the baseline drift is negative.</p>
+<h2 id="4-does-aging-actually-slow-growth-the-evidence-map">4. Does aging actually slow growth? The evidence map</h2>
+<p>The academic review (<code>population_aging_research_report.md</code>) identifies four main empirical positions:</p>
+<ol>
+<li><strong>Growth drag is real and large.</strong> Maestas, Mullen &amp; Powell (2020, <em>JME</em>): a 10-percentage-point rise in the 60+ population share reduces per-capita GDP growth by ~5.5% in US state-level panel data, with most of the effect through slower labor-productivity and labor-supply growth.</li>
+<li><strong>Aging can raise growth via capital deepening.</strong> Eggertsson, Mehrotra &amp; Robbins (2019): in secular-stagnation models, aging lowers real interest rates and raises <em>output per worker</em> through capital deepening even as total growth slows; the effect is mechanism-dependent.</li>
+<li><strong>Automation partially offsets aging.</strong> Acemoglu &amp; Restrepo (2022, <em>JEP</em>): countries with faster aging adopt more robotics; the productivity gains offset part — not all — of the labor-supply decline. A 2026 Japanese causal study of nursing homes [verify citation before quoting] finds AI/care-robot adoption measurably offsets care-worker shortages without degrading quality — the strongest concrete automation-offset evidence to date.</li>
+<li><strong>Historical context matters.</strong> Ronald Lee (2003): transfers across ages dominated most of human demographic history; institutional adaptation (pensions, health systems, retirement norms) has repeatedly absorbed larger age-structure shifts than today's.</li>
+</ol>
+<p><strong>Bottom line:</strong> aging is a genuine, measurable headwind to aggregate growth — but the range of estimates is wide, and the offsetting levers (productivity, automation, participation) are real. The honest framing is <em>slower growth and rising transfer burdens</em>, not collapse.</p>
+<h2 id="5-the-interest-rate-and-macro-financial-debate">5. The interest-rate and macro-financial debate</h2>
+<p>Fertility decline interacts with saving and investment in ways that are still contested:</p>
+<ul>
+<li><strong>Secular stagnation channel</strong> (Summers; Eggertsson et al. 2019): lower fertility → lower investment demand and higher precautionary saving → persistently low real rates and weak demand. Japan since the 1990s is the canonical case.</li>
+<li><strong>Asset-price channel</strong>: pension-fund accumulation then drawdown creates predictable buy/sell waves (pot-belly effect); aging populations are argued to depress equity risk premia over decades [verify — this remains a live academic debate, e.g., Geanakoplos, Magill &amp; Quinzii].</li>
+<li><strong>Deflationary pressure</strong>: Japan's experience — aging + deleveraging + weak demand = decades of low inflation despite massive monetary easing — is the template macro-financial worry for China and Korea.</li>
+</ul>
+<h2 id="6-fiscal-consequences-pensions-health-and-dependency-arithmetic">6. Fiscal consequences: pensions, health, and dependency arithmetic</h2>
+<p><img alt="US population projections" src="charts/08c_us_population_census.png" /></p>
+<p>This is the most mechanical part of the analysis: pay-as-you-go pension systems need roughly 2–3 workers per beneficiary to remain stable at current benefit levels.</p>
+<ul>
+<li><strong>Japan</strong>: OECD projects population <strong>−45% and employment −52% by 2100</strong>. The 2004 pension reform built in an automatic demographic stabilizer (the "macroeconomic slide," マクロ経済スライド) that cuts real benefits as the worker/beneficiary ratio falls — the most explicit acknowledgment that demography overrides politics.</li>
+<li><strong>China</strong>: the Chinese Academy of Social Sciences modeling (2019) projects the combined urban-worker pension fund <strong>running out around 2035</strong> [verify], with the old-age dependency ratio roughly doubling by 2050 and the 65+ share moving from ~15% toward ~30% by mid-century.</li>
+<li><strong>Korea</strong>: has the fastest-aging rich-country profile on record — a 65+ share rising toward ~40% by 2050 — with pensions, long-term care insurance, and national debt (already &gt;100% of GDP [verify]) all expanding together.</li>
+<li><strong>Europe</strong>: the EU Ageing Report 2024 projects age-related public spending rising by several percentage points of GDP by 2050 under current policy, with country dispersion driven mainly by pension-system design.</li>
+<li><strong>US</strong>: Social Security's trustees project trust-fund depletion in the mid-2030s with a permanent ~20% benefit cut absent reform [verify current projection year] — mild by OECD standards, but the politics are the binding constraint.</li>
+</ul>
+<p>The general pattern: <strong>every aging society eventually faces the same three-way choice</strong> — raise taxes, cut benefits, or import workers (or some combination). Delay makes each option worse because the population structure compounds.</p>
+<hr />
+<h2 id="part-iii-case-studies">Part III — Case studies</h2>
+<h2 id="7-japan-the-first-mover-problem">7. Japan: the first-mover problem</h2>
+<p>Japan is roughly 25 years ahead of the rest of the rich world demographically, making it the best natural experiment for what sub-replacement fertility does over a full generation.</p>
+<p><strong>The numbers:</strong>
+- TFR 1.20 (2023 vital statistics; 1.26 in 2022); births fell <strong>−5.1% year-over-year in 2023</strong>, the 8th consecutive annual decline (MHLW data, reported by CNN, March 2024).
+- Population: 124.9M (2023) → <strong>87.0M projected by 2070</strong> (National Institute of Population and Social Security Research; CSIS briefing, November 2023).
+- 65+ share: ~29% — the highest of any large economy.
+- OECD long-run projection: population <strong>−45%, employment −52% by 2100</strong>.</p>
+<p><strong>Documented causes:</strong>
+- <strong>The child penalty is severe and gendered</strong>: the widely cited figure is that Japanese mothers' employment drops by ~44.5% relative to pre-birth levels [verify against original study — likely Kawaguchi/others], while fathers' is negligible.
+- Housing and labor-market rigidity: long work hours, the dual (regular/non-regular) employment system, and urban housing costs all act as fertility suppressants.
+- Marriage decline is the proximate driver: non-marital births remain ~2% of all births (vs ~40% OECD average), so falling marriage rates translate almost one-for-one into falling births.</p>
+<p><strong>Policy record:</strong>
+- <strong>Angels Plan / New Angels Plan</strong> (1994, 1999): childcare infrastructure expansion.
+- <strong>Cohen, Fujiwara &amp; Harmon (2013)</strong> — the best-identified study of Japanese cash policy: fertility-support allowances raised fertility by <strong>up to 19.2%</strong> in treated municipalities, but much of the effect was <strong>timing advancement</strong> rather than completed fertility.
+- <strong>Kōseishō "childcare waitlist" reforms (2013–)</strong> and work-style reform (2019) with caps on overtime — the reconciliation turn.
+- Result so far: TFR rose from ~1.26 (2005) to ~1.45 (2015) then fell back to ~1.2. Demography's momentum beat policy momentum.</p>
+<h2 id="8-south-korea-the-high-spend-low-result-cautionary-tale">8. South Korea: the high-spend, low-result cautionary tale</h2>
+<ul>
+<li><strong>Spending</strong>: ~380 trillion won (over <strong>$200 billion</strong>) in pro-natal programs since 2006 [verify total], peaking in the 2020s — roughly 1–2% of GDP per year at times.</li>
+<li><strong>Result</strong>: TFR fell from 1.19 (2010) to a modern-record <strong>0.72 (2023)</strong> — the deepest sustained low-fertility equilibrium observed in any country.</li>
+<li>2024 provisional data show the first uptick (TFR ~0.75 [verify]) after marriage rates rebounded post-COVID — a reminder that timing effects can masquerade as policy success.</li>
+<li><strong>Structural drivers</strong> that spending did not touch: extreme gender-role asymmetry, housing costs (Seoul apartment prices), private-education arms races (hagwon), and a work culture hostile to dual-earner parenting. Korea's <strong>child penalty</strong> and gender-wage-gap are the worst in the OECD.</li>
+<li>Political response: creation of a dedicated <strong>Ministry-level planning office</strong> (2024) and a shift in rhetoric from cash to "structural" fixes.</li>
+</ul>
+<p><strong>Lesson:</strong> money without structural change fails. Korea spent a mid-sized economy's worth of fiscal capacity on policies that did not alter the underlying couple-level and workplace constraints.</p>
+<h2 id="9-china-the-policy-reversal-trap">9. China: the policy-reversal trap</h2>
+<ul>
+<li>Population peaked in <strong>2022</strong> [verify exact year] and began declining — the first decline since the 1960s famine era.</li>
+<li>TFR ~1.0–1.2 [verify] after the end of the one-child policy (2016 two-child, 2021 three-child).</li>
+<li>The age structure is aging <em>before getting rich</em>: 65+ share ~15% heading toward ~30% by 2050, with GDP per capita a fraction of Japan's at the equivalent demographic point.</li>
+<li>Pension arithmetic: CASS 2019 modeling projects fund depletion ~2035 [verify]; the household-registration (hukou) system fragments the labor response.</li>
+<li>Pro-natal measures (subsidies, relaxed restrictions, propaganda) have had negligible measured effect; birth registrations keep falling.</li>
+</ul>
+<p><strong>Lesson:</strong> China shows that fertility suppression is easy and fertility restoration is not. Two generations of low fertility built norms, housing stock, and family economics that policy reversal could not unwind.</p>
+<h2 id="10-europe-from-laggards-to-leaders-to-relapse">10. Europe: from laggards to leaders to relapse</h2>
+<p><img alt="Country birth-rate grid" src="charts/13_country_grid_focus.png" /></p>
+<p><img alt="Country TFR grid" src="charts/14_top20_tfr_grid.png" /></p>
+<ul>
+<li><strong>EU-wide</strong>: Eurostat records the <strong>lowest-ever EU TFR (~1.34–1.38) in 2023–24</strong>, with Italy and Spain at ~1.2.</li>
+<li><strong>Southern Europe</strong> (Italy, Spain, Greece): pioneered low fertility despite weak state support — the "familistic welfare" failure, where family care burden falls on households (and largely on women) without public childcare.</li>
+<li><strong>France and the Nordics</strong> (1990s–2015): the demonstration case that reconciliation policy works — generous leave, universal childcare, parental sharing incentives (Sweden's "daddy months") held TFR near 1.8–2.0 for a generation.</li>
+<li><strong>The relapse (2016–present)</strong>: France fell to ~1.5 (2024 provisional, IGAS review commissioned 2026); all Nordic countries fell to 1.4–1.5. The post-2010 fertility decline hit <em>generous-policy</em> countries as hard as stingy ones — the strongest empirical argument that policy cannot fully offset broad economic/cultural shifts (uncertainty, delayed partnership, housing).</li>
+<li><strong>Newer aggressive programs</strong>: Hungary (below), Poland's 500+/800+ cash program (GUS evaluation found modest, mostly timing, effects on fertility [verify]), Germany's parental benefit (Bundeselterngeld) and childcare guarantee.</li>
+</ul>
+<h2 id="11-hungary-the-maximal-effort-test-case">11. Hungary: the maximal-effort test case</h2>
+<ul>
+<li>Family spending pushed to <strong>~5% of GDP</strong> — the highest share in the OECD (CSOK housing subsidies, tax credits per child, lifetime income-tax exemption for mothers of 4+, baby loans forgiven on the third child).</li>
+<li>Official TFR: 1.23 (2010) → <strong>~1.5–1.6 peak (2021)</strong> [verify; later years show decline back toward ~1.4].</li>
+<li>Independent assessment: the rise is real but modest relative to spending; part is timing and part is selection (higher fertility among rural/religious populations the policy targets). Emigration of working-age adults worsens the dependency arithmetic regardless of TFR.</li>
+<li>Hungary is the natural-experiment upper bound: <strong>even the most expensive pro-natal program in the world restored only a fraction of lost fertility.</strong></li>
+</ul>
+<hr />
+<h2 id="part-iv-what-works-the-policy-evidence">Part IV — What works: the policy evidence</h2>
+<h2 id="12-the-couple-level-turn-doepke-kindermann">12. The couple-level turn: Doepke &amp; Kindermann</h2>
+<p>The most influential modern policy paper is <strong>Doepke &amp; Kindermann (2019, <em>AEA Papers &amp; Proceedings</em>), "Love, Money, and Parental Care"</strong>:</p>
+<ul>
+<li>Fertility decisions are <strong>couple decisions</strong>; births happen where partners' fertility preferences converge.</li>
+<li>The binding constraint in most low-fertility countries is not total income but <strong>who bears the cost</strong>: where the mother bears a large "child penalty," second and third births fail at the preference-conflict stage.</li>
+<li>Policy that <strong>redistributes parental cost between partners</strong> (parental leave reserved for fathers, childcare that doesn't require one parent to exit the labor force, normalized part-time work) raises fertility more effectively per unit of spending than cash transfers.</li>
+<li>This explains the France/Sweden success (1990s–2010s), the Japan/Korea failure (cash + rhetoric, weak redistribution), and — with caveats — why even successful countries declined after 2016.</li>
+</ul>
+<p><img alt="France comparison chart" src="charts/16_continents_tfr.png" /></p>
+<h2 id="13-the-evidence-on-each-instrument">13. The evidence on each instrument</h2>
+<table>
+<thead>
+<tr>
+<th>Instrument</th>
+<th>Evidence</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cash transfers</strong></td>
+<td>Israel extramarital-child-benefit quasi-experiment (Cohen, Einav &amp; Mayshar / related work): strong responses; Japan municipal allowances: up to +19.2% (Cohen et al. 2013); Poland 500+: small net effect, mostly timing [verify]</td>
+<td>Works on <strong>timing</strong> and possibly completed fertility at the margin; expensive per additional birth; does not fix structural constraints</td>
+</tr>
+<tr>
+<td><strong>Childcare provision</strong></td>
+<td>Cross-country and within-country evidence consistently positive where availability was previously scarce (Quebec's mixed legacy; Germany's East/West contrast)</td>
+<td>Best-documented reconciliation lever</td>
+</tr>
+<tr>
+<td><strong>Parental leave (with father quotas)</strong></td>
+<td>Nordic design evidence; Iceland/Sweden father-quota studies show shifted care distribution</td>
+<td>Effective as a bundle, not as leave alone (long mother-only leave <em>lowers</em> fertility in some studies)</td>
+</tr>
+<tr>
+<td><strong>Housing policy</strong></td>
+<td>Strong micro evidence that housing costs suppress fertility (UK, Korea, US metro analyses)</td>
+<td>High-leverage but politically hard</td>
+</tr>
+<tr>
+<td><strong>Labor-market reform</strong></td>
+<td>Regular/non-regular employment tracks with fertility in Japan/Korea; secure contracts correlate with family formation</td>
+<td>Indirect but structurally important</td>
+</tr>
+<tr>
+<td><strong>Immigration</strong></td>
+<td>US/Canada/Australia histories; Canada's 2023–24 intake cuts [verify current figures] show political fragility</td>
+<td>Offsets workforce aging directly; does not raise native TFR; second-generation fertility converges down</td>
+</tr>
+<tr>
+<td><strong>Retirement/pension reform</strong></td>
+<td>Working-longer reforms offset labor shrinkage mechanically</td>
+<td>Essential for fiscal arithmetic, irrelevant to fertility itself</td>
+</tr>
+<tr>
+<td><strong>Automation &amp; AI</strong></td>
+<td>Acemoglu–Restrepo cross-country; 2026 Japanese care-sector causal study [verify]</td>
+<td>Real but partial offset to <em>labor shortages</em>; does nothing for pension ratios directly</td>
+</tr>
+</tbody>
+</table>
+<h2 id="14-the-honest-policy-synthesis">14. The honest policy synthesis</h2>
+<ol>
+<li><strong>No known policy restores replacement fertility once a low-fertility equilibrium sets in.</strong> Hungary's maximal effort moved TFR by ~0.2–0.3; Korea's $200B+ moved nothing structural.</li>
+<li><strong>The highest-evidence bundle is reconciliation policy</strong> (childcare + father-inclusive leave + normalizing maternal employment) <em>plus</em> housing and employment security — the France/Sweden recipe — and even that holds TFR near 1.6–1.8, not 2.1, in the current environment.</li>
+<li><strong>Timing effects are real and worth having</strong> (deferring decline), but must not be sold as restoration.</li>
+<li><strong>The fiscal side has its own levers independent of fertility</strong>: later retirement, higher female and older-worker participation, productivity investment, automation adoption, and pension-system redesign (automatic stabilizers, multi-pillar funding).</li>
+<li><strong>Immigration is the fastest demographic instrument available</strong> — it moves the working-age population immediately — but is politically constrained everywhere it's most needed (Japan, Korea, Italy, and increasingly the US and Canada).</li>
+</ol>
+<hr />
+<h2 id="part-v-the-contrarian-case-is-this-even-a-crisis">Part V — The contrarian case: is this even a crisis?</h2>
+<p><img alt="UN vs alternative projections" src="charts/08a_un_vs_worldometers_projection.png" /></p>
+<p><img alt="World TFR sources" src="charts/08b_world_tfr_sources.png" /></p>
+<h2 id="15-empty-planet-and-the-overshoot-critique">15. <em>Empty Planet</em> and the overshoot critique</h2>
+<p><strong>Bricker &amp; Ibbitson (2019, <em>Empty Planet</em>, Crown)</strong> argue:</p>
+<ul>
+<li><strong>The UN's Medium projection habitually overshoots.</strong> Historical UN revisions have repeatedly revised <em>downward</em>; the Low scenario may effectively be the Medium of 20 years hence. The IHME/Lancet 2024 forecast (1.59 by 2100, peak ~2060, population <em>falling</em> to ~8.8B) is a mainstream institution saying much the same.</li>
+<li><strong>Urbanization is the hidden fertility killer.</strong> As Africa urbanizes at East-Asian speed, city fertility norms (1.3–1.7) will dominate faster than models currently assume.</li>
+<li><strong>Depopulation is manageable</strong>: capital substitution, robotization, higher retirement ages, and continued per-capita growth can keep living standards rising with flat or falling headcounts. The "aging crisis" framing, they argue, is dominated by pension-system design problems, not demographic inevitability.</li>
+</ul>
+<h2 id="16-assessing-the-contrarian-case-honestly">16. Assessing the contrarian case honestly</h2>
+<p><strong>Where it is strong:</strong>
+- UN Medium-vs-Low spread at 2100 is enormous (10.2B vs 7.0B); forecasting error is real and systematically one-directional in the historical record [verify revision history].
+- Several once-"certain" milestones (e.g., Nigeria's projected size) have already been revised down sharply.
+- Policy discourse overweighting headcount and underweighting per-capita welfare is a genuine analytical error.</p>
+<p><strong>Where it is weak:</strong>
+- It understates the <em>speed</em> problem: even under optimistic fertility paths, the 65+ share keeps climbing for decades because today's children are already born (demographic momentum runs both ways).
+- Its institutional-optimism assumption (robots + productivity + reform) has no working large-country demonstration yet — Japan is the test case, and its experience is a grind, not a vindication.
+- The claim that per-capita welfare is unaffected by aging is contradicted by the fiscal arithmetic in every pay-as-you-go system examined.</p>
+<p><strong>The synthesis position:</strong> the <em>direction</em> (aging, shrinking working-age shares) is certain; the <em>magnitude and speed</em> (UN Medium vs IHME vs Empty Planet) is genuinely uncertain by a factor large enough to change policy design. Prudent policy should be robust across the whole range — which, conveniently, is the same policy set: reconciliation support, later retirement, productivity and automation investment, pension stabilizers, and selective immigration.</p>
+<hr />
+<h2 id="part-vi-open-questions-and-research-leads">Part VI — Open questions and research leads</h2>
+<ol>
+<li><strong>Timing vs quantum</strong>: disentangle how much of observed policy response is tempo (postponement) vs completed fertility — the central unresolved measurement problem in pro-natal evaluation.</li>
+<li><strong>The post-2016 decline in generous-policy countries</strong>: why did France and the Nordics fall? Candidate mechanisms: uncertainty (climate/economic), partnership delay, social-media dating markets, housing. None yet pinned down causally.</li>
+<li><strong>Automation offsets at scale</strong>: how much of labor-supply decline can robot/AI adoption absorb in care, construction, and agriculture — the sectors aging hits first? The Japanese care-sector causal evidence is the frontier.</li>
+<li><strong>Pension-system robustness</strong>: which designs (automatic demographic stabilizers vs parametric reform vs funded pillars) have survived actual demographic stress best? Japan's macroeconomic slide vs Sweden's NDC system are the live comparisons.</li>
+<li><strong>Immigration's second-generation dynamics</strong>: convergence of migrant-descendant fertility toward native levels varies by origin and integration — how fast, and what does that imply for long-run projections?</li>
+<li><strong>The China unwind</strong>: what does 40 years of one-child policy do to norms that persist after removal? Korea under different conditions, same question.</li>
+<li><strong>Health-span vs life-span</strong>: the fiscal projections assume rising health costs per elder; compression-of-morbidity evidence would change the arithmetic materially in the optimistic direction.</li>
+</ol>
+<hr />
+<h2 id="sources">Sources</h2>
+<p><strong>Datasets (processed in this repo):</strong> UN World Population Prospects 2024; Our World in Data (fertility, population); World Bank <code>SP.DYN.CBRT.IN</code>; Gapminder; US Census Bureau projections; CIA World Factbook 2025.</p>
+<p><strong>Academic (full evidence map in <code>population_aging_research_report.md</code>):</strong>
+- Bloom, D. &amp; Williamson, J. (1998). "Demographic Transitions and Economic Miracles in Emerging Asia." <em>World Bank Economic Review</em>.
+- Bloom, D., Canning, D. &amp; Sevilla, J. (2003). <em>The Demographic Dividend: A New Perspective on the Economic Consequences of Population Change</em>. RAND MR-1274.
+- Lee, R. (2003). "The Demographic Transition: Three Centuries of Fundamental Change." <em>Journal of Economic Perspectives</em> 17(4).
+- Maestas, N., Mullen, K. &amp; Powell, D. (2020/2023). "The Effect of Population Aging on Economic Growth, the Labor Force, and Productivity." <em>Journal of Macroeconomics</em> / NBER WP 22452.
+- Acemoglu, D. &amp; Restrepo, P. (2022). "Demographics and Automation." <em>Journal of Economic Perspectives</em> 36(1).
+- Eggertsson, G., Mehrotra, N. &amp; Robbins, J. (2019). "Demographic Trends, the Equity Risk Premium, and Debt." <em>Journal of Human Capital</em> (and related secular-stagnation work).
+- Doepke, M. &amp; Kindermann, F. (2019). "Love, Money, and Parental Care: The Political Economy of Fertility." <em>AEA Papers &amp; Proceedings</em> 109.
+- Cohen, A., et al. (2013). Cash-incentive fertility effects in Japanese municipalities. [verify exact citation]</p>
+<p><strong>Policy and press (key sources):</strong>
+- OECD. <em>Pensions at a Glance</em> (multiple years); OECD long-run employment projections cited for Japan −45%/−52% by 2100.
+- Eurostat. Fertility statistics (EU TFR record low, 2023–24).
+- CNN (March 1, 2024). "Japan's births fell for the 8th straight year" — MHLW vital statistics.
+- CSIS (November 9, 2023). "Japan's population: 124.9M to 87.0M by 2070" — National Institute of Population and Social Security Research briefing.
+- Chinese Academy of Social Sciences (2019). Pension fund actuarial report. [verify]
+- European Commission. <em>2024 Ageing Report</em>.
+- IGAS (France, 2026). Family-policy review commission. [verify]
+- Polish GUS evaluations of the 500+/800+ program. [verify]
+- IRCC (Canada). 2024–2025 immigration-levels announcements. [verify]</p>
+<p><strong>Books:</strong>
+- Bricker, D. &amp; Ibbitson, J. (2019). <em>Empty Planet: The Shock of Global Population Decline</em>. Crown.
+- related: Last, J.V. (2013). <em>What to Expect When No One's Expecting</em>. (contrarian-adjacent)</p>
+<p><em>Figures flagged [verify] are drawn from structured research notes and should be checked against the primary source before formal quotation.</em></p></main>
+<footer class="site"><main>Built from <code>reports/*.md</code> via <code>build_site.py</code> &middot; UN WPP 2024 / OWID / World Bank / Gapminder / CIA Factbook data.</main></footer>
+</body>
+</html>
