@@ -7,6 +7,7 @@ Outputs:
     docs/index.html                       landing page
     docs/report.html                      full analysis
     docs/consequences_and_solutions.html  consequences & policy report
+    docs/ai_robotics_and_demography.html  AI/robotics & demography report
     docs/charts/                          copies of charts/*.png
 """
 
@@ -25,6 +26,8 @@ REPORTS = [
     ("reports/report.md", "report.html", "World Population, Birth Rates & Long-Term Projections"),
     ("reports/consequences_and_solutions.md", "consequences_and_solutions.html",
      "Consequences of Fertility Decline & What Works"),
+    ("reports/ai_robotics_and_demography.md", "ai_robotics_and_demography.html",
+     "AI, Physical AI & Robotics in an Aging World"),
 ]
 
 CSS = """
@@ -114,7 +117,7 @@ footer.site {
   max-width: 860px;
   margin: 0 auto;
 }
-.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 2rem 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
 @media (max-width: 700px) { .cards { grid-template-columns: 1fr; } }
 @media print {
   header.site, footer.site { display: none; }
@@ -149,7 +152,8 @@ def page(title: str, body: str, active: str = "") -> str:
     nav = (
         '<nav><a href="index.html">Home</a>'
         f'<a href="report.html"{bold if active == "report" else ""}>Full analysis</a>'
-        f'<a href="consequences_and_solutions.html"{bold if active == "conseq" else ""}>Consequences &amp; solutions</a></nav>'
+        f'<a href="consequences_and_solutions.html"{bold if active == "conseq" else ""}>Consequences &amp; solutions</a>'
+        f'<a href="ai_robotics_and_demography.html"{bold if active == "ai" else ""}>AI &amp; demography</a></nav>'
     )
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -191,6 +195,9 @@ futures, source cross-checks, and reproducibility notes — every finding, table
 <div class="card"><h2><a href="consequences_and_solutions.html">Consequences of fertility decline &amp; what works &rarr;</a></h2>
 <p>A deep-research report on what below-replacement fertility does to growth, pensions, and
 societies — and an honest review of the policy evidence on pro-natalist intervention.</p></div>
+<div class="card"><h2><a href="ai_robotics_and_demography.html">AI, robots &amp; demographic decline &rarr;</a></h2>
+<p>Can AI and physical AI offset an aging workforce — and do they change fertility itself? A
+An 188-source synthesis of economist forecasts, robotics data, care evidence, and prediction markets.</p></div>
 </div>
 <h2>Headline findings</h2>
 <ul>
@@ -221,8 +228,10 @@ def main() -> None:
         for name in stale:
             (dest / name).unlink()
         print(f"mirrored {len(pngs)} charts to docs/charts/")
+    active_pages = {"report.html": "report", "consequences_and_solutions.html": "conseq",
+                    "ai_robotics_and_demography.html": "ai"}
     for md_path, out_name, title in REPORTS:
-        build_report(md_path, out_name, title, "report" if out_name == "report.html" else "conseq")
+        build_report(md_path, out_name, title, active_pages[out_name])
     build_index()
 
 

@@ -91,7 +91,7 @@ footer.site {
   max-width: 860px;
   margin: 0 auto;
 }
-.cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 2rem 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
 @media (max-width: 700px) { .cards { grid-template-columns: 1fr; } }
 @media print {
   header.site, footer.site { display: none; }
@@ -113,7 +113,7 @@ footer.site {
 </style>
 </head>
 <body>
-<header class="site"><main><nav><a href="index.html">Home</a><a href="report.html" style="font-weight:bold">Full analysis</a><a href="consequences_and_solutions.html">Consequences &amp; solutions</a></nav></main></header>
+<header class="site"><main><nav><a href="index.html">Home</a><a href="report.html" style="font-weight:bold">Full analysis</a><a href="consequences_and_solutions.html">Consequences &amp; solutions</a><a href="ai_robotics_and_demography.html">AI &amp; demography</a></nav></main></header>
 <main><h1 id="world-population-birth-rates-and-long-term-projections">World Population, Birth Rates, and Long-Term Projections</h1>
 <p>A multi-source analysis built on UN World Population Prospects 2024, Our World in Data, the World Bank, Gapminder, and the CIA World Factbook. All processed datasets live in <code>data/processed/</code>, charts in <code>charts/</code>.</p>
 <hr />

@@ -11,11 +11,13 @@ A multi-source demographic research project built on the **UN World Population P
 
 A companion study on the consequences of low fertility and what can be done about it is in [`reports/consequences_and_solutions.md`](reports/consequences_and_solutions.md).
 
+A third report asks whether AI, physical AI, and robotics can offset demographic decline — and whether AI itself changes fertility and family decisions — in [`reports/ai_robotics_and_demography.md`](reports/ai_robotics_and_demography.md).
+
 ## Formats & live site
 
-- **Read online**: the full site (landing page + both reports, all charts) is served via GitHub Pages at **https://rishibagale.github.io/population**
-- **PDF**: [`reports/population_report.pdf`](reports/population_report.pdf) (3.0 MB) and [`reports/consequences_and_solutions.pdf`](reports/consequences_and_solutions.pdf) (1.9 MB) — print-ready versions with charts
-- **Markdown**: [`reports/report.md`](reports/report.md) and [`reports/consequences_and_solutions.md`](reports/consequences_and_solutions.md)
+- **Read online**: the full site (landing page + all three reports, all charts) is served via GitHub Pages at **https://rishibagale.github.io/population**
+- **PDF**: [`reports/population_report.pdf`](reports/population_report.pdf) (3.0 MB), [`reports/consequences_and_solutions.pdf`](reports/consequences_and_solutions.pdf) (1.9 MB), and [`reports/ai_robotics_and_demography.pdf`](reports/ai_robotics_and_demography.pdf) (0.5 MB) — print-ready versions
+- **Markdown**: [`reports/report.md`](reports/report.md), [`reports/consequences_and_solutions.md`](reports/consequences_and_solutions.md), and [`reports/ai_robotics_and_demography.md`](reports/ai_robotics_and_demography.md)
 - To rebuild the site locally: `pip install markdown` then `python build_site.py` (writes `docs/`)
 
 ---
@@ -24,6 +26,7 @@ A companion study on the consequences of low fertility and what can be done abou
 
 - [Headline findings](#headline-findings)
 - [Consequences & solutions](#consequences--solutions)
+- [AI, robots & demography](#ai-robots--demography)
 - [Repository layout](#repository-layout)
 - [Charts](#charts)
 - [Data sources](#data-sources)
@@ -36,6 +39,12 @@ A companion study on the consequences of low fertility and what can be done abou
 ## Consequences & solutions
 
 A second, dedicated study: what happens when births fall far below replacement — depopulation of working-age cohorts, pension and care burden, shrinking tax bases, innovation slowdown, rural hollowing — and an evidence-based menu of responses (pro-natal policy and what it can realistically achieve, labor-force participation, migration, automation/AI productivity, pension reform), with honest trade-offs and which countries are already testing each approach. Findings include: pro-natal packages reliably lift TFR only ~0.1–0.3 (France 1.8, Korea ~1.3 despite $230B since 2006); a 10pp-higher 55–64 employment rate can offset roughly a third of a decade of workforce shrinkage; and age-based pension reform vs. higher productivity is a quantified trade-off (each +1pp in the 65+ dependency share historically costs about 0.2–0.3pp of per-capita GDP growth absent offsetting gains).
+
+---
+
+## AI, robots & demography
+
+A third, 188-source study: can technology offset an aging workforce, and does AI change fertility itself? It maps the economist estimate range (Acemoglu's ≤0.66% TFP over a decade vs Goldman's +7% global GDP), the physical-AI gap between ~13,000 humanoid shipments in 2025 and million-unit forecasts, the mixed care-robot evidence in Japan, AI's two-sided effect on family decisions, dated testimonials from Huang/Musk/Schmidt/Liang/Lutz/Lee, and the resolution criteria behind AGI prediction markets. Bottom line: the most defensible reading is a modest, delayed, uneven productivity lift — useful as one lever, not a demographic rescue.
 
 ---
 
@@ -62,7 +71,9 @@ A second, dedicated study: what happens when births fall far below replacement �
 │   ├── report.md                            the full analysis, section by section
 │   ├── consequences_and_solutions.md        the companion low-fertility study
 │   ├── population_report.pdf                print-ready full report
-│   └── consequences_and_solutions.pdf       print-ready companion study
+│   ├── consequences_and_solutions.pdf       print-ready companion study
+│   ├── ai_robotics_and_demography.md        AI/robotics × demography study
+│   └── ai_robotics_and_demography.pdf       print-ready AI/robotics study
 ├── build_site.py    builds docs/ HTML from the reports (pip install markdown)
 ├── scripts/         pandas + matplotlib pipelines (see Reproducibility)
 ├── LICENSE          MIT

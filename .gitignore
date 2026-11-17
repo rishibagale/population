@@ -13,3 +13,8 @@ venv/
 .venv/
 Thumbs.db
 .DS_Store
+
+# Locally installed agent skills (installed via `npx skills add`)
+.agents/
+.claude/
+skills-lock.json

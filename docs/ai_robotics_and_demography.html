@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI, Physical AI & Robotics in an Aging World</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --accent: #0b5394;
+  --border: #e0e0e0;
+  --code-bg: #f5f5f5;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.7;
+  font-size: 17px;
+}
+header.site {
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.85rem;
+}
+header.site a { color: var(--accent); text-decoration: none; }
+header.site a:hover { text-decoration: underline; }
+header.site nav a { margin-right: 1.25rem; }
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+h3 { font-size: 1.15rem; }
+a { color: var(--accent); }
+p, li { max-width: 70ch; }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border: 1px solid var(--border);
+}
+table {
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.45rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+th { background: var(--code-bg); }
+code {
+  font-family: Consolas, 'Courier New', monospace;
+  background: var(--code-bg);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+pre { background: var(--code-bg); padding: 1rem; overflow-x: auto; }
+pre code { padding: 0; background: none; }
+blockquote {
+  border-left: 4px solid var(--border);
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.25rem;
+  color: var(--muted);
+}
+hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+footer.site {
+  border-top: 1px solid var(--border);
+  padding: 1rem 0 2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+  max-width: 860px;
+  margin: 0 auto;
+}
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin: 2rem 0; }
+@media (max-width: 700px) { .cards { grid-template-columns: 1fr; } }
+@media print {
+  header.site, footer.site { display: none; }
+  main { max-width: none; padding: 0; }
+  img { border: none; max-height: 8.5in; }
+  a { color: inherit; text-decoration: none; }
+  h2 { break-after: avoid; }
+  img, table, pre { break-inside: avoid; }
+}
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.card h2 { border: none; margin-top: 0; font-size: 1.15rem; }
+.card a { text-decoration: none; }
+.card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 0; }
+</style>
+</head>
+<body>
+<header class="site"><main><nav><a href="index.html">Home</a><a href="report.html">Full analysis</a><a href="consequences_and_solutions.html">Consequences &amp; solutions</a><a href="ai_robotics_and_demography.html" style="font-weight:bold">AI &amp; demography</a></nav></main></header>
+<main><h1 id="ai-physical-ai-robotics-in-an-aging-world">AI, Physical AI &amp; Robotics in an Aging World</h1>
+<p><strong>Can technology offset demographic decline — and will it change fertility itself?</strong></p>
+<p>A companion report to <code>report.md</code> (global population and birth-rate projections) and <code>consequences_and_solutions.md</code> (low-fertility consequences and policy responses). Research cut-off: <strong>17 November 2026</strong>.</p>
+<hr />
+<h2 id="scope-method-and-confidence-labels">Scope, method, and confidence labels</h2>
+<p>This report asks two questions:</p>
+<ol>
+<li><strong>Can AI, physical AI, and robotics offset the economic effects of a shrinking, aging workforce?</strong></li>
+<li><strong>Could AI itself change fertility and family decisions — and if so, in which direction?</strong></li>
+</ol>
+<p>It synthesizes <strong>188 distinct verified sources</strong> gathered by four parallel research streams: economist/institutional estimates (31 sources), physical AI/robotics/care (53), fertility/testimonials (61), and GitHub repositories/prediction markets (43). Every claim below was checked against an issuing institution, primary paper, platform page, or reputable report. Confidence tags are used throughout:</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>HIGH</strong></td>
+<td>Primary source or peer-reviewed record; exact title/date/numbers retrieved.</td>
+</tr>
+<tr>
+<td><strong>MEDIUM</strong></td>
+<td>Reputable secondary source quoting a named primary source, or a version-specific figure.</td>
+</tr>
+<tr>
+<td><strong>LOW</strong></td>
+<td>Aggregator, undated, or time-sensitive figure; useful for triangulation, not standalone quotation.</td>
+</tr>
+<tr>
+<td><strong>CONTESTED</strong></td>
+<td>The source is real, but the magnitude, date, or definition is disputed or version-dependent.</td>
+</tr>
+</tbody>
+</table>
+<p>A central warning: <strong>exposure is not unemployment</strong>, <strong>forecasts are not order books</strong>, <strong>headcount is not labor input</strong>, and <strong>company-announcement prediction markets are not capability forecasts</strong>.</p>
+<hr />
+<h2 id="1-executive-summary">1. Executive summary</h2>
+<ul>
+<li>
+<p><strong>The demographic pressure is mechanical and already visible.</strong> The UN's 2024 Medium projection has world population peaking at ~10.3B in the mid-2080s and falling to ~10.2B by 2100, with global TFR at ~2.25 and the 65+ cohort tripling from 0.83B to 2.44B. The probability of a peak this century is put at ~80% [HIGH] (<a href="https://population.un.org/wpp/assets/Files/WPP2024%5FSummary-of-Results.pdf">UN WPP 2024</a>). This report's companion studies establish the underlying trajectory; here the question is what technology can and cannot do about it.</p>
+</li>
+<li>
+<p><strong>Digital AI's aggregate macro effect is real but highly uncertain.</strong> Credible estimates span an order of magnitude: Acemoglu's <strong>≤0.66% TFP over ten years</strong> (≤0.53% for hard-to-learn tasks) versus Goldman Sachs' <strong>+7% global GDP / +1.5pp annual productivity growth</strong> over a decade; the OECD's central range is <strong>0.25–0.6pp annual TFP</strong>; Penn Wharton's 2025 estimate is <strong>+1.5% GDP by 2035, +3.7% by 2075</strong>. Early macro data are close to zero: Danish administrative data find <strong>precise null effects on earnings and hours</strong> two years after ChatGPT [HIGH]. The honest central reading is <strong>modest, delayed, and uneven</strong> — not nothing, not magic.</p>
+</li>
+<li>
+<p><strong>Physical AI is real in factories but nascent in humanoids.</strong> The IFR counted <strong>542,076 industrial robot installations in 2024</strong> and <strong>4.66M operational units</strong>; global robot density was ~177 per 10,000 manufacturing workers in the September 2025 report, revised to <strong>132</strong> in April 2026 after China changed its employment denominator [HIGH]. Humanoid shipments, however, were only <strong>~13,000 units in 2025</strong> (Omdia), against bank forecasts of <strong>6.48M units / $138B by 2035</strong> (Goldman, revised 2026) and <strong>~1B units / $5T by 2050</strong> (Morgan Stanley) [MEDIUM–HIGH, scenarios not orders]. The gap between actuals and forecasts is where most capital risk sits.</p>
+</li>
+<li>
+<p><strong>Care robots are the clearest test of "offsetting" demography, and the evidence is genuinely mixed.</strong> Ethnographic work in Japan finds robots often <em>create more work</em> for caregivers [HIGH]. A 2026 Health Affairs Review study using robot-subsidy variation finds adoption associated with <strong>+28% care workers, +39% nurses, +26% total employment</strong>, but entirely among <strong>non-regular</strong> staff and with no hours/FTE data [HIGH]. A separate lottery-based study finds a <strong>small reduction</strong> in care workers [HIGH]. PARO seal-robot RCTs show engagement/mood benefits but meta-analyses rate the evidence low and find no significant effects on cognition, agitation, or quality of life in several outcomes [HIGH]. Verdict: <strong>complement, not replacement — with weak cost-saving evidence</strong>.</p>
+</li>
+<li>
+<p><strong>AI can push fertility in both directions.</strong> Chinese survey studies find AI development and robot exposure associated with <strong>lower ideal fertility and delayed marriage</strong> [HIGH]; US evidence finds robot exposure reduced marital fertility and increased nonmarital births [HIGH]. Remote-work studies conflict: one finds both partners working from home associated with <strong>+0.32 to +0.45 children</strong>, another finds a <strong>−2% birth-rate effect</strong> [HIGH, contested]. Online dating changes <em>who partners with whom</em> more than <em>whether people partner</em> [HIGH]. The net aggregate effect on fertility is <strong>unknown</strong>, and no credible source claims AI will reliably raise TFR back to replacement.</p>
+</li>
+<li>
+<p><strong>What economists actually consider highly likely:</strong> widespread <em>exposure</em>; task-level productivity gains concentrated among novices; delayed aggregate effects; distributional consequences; that aging and technology interact through policy. What they do <strong>not</strong> consider highly likely: imminent mass unemployment (a Chicago Booth panel was ~two-thirds uncertain) or a quick technological reversal of below-replacement fertility.</p>
+</li>
+<li>
+<p><strong>Tech leaders are more bullish than the evidence.</strong> Jensen Huang calls robots "AI immigrants" to fill a labor gap of "tens of millions"; Eric Schmidt says "we are not having enough children" and argues for productivity; Elon Musk calls low birth rates a top threat; James Liang warns fewer people means yielding "control to AI." Demographers Wolfgang Lutz and Ronald Lee are more nuanced: productivity can substantially offset fewer workers, but "technology is not a substitute for sound public policies."</p>
+</li>
+</ul>
+<hr />
+<h2 id="2-the-demographic-baseline-technology-would-have-to-offset">2. The demographic baseline technology would have to offset</h2>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World population 2024</td>
+<td>8.16–8.2B</td>
+<td>UN WPP 2024 [HIGH]</td>
+</tr>
+<tr>
+<td>Peak (Medium)</td>
+<td>~10.3B in mid-2080s</td>
+<td>UN WPP 2024 [HIGH]</td>
+</tr>
+<tr>
+<td>2100 population</td>
+<td>~10.2B</td>
+<td>UN WPP 2024 [HIGH]</td>
+</tr>
+<tr>
+<td>Global TFR 2024</td>
+<td>~2.25; 2.3 in 2023</td>
+<td>UN WPP 2024 / OWID [HIGH]</td>
+</tr>
+<tr>
+<td>Global TFR 1950s</td>
+<td>4.85–4.9</td>
+<td>UN WPP / OWID [HIGH]</td>
+</tr>
+<tr>
+<td>65+ population 2024→2100</td>
+<td>0.83B→2.44B</td>
+<td>UN WPP 2024 [HIGH]</td>
+</tr>
+<tr>
+<td>Ultra-low fertility (&lt;1.4)</td>
+<td>nearly 1/5 of countries; return to ≥2.1 in 24 peak countries within 30 years has 0.1% probability</td>
+<td>UN WPP 2024 [HIGH]</td>
+</tr>
+</tbody>
+</table>
+<p>Wilmoth: "the probability that the world's population will peak within the current century is quite high – about 80%" [HIGH] (<a href="https://apnews.com/article/un-world-population-growth-e2adab27719bb94ea19626dc53c57384">AP, 2024-07-11</a>). Ronald Lee warns that forecasters "work well when the future is similar to the past, but our methods can be blind-sided by real change" [HIGH] (<a href="https://onlinelibrary.wiley.com/doi/10.1111/padr.12674">Population and Development Review, 2025</a>).</p>
+<p>The offset question is not "will there be fewer people?" but <strong>how much output and care per person can rise before dependency ratios outrun productivity gains</strong>.</p>
+<hr />
+<h2 id="3-digital-ai-and-productivity-the-estimate-map">3. Digital AI and productivity: the estimate map</h2>
+<h3 id="31-the-headline-range">3.1 The headline range</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Estimate</th>
+<th>Horizon</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.nber.org/papers/w32487">Acemoglu, <em>Simple Macroeconomics of AI</em></a></td>
+<td>TFP <strong>+0.66%</strong>, ≤<strong>0.53%</strong> for hard tasks; GDP +0.93–1.56%</td>
+<td>10 yrs</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.gspublishing.com/content/research/en/reports/2023/03/27/d64e052b-0f6e-45d7-967b-d7be35fabd16.pdf">Goldman Sachs, Briggs &amp; Kodnani</a></td>
+<td>Global GDP <strong>+7% / ~$7T</strong>; US productivity <strong>+1.5pp/yr</strong>; 300M jobs exposed</td>
+<td>10 yrs</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier">McKinsey</a></td>
+<td><strong>$2.6–4.4T/yr</strong> across 63 use cases; productivity +0.1–0.6%/yr through 2040</td>
+<td>to 2040</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf">IMF SDN/2024/001</a></td>
+<td><strong>~40%</strong> global jobs exposed; 60% advanced economies, 40% EM, 26% LIC</td>
+<td>current</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf">WEF Future of Jobs 2025</a></td>
+<td>170M created, 92M displaced, +78M net, 22% churn</td>
+<td>by 2030</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.oecd.org/en/publications/miracle-or-myth-assessing-the-macroeconomic-productivity-gains-from-artificial-intelligence_b524a072-en.html">OECD, <em>Miracle or Myth?</em></a></td>
+<td>TFP <strong>+0.25–0.6pp/yr</strong>; <strong>~1pp/yr if robotics exposes manual tasks</strong></td>
+<td>10 yrs</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://budgetmodel.wharton.upenn.edu/p/2025-09-08-the-projected-impact-of-generative-ai-on-future-productivity-growth/">Penn Wharton 2025</a></td>
+<td>GDP +1.5% by 2035, ~3% by 2055, +3.7% by 2075</td>
+<td>decades</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.brookings.edu/articles/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/">Baily, Brynjolfsson &amp; Korinek</a></td>
+<td>18% productivity level boost; Level+Growth near-doubling in 20 yrs</td>
+<td>10–20 yrs</td>
+<td>HIGH, illustrative</td>
+</tr>
+<tr>
+<td><a href="https://www.aeaweb.org/articles?id=10.1257/mac.20180386">Brynjolfsson, Rock &amp; Syverson</a></td>
+<td>Productivity J-curve: adjusted TFP 15.9% above official by 2017</td>
+<td>historic</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.nber.org/papers/w33777">Humlum &amp; Vestergaard</a></td>
+<td>Precise nulls on earnings/hours; 2.8% time saved</td>
+<td>2 yrs post-ChatGPT</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.nber.org/papers/w32966">Bick, Blandin &amp; Deming</a></td>
+<td>Current usage implies +1.1% aggregate productivity</td>
+<td>current</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.cbo.gov/publication/61147">CBO</a></td>
+<td>"Varies greatly"; no discrete AI boost in baseline; only 5% of businesses use AI to produce goods/services</td>
+<td>current</td>
+<td>HIGH</td>
+</tr>
+</tbody>
+</table>
+<p>Richmond Fed's Hornstein provides the synthesis: conclusions "range from less than 1 percent to 20 percent, which would correspond to annual growth rates of 0.1 to 2.0 percent" [HIGH] (<a href="https://www.richmondfed.org/publications/research/economic_brief/2024/eb_24-19">Economic Brief 24-19</a>).</p>
+<h3 id="32-task-level-gains-are-the-most-robust-finding">3.2 Task-level gains are the most robust finding</h3>
+<ul>
+<li><a href="https://academic.oup.com/qje/article/140/2/889/7990658">Brynjolfsson, Li &amp; Raymond, <em>Generative AI at Work</em></a> (QJE 2025): AI assistance raised chats resolved per hour by <strong>15%</strong> among 5,172 customer-support agents; novices gained <strong>30–36%</strong> [HIGH].</li>
+<li><a href="https://www.science.org/doi/10.1126/science.adh2586">Noy &amp; Zhang, <em>Science</em></a>: 453 professionals; writing time <strong>−40%</strong>, quality <strong>+18%</strong>, inequality between workers fell [HIGH].</li>
+<li><a href="https://pubsonline.informs.org/doi/full/10.1287/orsc.2025.21838">Dell'Acqua et al., <em>Organization Science</em></a>: inside the AI frontier, 758 consultants completed <strong>12.2% more tasks, 25.1% faster</strong>, quality ~32%; outside it, AI users were <strong>19% less likely</strong> to be correct [HIGH].</li>
+<li><a href="https://www.science.org/doi/10.1126/science.adj0998">Eloundou et al., <em>GPTs are GPTs</em></a>: 80% of US workers could have ≥10% of tasks affected; 19% could have ≥50% affected; tooling assumptions push this to 46% [HIGH/CONTESTED].</li>
+<li><a href="https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity">Bick et al.</a>: workers are 33% more productive in hours they use GenAI, but aggregate effect is only ~1.1% because usage is shallow [HIGH].</li>
+</ul>
+<p>The consistent pattern: <strong>large gains for inexperienced workers on tasks inside the model's frontier, weak pass-through to wages and aggregate statistics</strong>.</p>
+<h3 id="33-why-the-macro-data-lag">3.3 Why the macro data lag</h3>
+<p>The Productivity J-curve means investment in intangible complements is counted as current cost before benefits show up. Brynjolfsson et al. found measured TFP understated by 15.9% by 2017 for software/hardware intangibles [HIGH]. Humlum &amp; Vestergaard's Danish data show adoption was rapid but time savings only 2.8%, with 3–7% of gains passing to wages [HIGH/MEDIUM]. CBO notes actual outcomes are not yet observed and "the conclusions of current studies... are preliminary" [HIGH].</p>
+<p><strong>Demographic relevance:</strong> if the J-curve is long, an aging society may need productivity gains <em>before</em> the dependency ratio worsens — precisely when measured gains look absent. This is an argument for patience, not for assuming rescue.</p>
+<hr />
+<h2 id="4-what-economists-say-is-highly-likely">4. What economists say is "highly likely"</h2>
+<p>Based on the primary sources and two Chicago Booth expert panels, the following are the best-supported propositions:</p>
+<table>
+<thead>
+<tr>
+<th>Proposition</th>
+<th>Assessment</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI exposure is widespread, but most exposure is <em>partial</em> and complementary</td>
+<td><strong>HIGHLY LIKELY</strong></td>
+<td>IMF 40%/60%; Goldman two-thirds of US jobs; OpenAI 80% with ≥10% tasks</td>
+</tr>
+<tr>
+<td>Task-level productivity gains are real, often large for novices</td>
+<td><strong>HIGHLY LIKELY</strong></td>
+<td>QJE +15%; Noy–Zhang −40% time/+18% quality; BCG 12.2%/25.1%</td>
+</tr>
+<tr>
+<td>Aggregate productivity effects are delayed and much smaller than task gains</td>
+<td><strong>HIGHLY LIKELY</strong></td>
+<td>J-curve; Humlum nulls; Bick +1.1%; CBO caution</td>
+</tr>
+<tr>
+<td>The magnitude of long-run GDP growth is deeply uncertain</td>
+<td><strong>HIGHLY LIKELY</strong></td>
+<td>Estimates 0.53% to 7%; Richmond Fed 0.1–2.0pp annual range</td>
+</tr>
+<tr>
+<td>AI will worsen within-country and between-country inequality without policy</td>
+<td><strong>LIKELY / HIGHLY LIKELY</strong></td>
+<td>IMF; Acemoglu; WEF 12% expect positive wage effect; Lu: "surplus not yet reaching consumers"</td>
+</tr>
+<tr>
+<td>Mass technology-driven unemployment within ten years</td>
+<td><strong>CONTESTED, NOT HIGHLY LIKELY</strong></td>
+<td>Chicago Booth: ~two-thirds uncertain, quarter disagree, &lt;10% agree</td>
+</tr>
+<tr>
+<td>AI will substantially raise high-skilled workers' earnings</td>
+<td><strong>CONTESTED</strong></td>
+<td>Booth panel &gt;50% agree/strongly agree on negative effect on some high-skilled; Acemoglu uncertain</td>
+</tr>
+<tr>
+<td>Returns to education will become more uncertain</td>
+<td><strong>HIGHLY LIKELY</strong></td>
+<td>Booth panel nearly 70% agree</td>
+</tr>
+<tr>
+<td>AI/robots will fully offset aging-driven labor loss</td>
+<td><strong>NOT SUPPORTED</strong></td>
+<td>OECD ~1pp/yr only if physical tasks exposed; Acemoglu low estimates; mixed care evidence</td>
+</tr>
+<tr>
+<td>AI will restore replacement fertility</td>
+<td><strong>NOT SUPPORTED</strong></td>
+<td>Fertility studies point both ways; no primary source claims reliable TFR restoration</td>
+</tr>
+</tbody>
+</table>
+<p>Individual expert votes illustrate the split: Acemoglu "Disagree" on US per-capita growth acceleration, Chad Syverson "Strongly Agree," William Nordhaus "Disagree," Olivier Blanchard and Ricardo Reis "Agree" for Europe <a href="https://kentclarkcenter.org/surveys/ai-and-growth/">CONTESTED dates; Clark Center surveys</a>.</p>
+<hr />
+<h2 id="5-physical-ai-and-robotics">5. Physical AI and robotics</h2>
+<h3 id="51-the-installed-base-is-substantial-but-it-is-not-humanoids">5.1 The installed base is substantial — but it is not humanoids</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Industrial robots installed 2024</td>
+<td><strong>542,076</strong></td>
+<td><a href="https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf">IFR World Robotics 2025</a> [HIGH]</td>
+</tr>
+<tr>
+<td>Operational stock 2024</td>
+<td><strong>~4.664M</strong> (+8.9%)</td>
+<td>IFR [HIGH]</td>
+</tr>
+<tr>
+<td>Global robot density 2024</td>
+<td>177 (Sep 2025) → <strong>132</strong> (Apr 2026 denominator revision)</td>
+<td>IFR [HIGH]</td>
+</tr>
+<tr>
+<td>Highest density</td>
+<td>Korea <strong>1,220</strong> per 10,000; Singapore 818; Japan 446</td>
+<td>IFR [HIGH]</td>
+</tr>
+<tr>
+<td>China installations 2024</td>
+<td>295,000 (54% of global)</td>
+<td>IFR [HIGH]</td>
+</tr>
+<tr>
+<td>Forecast 2025/2028</td>
+<td>575,000 / &gt;700,000 installations</td>
+<td><a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years">IFR press release</a> [HIGH]</td>
+</tr>
+</tbody>
+</table>
+<p>This is the relevant baseline for demographic offset: <strong>robots already work at scale in structured manufacturing</strong>, but the labor they replace is not the same as the labor that is scarce in aging societies (care, services, construction, logistics).</p>
+<h3 id="52-humanoids-forecasts-vs-shipments">5.2 Humanoids: forecasts vs. shipments</h3>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Forecast</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.investing.com/news/stock-market-news/goldman-sachs-raises-humanoid-robot-forecast-sees-auto-role-93CH-4882346">Goldman Sachs, 2026 revision</a></td>
+<td><strong>6.48M units / $138B by 2035</strong> (prior: 1.38M / $38B); 75k units 2026, 890k 2030</td>
+<td>MEDIUM</td>
+</tr>
+<tr>
+<td><a href="https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050">Morgan Stanley, 2025</a></td>
+<td><strong>&gt;1B units / $5T by 2050</strong> incl. supply chain; adoption slow until mid-2030s</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.citigroup.com/global/insights/the-rise-of-ai-robots">Citi GPS, 2024</a></td>
+<td><strong>~650M humanoids / $7T by 2050</strong>; 1.3B AI-robots by 2035</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.agibot.com/article/231/detail/33.html">Omdia, 2026</a></td>
+<td><strong>2.6M units by 2035</strong></td>
+<td>MEDIUM</td>
+</tr>
+<tr>
+<td>BofA / UBS / RBC (via <a href="https://blog.robozaps.com/b/market-size-for-humanoid-robots">comparison</a>)</td>
+<td>10M by 2035; 300M by 2050; $9T addressable</td>
+<td>LOW/MEDIUM</td>
+</tr>
+</tbody>
+</table>
+<p>Actual 2025 shipments: <strong>~13,000 humanoids</strong> (Omdia; 13,317 precise), with China producing 87%; leaders AgiBot 5,168, Unitree 4,200, UBTech 1,000, Tesla/Figure/Agility ~150 each [HIGH/MEDIUM]. IFR's narrower industrial/professional count is ~7,000 [LOW]. Tesla began "early production" on its Fremont Optimus line in October 2026 but has published <strong>no cumulative build count</strong>; Musk's "20,000/week" is a target "at least a year" away [HIGH/MEDIUM]. Unitree's IPO prospectus reports <strong>5,632 humanoid robots sold 2023–2025</strong>, &gt;5,500 shipped in 2025, and average humanoid price falling from ~¥260,700 (2024) to ~¥167,600 (9M 2025) [HIGH].</p>
+<p><strong>Interpretation:</strong> the industrial base is real; the humanoid trajectory is a <strong>scenario bet</strong>. The read-through for demographic decline is that physical substitution is plausible in structured settings first, not in homes or care.</p>
+<h3 id="53-the-enabling-stack">5.3 The enabling stack</h3>
+<ul>
+<li>NVIDIA GR00T N1/N1.5/N1.6/N1.7: open foundation models for humanoid reasoning; GR00T-Dreams generated training data in <strong>36 hours</strong> versus ~3 months manual; 24,000 motion trajectories; 76.8% real-world success with full data; 2M+ developers on the robotics stack [HIGH] (<a href="https://nvidianews.nvidia.com/news/nvidia-powers-humanoid-robot-industry-with-cloud-to-robot-computing-platforms-for-physical-ai">NVIDIA, 2025-05-18</a>, <a href="https://github.com/NVIDIA/Isaac-GR00T">GR00T repo</a>).</li>
+<li>Jetson Thor: 128GB, up to 2,070 FP4 TFLOPs in 130W; 7.5× compute and 3.5× efficiency over Orin [HIGH] (<a href="https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics">NVIDIA, 2025-08-25</a>).</li>
+<li>Hugging Face <strong>LeRobot</strong>: 28,822 GitHub stars; 16K+ datasets from 2.2K+ contributors by September 2025; training in &lt;100 LOC [HIGH] (<a href="https://github.com/huggingface/lerobot">repo</a>).</li>
+<li>Care-specific datasets: <strong>OpenRoboCare</strong> (21 occupational therapists, 15 tasks, 315 sessions, 19.8 hours, 44-sensor tactile data) [HIGH]; <strong>ETRI-Activity3D</strong> (112,620 samples, 100 people, 6.47TB) [HIGH]; <strong>NAVER CareCall</strong> (10,500 dialogues) [HIGH].</li>
+</ul>
+<p>Jensen Huang's framing: "Physical AI and robotics will bring about the next industrial revolution... from AI brains for robots to simulated worlds to AI supercomputers" [HIGH].</p>
+<hr />
+<h2 id="6-care-robots-the-clearest-demographic-test">6. Care robots: the clearest demographic test</h2>
+<h3 id="61-the-skeptical-evidence">6.1 The skeptical evidence</h3>
+<p>James Wright's 18 months of ethnographic fieldwork in Japan found that care robots "tend to end up creating more work for caregivers" — they must be moved, maintained, cleaned, booted, explained, monitored, and stored [HIGH] (<a href="https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots">MIT Tech Review, 2023-01-09</a>). By 2018 the Japanese government had spent <strong>well over $300M</strong> on R&amp;D for such devices. A 2021 home-care study found only <strong>2% of 444 providers</strong> used them; a 2019 survey of 9,000+ institutions found only ~10% had introduced any care robot [MEDIUM]. A 118-home Japanese survey found high accident/near-miss rates and a gap between managers' efficiency beliefs and workers' agitation concerns [HIGH] (<a href="https://www.jstage.jst.go.jp/article/jinr/5/2/5_2025-0012/_pdf/-char/en">JINR, 2025</a>).</p>
+<p>PARO evidence is mixed but not null. A 415-participant cluster-RCT found improvements in engagement, pleasure, and agitation versus usual care, but PARO was only better than a plush toy on engagement [HIGH] (<a href="https://www.sciencedirect.com/science/article/pii/S1525861017301895">JAMDA, 2017</a>). A 2022 meta-analysis of 66 studies found <strong>no significant effects</strong> on agitation, cognition, or quality of life [HIGH]; a 2023 meta-analysis (12 articles, 1,461 participants) found small effects on anxiety/agitation/depression but graded evidence <strong>low</strong> [HIGH]. A 2026 cluster-RCT of 85 participants found reduced caregiver burden with thrice-weekly self-directed PARO sessions [HIGH].</p>
+<h3 id="62-the-complementary-evidence">6.2 The complementary evidence</h3>
+<p>A 2026 study in <em>Health Affairs Review</em> used prefecture-level robot subsidies as an instrument across ~860 Japanese nursing homes and found robot adoption associated with <strong>+28% care workers, +39% nurses, +26% total employment</strong>, reduced retention difficulty, and no lower care quality [HIGH] (<a href="https://www.aimspress.com/article/doi/10.3934/har.2026001?viewType=HTML">AIMS Press</a>, <a href="https://news.stanford.edu/stories/2026/08/care-robots-japan-employment-labor-shortage-research">Stanford Report</a>). A meaningful caveat: gains were entirely in <strong>non-regular</strong> staff; no hours/FTE data exist, so headcount ≠ labor input. A separate lottery-based natural experiment found a <strong>small reduction</strong> (−1.11 care workers in 2021) [HIGH] (<a href="https://assets-eu.researchsquare.com/files/rs-9001048/v1/869988bc-be91-40b7-8a70-9e207b1b940d.pdf">Research Square preprint</a>).</p>
+<p>Public acceptance is surprisingly high: about <strong>65%</strong> of Japanese respondents chose a robot-using nursing home over an all-human option, and were willing to pay more; mobility aids were most welcome at 70% [HIGH] (<a href="https://crr.bc.edu/how-do-people-feel-about-robot-caregivers-evidence-from-japan">Boston College CRR, 2026-11-03</a>).</p>
+<p><strong>Verdict:</strong> care robots are best understood as <strong>retention and task-reallocation tools</strong>, not labor-saving replacements. They may expand employment in low-wage, flexible roles while improving some patient outcomes; the fiscal and staffing payoff remains unproven.</p>
+<hr />
+<h2 id="7-ai-and-fertility-family-decisions">7. AI and fertility / family decisions</h2>
+<h3 id="71-channels-identified-in-scholarship">7.1 Channels identified in scholarship</h3>
+<p>Adserà (Princeton, 2025) identifies four interlocking channels: labour-market polarization, AI-enabled reproductive medicine and fertility apps, algorithmic partner matching, and algorithmic influence on ideals/information [HIGH] (<a href="https://verlag.oeaw.ac.at/api/download/content/9783700196815_kapitel_59_68.pdf">Vienna Yearbook of Population Research</a>). Her conclusion is explicitly two-sided: AI may "reinforce educational and other socio-economic barriers to parenthood," while household robots could "ease the path to realising fertility goals."</p>
+<h3 id="72-evidence-that-airobots-may-lower-fertility">7.2 Evidence that AI/robots may <em>lower</em> fertility</h3>
+<ul>
+<li>Zou &amp; Chen (2026), using CFPS 2014/2018/2022: AI development "significantly reduces women's ideal number of children," stronger among highly educated women; mitigated by spousal housework and social childcare [HIGH] (<a href="http://qks.sufe.edu.cn/mv_html/j00001/202608/V7f3eSTE-qmQ1-zr67-byme-QltvBYpLsGoS_WEB.htm">Journal of Finance and Economics</a>).</li>
+<li>He &amp; Li (2026), China GSS 2012–2021: industrial robot adoption "significantly delays first marriage and reduces fertility," stronger for men [HIGH] (<a href="https://doi.org/10.1007/s11150-026-09863-z">Review of Economics of the Household</a>).</li>
+<li>He &amp; Wang (2026): robot exposure decreases likelihood of childbearing via human-capital investment, employment instability, and inequality [MEDIUM–HIGH].</li>
+<li>Anelli, Giuntella &amp; Stella (2024), US: robot exposure narrowed gender income gaps, increased divorce/cohabitation, reduced marital fertility, increased nonmarital births; overall fertility unchanged [HIGH] (<a href="http://jhr.uwpress.org/content/59/2/443">Journal of Human Resources</a>).</li>
+<li>A 2025 experiment found robot-support priming <em>lowered</em> fertility intentions when robots were seen as substitutes for human support but <em>raised</em> them when framed as assistants reducing childrearing costs [MEDIUM] (<a href="https://link.springer.com/article/10.1007/s11431-025-2953-y">Science China Technological Sciences</a>).</li>
+</ul>
+<h3 id="73-evidence-that-flexibility-may-raise-fertility">7.3 Evidence that flexibility may <em>raise</em> fertility</h3>
+<ul>
+<li>Bloom et al. (NBER 34963): both partners WFH ≥1 day/week associated with <strong>+0.32 children per woman globally / +0.45 in the US</strong>; interpreted causally, WFH accounts for ~291,000 US births/yr, but "not powerful enough... to reverse trend fertility declines" [HIGH/CONTESTED — ADB abstract says +0.2/+0.18] (<a href="https://www.nber.org/system/files/working_papers/w34963/w34963.pdf">NBER PDF</a>).</li>
+<li>Singapore FWA survey experiment: all three flexible-work arrangements improved fertility intentions, especially for women and professional/managerial occupations [HIGH].</li>
+<li>Opposite evidence: Johnston (NBER 35881) finds a one-SD increase in teleworkability <strong>reduced birth rates 2%</strong> and notes men's home time did not translate into childcare [HIGH]. UK and Australian studies find no fertility increase from home-based work [HIGH/MEDIUM].</li>
+</ul>
+<h3 id="74-dating-childcare-and-education">7.4 Dating, childcare, and education</h3>
+<p>Online dating's measurable effect is on <strong>sorting</strong>, not aggregate fertility: mobile-era activity lowered marriage and divorce rates by 0.40% and 0.33% per 1% activity increase in one study [HIGH]; platform use is associated with mixed changes in interracial and educational homogamy [HIGH]. Algorithmic audits of Indian matrimonial platforms found recommendations reinforce gender-based age/income norms [MEDIUM–HIGH]. Interviews with users worry that care robots might disrupt child-parent attachment; parents accept robots as relief from overload, not parental substitutes [MEDIUM].</p>
+<p>Andrew Ng's position illustrates the education tension: "frankly, AI models are terrible for learning... retention, their long-term performance is much worse" while one-to-one tutoring has large potential [HIGH transcript]. A field experiment found a standard ChatGPT tutor improved practice grades 48% but left students <strong>17% worse</strong> on exams when access was removed; a guardrailed version avoided the negative effect [MEDIUM].</p>
+<p><strong>Verdict:</strong> AI is more likely to <strong>modify the timing and distribution of births</strong> than to reverse the fertility transition. Its net effect is empirically unresolved.</p>
+<hr />
+<h2 id="8-testimonials-what-leaders-actually-said">8. Testimonials — what leaders actually said</h2>
+<table>
+<thead>
+<tr>
+<th>Speaker</th>
+<th>Date</th>
+<th>Verbatim / near-verbatim claim</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jensen Huang, Nvidia</td>
+<td>2026-01-07</td>
+<td>"Having robots will create jobs." "We need more AI immigrants to help us on manufacturing floors and do work that maybe we've decided not to do anymore." Shortage is "tens of millions" due to demography</td>
+<td>HIGH (<a href="https://www.france24.com/en/live-news/20260107-nvidia-ceo-praises-robots-as-ai-immigrants">France24/AFP</a>)</td>
+</tr>
+<tr>
+<td>Jensen Huang</td>
+<td>2025-05-09</td>
+<td>"we have a shortage of workers... we can imagine the opportunity to close that gap to put 30-40 million workers back into the workforce"</td>
+<td>HIGH (<a href="https://milkeninstitute.org/sites/default/files/2025-05/new-innovation-economy-conversation-nvidia-ceo-jensen-huang_Transcript_GC25.pdf">Milken transcript</a>)</td>
+</tr>
+<tr>
+<td>Elon Musk</td>
+<td>2025-09-14</td>
+<td>"Low birth rate is the number one threat to the West. There will be no West if this continues."</td>
+<td>MEDIUM–HIGH (<a href="https://www.businessinsider.com/elon-musk-baby-bust-western-governments-taking-action-demographics-2025-9">Business Insider</a>)</td>
+</tr>
+<tr>
+<td>Elon Musk</td>
+<td>2026-11-16</td>
+<td>"Hong Kong has had one of the lowest birth rates in the world for a long time. They will be gone soon if that doesn't change."</td>
+<td>HIGH (<a href="https://x.com/elonmusk/status/2122216166584435079">X post</a>)</td>
+</tr>
+<tr>
+<td>Eric Schmidt</td>
+<td>2023-05-24</td>
+<td>"We are not having enough children... there is a demographic crisis where people who are my age are going to be taken care of by younger generations."</td>
+<td>MEDIUM–HIGH (<a href="https://fortune.com/2023/05/24/artificial-intelligence-ai-eric-schmidt-demographic-crisis-babies-labor-shortage">Fortune</a>)</td>
+</tr>
+<tr>
+<td>Eric Schmidt</td>
+<td>2025-05-15</td>
+<td>"We, collectively as a society, are not having enough humans... the key problem is getting the people who are productive... to be more productive."</td>
+<td>HIGH (<a href="https://www.vanityfair.com/news/story/eric-schmidt-ai-ted">Vanity Fair</a>)</td>
+</tr>
+<tr>
+<td>James Liang, Trip.com</td>
+<td>2026-07-07</td>
+<td>"We need more people, otherwise we'll just yield our control to AI."</td>
+<td>HIGH (<a href="https://fortune.com/2026/07/07/china-japan-korea-birth-rate-innovation-trip-founder-james-liang/">Fortune</a>)</td>
+</tr>
+<tr>
+<td>Demis Hassabis</td>
+<td>2025-08-04</td>
+<td>"it's going to be 10 times bigger than the Industrial Revolution, and maybe 10 times faster" — about AI, <strong>not fertility</strong></td>
+<td>HIGH (<a href="https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future-10-times-bigger-than-industrial-revolution-and-maybe-10-times-faster">Guardian</a>)</td>
+</tr>
+<tr>
+<td>Wolfgang Lutz &amp; Guillaume Marois</td>
+<td>2026-03-02</td>
+<td>"Higher levels of education, increased labor force participation, and rising productivity can offset – and even outweigh – the effects of having fewer births."</td>
+<td>HIGH (<a href="https://iiasa.ac.at/news/mar-2026/is-low-fertility-really-economic-threat">IIASA</a>)</td>
+</tr>
+<tr>
+<td>Ronald Lee</td>
+<td>2022-06-08</td>
+<td>"may be substantially offset by increased productivity of the smaller labor force"</td>
+<td>HIGH (<a href="https://www.demog.berkeley.edu/faculty/ronald-demos-lee">UC Berkeley</a>)</td>
+</tr>
+<tr>
+<td>UN DESA / China Daily</td>
+<td>2026-07-11</td>
+<td>"Technology is a powerful enabler, but it is not a substitute for sound public policies, strong institutions and a commitment to human rights."</td>
+<td>MEDIUM (<a href="http://www.chinadaily.com.cn/a/202607/11/WS6a5215eaa310986e2b464c76.html">China Daily</a>)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-predictions-and-forecasting-read-the-resolution-criteria">9. Predictions and forecasting — read the resolution criteria</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Claim</th>
+<th>Confidence / caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai">AI Impacts 2023 survey</a> (2,778 researchers)</td>
+<td>50% chance of HLMI by <strong>2047</strong>; 50% chance of full automation of labor by <strong>2116</strong>; median 5% extinction risk</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/">Metaculus Q5121</a>, 2026-11-17</td>
+<td>General AI median <strong>14 Jun 2030</strong> (Feb 2028–Apr 2036); strict multi-criteria incl. robotic assembly</td>
+<td>HIGH snapshot</td>
+</tr>
+<tr>
+<td><a href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-system-is-devised/">Metaculus Q3479</a></td>
+<td>Weakly general AI median <strong>07 Aug 2027</strong></td>
+<td>HIGH snapshot</td>
+</tr>
+<tr>
+<td><a href="https://forum.effectivealtruism.org/posts/KGGDduXSwZQTQJ9xc/what-do-xpt-forecasts-tell-us-about-ai-timelines">XPT</a></td>
+<td>Superforecasters 50% advanced AI by <strong>2060</strong>; domain experts median 2046</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://manifold.markets/RemNi/will-we-get-agi-before-2030">Manifold "AGI before 2030"</a></td>
+<td>~50% (play money); resolution edited 2025-11-02</td>
+<td>HIGH snapshot</td>
+</tr>
+<tr>
+<td><a href="https://polymarket.com/event/openai-announces-it-has-achieved-agi-before-2027">Polymarket "OpenAI announces AGI before 2027"</a></td>
+<td>~7–10%, $382K volume</td>
+<td>HIGH; <strong>announcement market</strong></td>
+</tr>
+<tr>
+<td><a href="https://predictpedia.com/events/JMAJCw/when-will-any-company-achieve-agi">Kalshi "any company AGI"</a></td>
+<td>Before 2030 ~72%, before 2031 ~75.5%</td>
+<td>MEDIUM; <strong>announcement market</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Critical caveat:</strong> Polymarket/Kalshi contracts resolve when a company <em>announces</em> AGI, not when independent tests confirm capability. As NEXTPredict puts it, prices are "a forecast of a statement, not of a technology" [MEDIUM]. Definitions explain much of the spread between 2027 and 2116.</p>
+<hr />
+<h2 id="10-github-repository-catalog-selected-verified">10. GitHub repository catalog (selected, verified)</h2>
+<table>
+<thead>
+<tr>
+<th>Repository</th>
+<th>What it does</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/karpathy/jobs">karpathy/jobs</a></td>
+<td>BLS OOH exploration of 342 occupations / 143M workers; LLM-based exposure scores; "not a serious economic publication"</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/rmmomin/jobs-ai-exposure">rmmomin/jobs-ai-exposure</a></td>
+<td>Occupation/industry exposure, benchmarked against OpenAI, Yale, Felten, Eisfeldt, Microsoft</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/mathias3/jobs-exposure-atlas">mathias3/jobs-exposure-atlas</a></td>
+<td>Unified 342-occupation dataset; 143,066,500 workers; theory–reality gap analysis</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/AIOE-Data/AIOE">AIOE-Data/AIOE</a></td>
+<td>Felten/Raj/Seamans AI occupational, industrial, geographic exposure data</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/EIG-Research/AI-unemployment">EIG-Research/AI-unemployment</a></td>
+<td>CPS microdata 2015–2025; five exposure measures; most-exposed quintile unemployment +0.30pp vs least-exposed +0.94pp</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/MTJPeterman/eu-ai-exposure-index">MTJPeterman/eu-ai-exposure-index</a></td>
+<td>Eurostat/ESCO-based EU exposure index</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/tomasoles/AutomationExposureISCO-08">tomasoles/AutomationExposureISCO-08</a></td>
+<td>Patent-text similarity to ISCO-08 tasks; AI/ML/software/robotics</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/pgmyrek/2025_GenAI_scores_ISCO08">pgmyrek/2025_GenAI_scores_ISCO08</a></td>
+<td>ILO–NASK Global AI Exposure Index, 427 occupations, 3,265 tasks</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/Siyaovo/robotics-exposure-europe">Siyaovo/robotics-exposure-europe</a></td>
+<td>3,039 ESCO occupations; 1 SD robotics exposure ↔ 7.2% lower hourly wages</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/NatLabRockies/DEMOS">NatLabRockies/DEMOS</a> / <a href="https://github.com/urbansim/LBNL_DEMOS">urbansim/LBNL_DEMOS</a></td>
+<td>Agent-based demographic microsimulators: birth, death, marriage, migration, labor-force events</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/huggingface/lerobot">huggingface/lerobot</a></td>
+<td>Open robot-learning stack, 28.8K stars, 16K+ datasets</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/awslabs/open-data-registry/blob/main/datasets/open-robo-care.yaml">awslabs/open-data-registry — OpenRoboCare</a></td>
+<td>Robot-caregiving demonstrations by 21 occupational therapists</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/naver-ai/carecall-corpus">naver-ai/carecall-corpus</a></td>
+<td>Elder-care dialogue corpus (10,500 dialogues)</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/alejandrozu/population-visualizer">alejandrozu/population-visualizer</a></td>
+<td>OWID-based demographic scenario simulator</td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td><a href="https://github.com/NVIDIA/Isaac-GR00T">NVIDIA/Isaac-GR00T</a></td>
+<td>Open humanoid foundation model; N1.7 GA; Apache 2.0 code</td>
+<td>HIGH</td>
+</tr>
+</tbody>
+</table>
+<p>The recurring caveat from these repositories: <strong>exposure is technical potential, not job loss</strong>.</p>
+<hr />
+<h2 id="11-bottom-line">11. Bottom line</h2>
+<ol>
+<li><strong>Technology can raise output per worker, but the size and timing are unresolved.</strong> The combined evidence supports a modest, delayed, distributionally uneven productivity lift — not a near-term demographic rescue.</li>
+<li><strong>Physical AI helps first where work is structured.</strong> Industrial robots are mature; humanoids are a forecast-heavy, shipment-light sector; care robots are complements with mixed cost evidence.</li>
+<li><strong>Aging societies should plan for a longer J-curve.</strong> The productivity needed to offset dependency may arrive after the fiscal pressure peaks.</li>
+<li><strong>AI in family life is ambivalent.</strong> It lowers some barriers (childcare tools, flexibility, fertility care) and raises others (income precarity, algorithmic partner sorting, companion substitution). No evidence supports a reliable TFR rebound.</li>
+<li><strong>The most defensible policy stance</strong> is to treat AI/robotics as one lever alongside labor-force participation, migration, childcare/housing reform, and pension adaptation — not as a substitute for them. As Lutz &amp; Marois put it, productivity can offset fewer births, but "technology is not a substitute for sound public policies."</li>
+</ol>
+<hr />
+<h2 id="12-verified-source-catalog">12. Verified source catalog</h2>
+<p>The sources below are grouped by research stream. Confidence follows the rubric in §0. The catalog is deliberately extensive: 188 distinct items were verified, and the most load-bearing are listed here.</p>
+<h3 id="121-economists-and-institutions-31-sources">12.1 Economists and institutions (31 sources)</h3>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Source</th>
+<th>Confidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://www.nber.org/papers/w32487">Acemoglu — NBER WP 32487 / Economic Policy</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://www.gspublishing.com/content/research/en/reports/2023/03/27/d64e052b-0f6e-45d7-967b-d7be35fabd16.pdf">Goldman Sachs — Briggs &amp; Kodnani (full PDF)</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier">McKinsey — economic potential of generative AI</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity">IMF — Georgieva blog</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf">IMF SDN/2024/001</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/2-jobs-outlook/">WEF Future of Jobs 2025</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://www.oecd.org/en/publications/miracle-or-myth-assessing-the-macroeconomic-productivity-gains-from-artificial-intelligence_b524a072-en.html">OECD — Miracle or Myth?</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://budgetmodel.wharton.upenn.edu/p/2025-09-08-the-projected-impact-of-generative-ai-on-future-productivity-growth/">Penn Wharton Budget Model — 2025</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://www.brookings.edu/articles/machines-of-mind-the-case-for-an-ai-powered-productivity-boom/">Baily, Brynjolfsson &amp; Korinek — Brookings</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://www.aeaweb.org/articles?id=10.1257/mac.20180386">Brynjolfsson, Rock &amp; Syverson — AEA</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://www.nber.org/papers/w33777">Humlum &amp; Vestergaard — NBER 33777</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://kentclarkcenter.org/surveys/ai-and-growth/">Chicago Booth Clark Center — AI and Growth</a></td>
+<td>CONTESTED date</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://www.goldmansachs.com/insights/articles/generative-ai-could-raise-global-gdp-by-7-percent">Goldman Sachs — AI could raise GDP 7%</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://www.gspublishing.com/content/research/en/reports/2023/10/30/2d567ebf-0e7d-4769-8f01-7c62e894a779.html">Goldman Sachs — long-run forecast upgrade</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://www.goldmansachs.com/insights/top-of-mind/gen-ai-too-much-spend-too-little-benefit">Goldman Sachs — Top of Mind: too much spend?</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://www.mckinsey.com/mgi/media-center/ai-could-increase-corporate-profits-by-4-trillion-a-year-according-to-new-research">McKinsey — $4.4T corporate profits release</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://www.nber.org/papers/w32966">Bick, Blandin &amp; Deming — NBER 32966</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity">St Louis Fed — impact of GenAI on productivity</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://academic.oup.com/qje/article/140/2/889/7990658">Brynjolfsson, Li &amp; Raymond — QJE</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://www.science.org/doi/10.1126/science.adh2586">Noy &amp; Zhang — Science</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://openai.com/index/gpts-are-gpts/">Eloundou et al. — GPTs are GPTs</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://pubsonline.informs.org/doi/full/10.1287/orsc.2025.21838">Dell'Acqua et al. — Organization Science</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://www.richmondfed.org/publications/research/economic_brief/2024/eb_24-19">Richmond Fed — Aggregate Effects of AI Adoption</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://www.cbo.gov/publication/61147">CBO — AI and the economy</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://wifpr.wharton.upenn.edu/wp-content/uploads/2024/10/Paper20241002.pdf">Wharton WIFPR — macroeconomic implications</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://www.404media.co/goldman-sachs-ai-is-overhyped-wildly-expensive-and-unreliable/">Sequoia — AI's $600B Question (secondary)</a></td>
+<td>CONTESTED</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://tecunningham.github.io/posts/2025-10-19-forecasts-of-AI-growth.html">Tom Cunningham — forecasts crosswalk</a></td>
+<td>CONTESTED</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://www.ifo.de/DocDL/econpol-forum-2-2026-dietrich-etal-effects-of-AI.pdf">ifo/EconPol — Economic Experts Survey</a></td>
+<td>CONTESTED</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://leap.forecastingresearch.org/reports/wave1">LEAP wave 1</a></td>
+<td>CONTESTED</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://www.pep-net.org/blog/artificial-intelligence-and-labor-markets-navigating-uncertain-and-fast-moving-landscape">PEP — AI and labor markets</a></td>
+<td>HIGH</td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="https://www.aei.org/commentary/are-we-overestimating-ais-potential-economic-oomph/">AEI — Pethokoukis on Acemoglu</a></td>
+<td>CONTESTED</td>
+</tr>
+</tbody>
+</table>
+<h3 id="122-physical-ai-robotics-and-care-53-sources">12.2 Physical AI, robotics, and care (53 sources)</h3>
+<p>Key verified items (full dossiers contain all 53):</p>
+<ul>
+<li>IFR: <a href="https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf">World Robotics 2025 executive summary</a>, <a href="https://ifr.org/img/worldrobotics/Foreword_WR_2025_Industrial_Robots.pdf">foreword</a>, <a href="https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years">2025 press release</a>, <a href="https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas">April 2026 density revision</a> — HIGH.</li>
+<li>Shipments: <a href="https://www.agibot.com/article/231/detail/33.html">AGIBOT/Omdia</a>, <a href="https://english.news.cn/20260109/bab6612656664145bb5becc3781edd59/c.html">Xinhua</a>, <a href="https://www.forbes.com/sites/johnkoetsier/2026/01/09/top-10-humanoid-robot-companies-by-shipments-revealed">Forbes</a>, <a href="https://www.bloomberg.com/news/articles/2026-01-08/chinese-firms-dominated-global-humanoid-robot-shipments-in-2025">Bloomberg</a>, <a href="https://www.scmp.com/tech/tech-trends/article/3339346/chinese-firms-outpace-us-rivals-2025-humanoid-robot-shipments-agibot-takes-lead">SCMP</a> — HIGH/MEDIUM.</li>
+<li>Bank forecasts: <a href="https://www.investing.com/news/stock-market-news/goldman-sachs-raises-humanoid-robot-forecast-sees-auto-role-93CH-4882346">Goldman via Investing.com</a>, <a href="https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050">Morgan Stanley $5T</a>, <a href="https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/humanoid-robot-market-rising-adam-jonas-sheng-zhong">MS podcast</a>, <a href="https://www.morganstanley.com/insights/videos/robot-almanac/industrial-robots-future">MS Robot Almanac</a>, <a href="https://www.citifirst.com.hk/home/upload/citi_research/rsch_pdf_30297368.pdf">Citi GPS PDF</a> — HIGH/MEDIUM.</li>
+<li>NVIDIA: <a href="https://nvidianews.nvidia.com/news/nvidia-powers-humanoid-robot-industry-with-cloud-to-robot-computing-platforms-for-physical-ai">GR00T platform announcement</a>, <a href="https://nvidianews.nvidia.com/news/nvidia-accelerates-robotics-research-and-development-with-new-open-models-and-simulation-libraries">Newton/Cosmos</a>, <a href="https://nvidianews.nvidia.com/news/nvidia-blackwell-powered-jetson-thor-now-available-accelerating-the-age-of-general-robotics">Jetson Thor</a>, <a href="https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1">GR00T technical blog</a> — HIGH.</li>
+<li>Tesla/Unitree: <a href="https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf">Tesla SEC 8-K</a>, <a href="https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/">TechCrunch</a>, <a href="https://english.news.cn/20260810/d1fe25981435453db422ecf41dd9b3e2/c.html">Xinhua Unitree IPO</a>, <a href="https://www.reuters.com/world/asia-pacific/unitree-plans-shanghai-ipo-testing-interest-humanoid-robots-2026-03-20">Reuters</a> — HIGH/MEDIUM.</li>
+<li>Care: <a href="https://www.technologyreview.com/2023/01/09/1065135/japan-automating-eldercare-robots">MIT Tech Review</a>, <a href="https://www.meti.go.jp/english/press/2024/0628_004.html">METI/MHLW</a>, <a href="https://www.reuters.com/technology/artificial-intelligence/ai-robots-may-hold-key-nursing-japans-ageing-population-2025-02-28">Reuters AIREC</a>, <a href="https://www.jstage.jst.go.jp/article/jinr/5/2/5_2025-0012/_pdf/-char/en">JINR survey</a>, <a href="https://aging.jmir.org/2023/1/e42652">JMIR scoping review</a> — HIGH.</li>
+<li>PARO: <a href="https://www.scienceDirect.com/science/article/pii/S1525861017301895">Moyle 2017 RCT</a>, <a href="https://www.sciencedirect.com/science/article/pii/S1568163722000757">2022 meta-analysis</a>, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0020748923000950">2023 meta-analysis</a>, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9292779/">2021 systematic review</a>, <a href="https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/alz.71163">Inoue 2026</a> — HIGH.</li>
+<li>Stanford/care employment: <a href="https://www.aimspress.com/article/doi/10.3934/har.2026001?viewType=HTML">Health Affairs Review paper</a>, <a href="https://news.stanford.edu/stories/2026/08/care-robots-japan-employment-labor-shortage-research">Stanford Report</a>, <a href="https://fsi.stanford.edu/news/robots-ease-elder-care-shortages-without-displacing-workers-or-diminishing-care-quality-study">Stanford FSI</a>, <a href="https://assets-eu.researchsquare.com/files/rs-9001048/v1/869988bc-be91-40b7-8a70-9e207b1b940d.pdf">lottery counter-study</a>, <a href="https://crr.bc.edu/how-do-people-feel-about-robot-caregivers-evidence-from-japan">Boston College CRR</a> — HIGH.</li>
+</ul>
+<h3 id="123-fertility-and-family-decisions-61-sources">12.3 Fertility and family decisions (61 sources)</h3>
+<ul>
+<li><a href="https://verlag.oeaw.ac.at/api/download/content/9783700196815_kapitel_59_68.pdf">Adserà 2025 — AI and fertility inequalities</a> — HIGH.</li>
+<li><a href="http://qks.sufe.edu.cn/mv_html/j00001/202608/V7f3eSTE-qmQ1-zr67-byme-QltvBYpLsGoS_WEB.htm">Zou &amp; Chen 2026 — AI and women's fertility intentions</a> — HIGH.</li>
+<li><a href="https://link.springer.com/article/10.1007/s11431-025-2953-y">Robot-support priming experiment</a> — MEDIUM–HIGH.</li>
+<li><a href="https://www.nature.com/articles/s44294-025-00118-3">npj Women's Health scoping review</a> — HIGH.</li>
+<li><a href="https://www.nber.org/system/files/working_papers/w34963/w34963.pdf">Bloom et al. — Work from Home and Fertility</a> — HIGH/CONTESTED.</li>
+<li><a href="https://www.nber.org/system/files/working_papers/w35881/w35881.pdf">Johnston — Does Remote Work Increase Fertility?</a> — HIGH.</li>
+<li><a href="https://www.tandfonline.com/doi/full/10.1080/00324728.2023.2287510">UK home-based work and childbearing</a> — HIGH.</li>
+<li><a href="https://link.springer.com/article/10.1007/s10680-024-09719-1">Singapore flexible working and fertility intentions</a> — HIGH.</li>
+<li><a href="https://www.nber.org/system/files/working_papers/w34757/w34757.pdf">Ershov, Fong &amp; Yildirim — online dating</a> — HIGH.</li>
+<li><a href="https://ifs.org.uk/sites/default/files/2025-09/WP202533-The-rise-of-online-dating-and-heterogamous-marriages.pdf">IFS — online dating and heterogamous marriage</a> — HIGH.</li>
+<li><a href="https://dl.acm.org/doi/full/10.1145/3736644">ACM — algorithmic audit of Indian matrimonial platforms</a> — MEDIUM–HIGH.</li>
+<li><a href="https://www.vox.com/politics/491167/ai-smartphones-fertility-crisis-birth-rates">Vox — AI companions and fertility</a> — HIGH (fetch-verified title/date).</li>
+<li><a href="https://ulisten.ai/channels/silicon-valley-girl/andrew-ng-the-biggest-opportunities-in-ai-arent-where-you-th_o-wv_szZ0V0/transcript">Andrew Ng transcript</a> — HIGH.</li>
+<li>Demographers: <a href="https://epub.oeaw.ac.at/0xc1aa5572%200x003fb946.pdf">Lutz 2024</a>, <a href="https://iiasa.ac.at/news/mar-2026/is-low-fertility-really-economic-threat">Lutz &amp; Marois 2026</a>, <a href="https://epub.oeaw.ac.at/0xc1aa5572%200x003fa366.pdf">Lutz 2023</a>, <a href="https://onlinelibrary.wiley.com/doi/10.1111/padr.12674">Lee 2025</a>, <a href="https://pubs.aeaweb.org/doi/10.1257/089533003772034943">Lee 2003</a>, <a href="https://www.demog.berkeley.edu/faculty/ronald-demos-lee">UC Berkeley Lee</a>, <a href="https://news.un.org/en/story/2023/04/1135967">Wilmoth/UN News</a> — HIGH.</li>
+</ul>
+<h3 id="124-repositories-predictions-and-surveys-43-sources">12.4 Repositories, predictions, and surveys (43 sources)</h3>
+<ul>
+<li><a href="https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/">Metaculus general AI</a> and <a href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-system-is-devised/">weakly general AI</a> — HIGH snapshots.</li>
+<li><a href="https://polymarket.com/event/openai-announces-it-has-achieved-agi-before-2027">Polymarket OpenAI AGI 2027</a>, <a href="https://nextpredict.io/prediction-markets/technology/agi-timeline/">NEXTPredict crosswalk</a>, <a href="https://predictpedia.com/events/JMAJCw/when-will-any-company-achieve-agi">PredictPedia Kalshi</a> — HIGH/MEDIUM.</li>
+<li><a href="https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai">AI Impacts 2023 ESPAI</a> — HIGH.</li>
+<li><a href="https://kentclarkcenter.org/surveys/ai-and-the-labor-market/">IGM/Clark Center — AI and the Labor Market</a>, <a href="https://kentclarkcenter.org/surveys/ai-and-productivity-growth-2/">AI and Productivity Growth</a>, <a href="https://forum.effectivealtruism.org/posts/KGGDduXSwZQTQJ9xc/what-do-xpt-forecasts-tell-us-about-ai-timelines">XPT</a> — HIGH/MEDIUM.</li>
+<li>All GitHub repositories listed in §10 plus <a href="https://github.com/EIG-Research/EIG-ai-unemp-she-wrote">EIG-Research/EIG-ai-unemp-she-wrote</a>, <a href="https://github.com/emilesilvis/eu-jobs">emilesilvis/eu-jobs</a>, <a href="https://github.com/jamiemaguiredotnet/AIJobExposure">jamiemaguiredotnet/AIJobExposure</a>, <a href="https://ai4robot.github.io/etri-activity3d/">ETRI-Activity3D</a> — HIGH.</li>
+</ul>
+<hr />
+<p><em>Confidence labels and exact figures follow the four research dossiers compiled 17 November 2026. Where sources disagree, both figures are reported rather than silently reconciled. This report is a synthesis, not a forecast.</em></p></main>
+<footer class="site"><main>Built from <code>reports/*.md</code> via <code>build_site.py</code> &middot; UN WPP 2024 / OWID / World Bank / Gapminder / CIA Factbook data.</main></footer>
+</body>
+</html>
